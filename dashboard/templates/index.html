@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIRCH Dashboard</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f6f7f9;
+            --panel: #ffffff;
+            --text: #1d2430;
+            --muted: #667085;
+            --line: #d9dee7;
+            --accent: #116c5d;
+            --danger: #b42318;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: Segoe UI, Arial, sans-serif;
+        }
+        header {
+            padding: 22px 28px;
+            border-bottom: 1px solid var(--line);
+            background: var(--panel);
+        }
+        header h1 { margin: 0 0 4px; font-size: 24px; letter-spacing: 0; }
+        header p { margin: 0; color: var(--muted); }
+        main {
+            width: min(1120px, calc(100vw - 32px));
+            margin: 24px auto;
+            display: grid;
+            gap: 18px;
+        }
+        section {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 18px;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 12px;
+        }
+        .metric {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 14px;
+        }
+        .metric span { display: block; color: var(--muted); font-size: 13px; }
+        .metric strong { display: block; margin-top: 6px; font-size: 24px; }
+        form {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(120px, 1fr));
+            gap: 12px;
+            align-items: end;
+        }
+        label { display: grid; gap: 6px; color: var(--muted); font-size: 13px; }
+        input {
+            height: 38px;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 0 10px;
+            font: inherit;
+        }
+        button, .button {
+            height: 38px;
+            border: 0;
+            border-radius: 6px;
+            background: var(--accent);
+            color: #fff;
+            font-weight: 600;
+            padding: 0 14px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        table { width: 100%; border-collapse: collapse; }
+        th, td {
+            padding: 10px 8px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            font-size: 14px;
+        }
+        th { color: var(--muted); font-weight: 600; }
+        .score { color: var(--danger); font-weight: 700; }
+        .actions { display: flex; gap: 10px; flex-wrap: wrap; }
+        @media (max-width: 760px) {
+            .metrics, form { grid-template-columns: 1fr; }
+            table { display: block; overflow-x: auto; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SIRCH</h1>
+        <p>Tableau de bord de detection en temps reel</p>
+    </header>
+    <main>
+        <section class="metrics">
+            <div class="metric">
+                <span>Seuil</span>
+                <strong>{{ "%.2f"|format(threshold) }}</strong>
+            </div>
+            <div class="metric">
+                <span>Fenetre K</span>
+                <strong>{{ k_window }}</strong>
+            </div>
+            <div class="metric">
+                <span>Cooldown</span>
+                <strong>{{ cooldown }}s</strong>
+            </div>
+        </section>
+
+        <section>
+            <form method="post" action="{{ url_for('settings') }}">
+                <label>
+                    Seuil
+                    <input type="number" name="threshold" value="{{ threshold }}" min="0" max="1" step="0.01">
+                </label>
+                <label>
+                    Fenetre K
+                    <input type="number" name="k_window" value="{{ k_window }}" min="1" max="30" step="1">
+                </label>
+                <button type="submit">Enregistrer</button>
+            </form>
+        </section>
+
+        <section>
+            <div class="actions">
+                <a class="button" href="{{ url_for('incidents') }}">Historique</a>
+                <a class="button" href="{{ url_for('export_csv') }}">Export CSV</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Date</th>
+                        <th>Score</th>
+                        <th>Moyenne</th>
+                        <th>Source</th>
+                        <th>Capture</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for incident in incidents %}
+                    <tr>
+                        <td>{{ incident.id }}</td>
+                        <td>{{ incident.created_at }}</td>
+                        <td class="score">{{ "%.3f"|format(incident.score) }}</td>
+                        <td>{{ "%.3f"|format(incident.mean_score) }}</td>
+                        <td>{{ incident.source or "-" }}</td>
+                        <td>
+                            {% if incident.capture_path %}
+                            <a href="{{ url_for('capture', filename=incident.capture_path.replace('\\', '/').split('/')[-1]) }}">Ouvrir</a>
+                            {% else %}
+                            -
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="6">Aucun incident enregistre.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

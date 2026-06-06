@@ -1,0 +1,29 @@
+# Mots de passe et données sensibles
+config.py
+
+# Modèles trop lourds
+*.h5
+*.weights.h5
+
+# Datasets trop lourds
+datasets/RLVS/
+datasets/RWF-2000/
+
+# Vidéos de test (téléchargeables facilement)
+datasets/test_sport/
+datasets/test_danse/
+datasets/test_calme/
+datasets/train_augmente/
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Logs et résultats volumineux
+*.csv
+*.txt
+
+# Captures d'écran automatiques
+database/captures/

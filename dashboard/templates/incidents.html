@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIRCH Incidents</title>
+    <style>
+        body {
+            margin: 0;
+            background: #f6f7f9;
+            color: #1d2430;
+            font-family: Segoe UI, Arial, sans-serif;
+        }
+        header {
+            padding: 22px 28px;
+            border-bottom: 1px solid #d9dee7;
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            align-items: center;
+        }
+        h1 { margin: 0; font-size: 24px; letter-spacing: 0; }
+        main {
+            width: min(1120px, calc(100vw - 32px));
+            margin: 24px auto;
+            background: #fff;
+            border: 1px solid #d9dee7;
+            border-radius: 8px;
+            padding: 18px;
+        }
+        a.button {
+            height: 38px;
+            border-radius: 6px;
+            background: #116c5d;
+            color: #fff;
+            font-weight: 600;
+            padding: 0 14px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        table { width: 100%; border-collapse: collapse; }
+        th, td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #d9dee7;
+            text-align: left;
+            font-size: 14px;
+        }
+        th { color: #667085; font-weight: 600; }
+        .score { color: #b42318; font-weight: 700; }
+        @media (max-width: 760px) {
+            header { align-items: flex-start; flex-direction: column; }
+            table { display: block; overflow-x: auto; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Historique des incidents</h1>
+        <a class="button" href="{{ url_for('index') }}">Dashboard</a>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Score</th>
+                    <th>Moyenne</th>
+                    <th>Source</th>
+                    <th>Capture</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for incident in incidents %}
+                <tr>
+                    <td>{{ incident.id }}</td>
+                    <td>{{ incident.created_at }}</td>
+                    <td class="score">{{ "%.3f"|format(incident.score) }}</td>
+                    <td>{{ "%.3f"|format(incident.mean_score) }}</td>
+                    <td>{{ incident.source or "-" }}</td>
+                    <td>
+                        {% if incident.capture_path %}
+                        <a href="{{ url_for('capture', filename=incident.capture_path.replace('\\', '/').split('/')[-1]) }}">Ouvrir</a>
+                        {% else %}
+                        -
+                        {% endif %}
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="6">Aucun incident enregistre.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
