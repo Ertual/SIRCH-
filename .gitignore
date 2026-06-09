@@ -13,9 +13,13 @@ datasets/RWF-2000/
 datasets/test_sport/
 datasets/test_danse/
 datasets/test_calme/
+datasets/test_sport_v2/
+datasets/test_danse_v2/
+datasets/test_calme_v2/
 datasets/train_augmente/
 
 # Fichiers Python temporaires
+sirch_env/
 __pycache__/
 *.pyc
 *.pyo

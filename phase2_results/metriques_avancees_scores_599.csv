@@ -1,0 +1,1199 @@
+model,display_name,video,true_label,score
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0413.avi,1,0.9338163733482361
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0215.avi,1,0.976933479309082
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_466.mp4,1,0.9506443738937378
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0429.avi,0,0.8781377077102661
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0575.avi,1,0.9852170348167419
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0303.avi,1,0.9214854836463928
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_216.mp4,0,0.19517748057842255
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_973.mp4,1,0.7011874914169312
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0167.avi,1,0.9544552564620972
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_891.avi,0,0.000747253536246717
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0512.avi,1,0.9859775900840759
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_156.mp4,0,0.0005395778571255505
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0087.avi,0,0.19030651450157166
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0114.avi,0,0.5838881134986877
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0565.avi,0,0.26290273666381836
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_128.mp4,1,0.9821953773498535
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0705.avi,0,0.5113558173179626
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_329.mp4,0,0.0066593484953045845
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0282.avi,0,0.5439444780349731
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_837.mp4,1,0.8711848258972168
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_263.mp4,0,0.0005903623532503843
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0554.avi,1,0.9746795296669006
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_565.mp4,1,0.9900032877922058
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0393.avi,1,0.9395034909248352
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0470.avi,1,0.9291847348213196
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_896.avi,0,0.0009902262827381492
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0062.avi,0,0.3274974822998047
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0484.avi,0,0.008467121981084347
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_337.mp4,1,0.9028154015541077
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_798.mp4,1,0.9664159417152405
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_757.mp4,1,0.9912968873977661
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_679.mp4,1,0.9850368499755859
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0635.avi,0,0.021520433947443962
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0150.avi,1,0.9931547045707703
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_685.mp4,1,0.9869081377983093
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_735.mp4,0,0.0027325479313731194
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_671.mp4,1,0.9701594710350037
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0611.avi,1,0.043327417224645615
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_390.mp4,1,0.9919374585151672
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_319.mp4,0,0.003929899539798498
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_172.mp4,0,0.0013487699907273054
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_379.mp4,0,0.00954710878431797
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0719.avi,0,0.2464388608932495
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0580.avi,1,0.9549763798713684
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_475.mp4,0,0.10132189095020294
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_122.mp4,1,0.9953458309173584
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0050.avi,0,0.8229222893714905
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0121.avi,0,0.13201916217803955
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_487.mp4,1,0.9989637732505798
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0389.avi,1,0.7201797366142273
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_452.mp4,0,0.0005968448240309954
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0021.avi,1,0.975018322467804
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0442.avi,1,0.8127017021179199
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_103.mp4,1,0.9900053143501282
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_259.mp4,0,0.005928289145231247
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0148.avi,0,0.2449040561914444
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_583.mp4,0,0.008121101185679436
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_632.mp4,1,0.994570255279541
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_819.mp4,0,0.000414503738284111
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0177.avi,0,0.8026552796363831
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0053.avi,1,0.9793795943260193
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_103.mp4,0,0.05498120188713074
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0122.avi,1,0.9591376185417175
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_877.mp4,1,0.7596126198768616
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0350.avi,0,0.0010199438547715545
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0572.avi,1,0.9914134740829468
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0771.avi,0,0.008785738609731197
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0613.avi,1,0.9144445061683655
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0763.avi,1,0.7818815112113953
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0509.avi,1,0.45658037066459656
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0636.avi,0,0.0007137559005059302
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0183.avi,1,0.9470254778862
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0111.avi,1,0.47351211309432983
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0364.avi,0,0.0626375749707222
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0061.avi,0,0.9614795446395874
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_680.mp4,0,0.7889857888221741
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0794.avi,0,0.05790184065699577
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_214.mp4,1,0.6197802424430847
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_298.mp4,0,0.002548291813582182
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_788.mp4,0,0.9801065921783447
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_956.mp4,1,0.9946813583374023
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0057.avi,0,0.6705120801925659
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_843.mp4,0,0.9189581871032715
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0211.avi,1,0.9362455010414124
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_210.mp4,0,0.0009999951580539346
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0626.avi,1,0.9864500164985657
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_506.mp4,0,0.0041585457511246204
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0490.avi,1,0.5492945313453674
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0151.avi,1,0.987426221370697
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0039.avi,1,0.9235954284667969
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_322.mp4,0,0.03933677077293396
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_607.mp4,0,0.004797718953341246
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0592.avi,0,0.04077386483550072
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0408.avi,1,0.45120754837989807
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_872.avi,0,0.0005524447187781334
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_398.mp4,1,0.9130085110664368
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_783.mp4,1,0.9963513612747192
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_236.mp4,0,0.001906404155306518
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0068.avi,0,0.7135124802589417
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_295.mp4,1,0.9971073865890503
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_694.mp4,0,0.0012690327130258083
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0038.avi,1,0.5683609247207642
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_794.mp4,0,0.10494299232959747
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0095.avi,0,0.0037778462283313274
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_154.mp4,0,0.0003006845945492387
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0317.avi,0,0.7697075605392456
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_214.mp4,0,0.0014391614822670817
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_161.mp4,0,0.0005115930689498782
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0034.avi,1,0.8368686437606812
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0752.avi,1,0.41603943705558777
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_877.avi,0,0.0008825634140521288
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0471.avi,0,0.0055917780846357346
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0175.avi,1,0.9372302889823914
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0138.avi,0,0.6239920854568481
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_619.mp4,0,0.2197629064321518
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0184.avi,0,0.6488312482833862
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0076.avi,0,0.004203020129352808
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0367.avi,0,0.0014168642228469253
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0085.avi,1,0.6142632961273193
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0125.avi,0,0.23897910118103027
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0086.avi,1,0.5560693144798279
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0612.avi,1,0.02075893245637417
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0371.avi,1,0.9854016304016113
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0484.avi,1,0.8499886393547058
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0340.avi,1,0.723595380783081
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0113.avi,0,0.13509732484817505
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_53.mp4,1,0.9923269152641296
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0074.avi,1,0.9658753871917725
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0194.avi,1,0.9778661131858826
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_277.mp4,0,0.06367501616477966
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0113.avi,1,0.24308906495571136
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_184.mp4,1,0.9827699661254883
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_472.mp4,0,0.01478002592921257
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0008.avi,1,0.7486537098884583
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_196.mp4,1,0.9473565220832825
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_944.mp4,0,0.0064401281997561455
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0021.avi,1,0.959858238697052
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_159.mp4,1,0.9919177889823914
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_158.mp4,0,0.0014451913302764297
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0575.avi,0,0.0026627101469784975
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0036.avi,1,0.95489501953125
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_108.mp4,1,0.9868678450584412
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0013.avi,1,0.9479576945304871
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0667.avi,1,0.8318489789962769
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_724.mp4,1,0.9768797755241394
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0376.avi,1,0.061585333198308945
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_857.mp4,0,0.0016384669579565525
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_356.mp4,0,0.3964257836341858
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_109.mp4,0,0.2987833619117737
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_928.mp4,1,0.9962989091873169
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_971.mp4,1,0.9930932521820068
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0198.avi,1,0.9360489845275879
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0664.avi,1,0.8701773881912231
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0469.avi,0,0.011311065405607224
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0453.avi,0,0.8746987581253052
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_353.mp4,0,0.20469129085540771
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0255.avi,0,0.00889684446156025
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_970.mp4,1,0.9918665885925293
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_164.mp4,1,0.9965202212333679
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0542.avi,0,0.36330845952033997
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_38.mp4,0,0.0036363410763442516
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_7.mp4,1,0.9712669849395752
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0443.avi,1,0.12043803185224533
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0345.avi,0,0.028440428897738457
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0477.avi,0,0.9074333310127258
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_267.mp4,1,0.974571168422699
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_884.avi,0,0.0003147390962112695
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0182.avi,1,0.8105307221412659
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0539.avi,1,0.5929992198944092
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0785.avi,1,0.9851869344711304
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0705.avi,1,0.8741114139556885
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_377.mp4,1,0.00695472676306963
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0128.avi,0,0.3908434212207794
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_462.mp4,1,0.9644818902015686
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0045.avi,0,0.002923686057329178
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0448.avi,0,0.0013863927451893687
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0420.avi,0,0.813491940498352
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0623.avi,1,0.029885614290833473
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_279.mp4,0,0.0017554940422996879
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_5.mp4,1,0.9859704971313477
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0083.avi,1,0.9584683179855347
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0125.avi,1,0.9817653298377991
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_871.mp4,1,0.9981921911239624
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_34.mp4,1,0.939495861530304
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0138.avi,0,0.0020605449099093676
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0100.avi,0,0.9069967865943909
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0295.avi,1,0.6561978459358215
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0223.avi,1,0.9764906167984009
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0279.avi,1,0.6471279263496399
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_190.mp4,1,0.9787459969520569
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0230.avi,1,0.9909100532531738
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0638.avi,0,0.012483784928917885
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_950.mp4,1,0.9636803269386292
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_443.mp4,1,0.9939852952957153
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_533.mp4,1,0.9977893233299255
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0622.avi,0,0.5834771394729614
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0155.avi,0,0.0014793038135394454
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0467.avi,0,0.8652671575546265
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0501.avi,1,0.6414873003959656
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_546.mp4,1,0.9915397763252258
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_122.mp4,0,0.05476232245564461
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0082.avi,1,0.5297648906707764
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_936.mp4,0,0.0037537445314228535
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0253.avi,0,0.19441832602024078
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_117.mp4,0,0.9811505675315857
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0285.avi,1,0.47019878029823303
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0361.avi,0,0.1659979224205017
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0514.avi,1,0.9608389139175415
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_596.mp4,1,0.9926331043243408
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_325.mp4,1,0.9946985840797424
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0480.avi,1,0.7833793759346008
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0148.avi,1,0.988538920879364
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_612.mp4,1,0.9970743656158447
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_885.mp4,1,0.9948335289955139
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_259.mp4,1,0.9942218661308289
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_184.mp4,0,0.00133104610722512
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_483.mp4,1,0.9863171577453613
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_160.mp4,1,0.9931811690330505
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_550.mp4,0,0.8610540628433228
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_958.mp4,1,0.9820827841758728
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_10.mp4,0,0.013650971464812756
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_177.mp4,0,0.02215111255645752
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0773.avi,0,0.8057618141174316
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0063.avi,1,0.8953706622123718
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0358.avi,0,0.22735123336315155
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_189.mp4,0,0.28264564275741577
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_732.mp4,0,0.0020406378898769617
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0675.avi,0,0.22271251678466797
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_588.mp4,0,0.0026599764823913574
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_334.mp4,1,0.9903329014778137
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_416.mp4,0,0.5173196196556091
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0172.avi,1,0.8997556567192078
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0183.avi,0,0.000820246699731797
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0654.avi,0,0.0018649589037522674
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_269.mp4,1,0.9959675073623657
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0221.avi,0,0.13717196881771088
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0345.avi,1,0.868490993976593
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_333.mp4,0,0.8450495600700378
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0242.avi,1,0.9909782409667969
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0018.avi,0,0.6124508380889893
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_647.mp4,0,0.000704584235791117
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_771.mp4,0,0.0005304458318278193
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_990.mp4,0,0.020682571455836296
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_152.mp4,0,0.0007090420695021749
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_790.mp4,0,0.0012923490721732378
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_252.mp4,0,0.0006243795505724847
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0559.avi,1,0.9630829095840454
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_192.mp4,0,0.007995805703103542
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0293.avi,1,0.9042957425117493
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0019.avi,0,0.13040274381637573
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_403.mp4,1,0.9954971671104431
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0013.avi,0,0.4432840347290039
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_790.mp4,1,0.9521842002868652
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_683.mp4,1,0.9916468858718872
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_859.mp4,0,0.0023371530696749687
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_230.mp4,1,0.9988386034965515
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_951.mp4,1,0.9871687889099121
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0471.avi,1,0.9426165223121643
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_249.mp4,1,0.9962766170501709
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0719.avi,1,0.9459198117256165
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_869.avi,0,0.0004070836876053363
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_375.mp4,0,0.0018810423789545894
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0368.avi,1,0.9102084040641785
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_494.mp4,0,0.8609947562217712
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0282.avi,1,0.6932693123817444
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_98.mp4,1,0.9959782958030701
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_40.mp4,0,0.2905227839946747
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0009.avi,1,0.7171890735626221
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0153.avi,0,0.008055275306105614
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0037.avi,0,0.026033952832221985
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_8.mp4,0,0.000389840395655483
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0782.avi,0,0.6439141631126404
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_574.mp4,0,0.9668413996696472
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_226.mp4,0,0.006138232070952654
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0029.avi,0,0.0049124425277113914
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_619.mp4,1,0.997398853302002
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0339.avi,1,0.9349319338798523
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_674.mp4,1,0.9792035818099976
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0017.avi,0,0.5035728216171265
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_605.mp4,0,0.009624912403523922
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0447.avi,1,0.930885374546051
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0130.avi,1,0.9725084900856018
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_841.mp4,1,0.7969329357147217
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_909.avi,0,0.0013177356449887156
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_942.mp4,0,0.010518217459321022
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_238.mp4,0,0.008560317568480968
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_166.mp4,1,0.9942289590835571
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_423.mp4,1,0.9698053002357483
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0362.avi,0,0.03436248376965523
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_208.mp4,0,0.0009288258734159172
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0349.avi,0,0.3341589868068695
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_528.mp4,0,0.010492061264812946
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0655.avi,0,0.1021164059638977
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0624.avi,1,0.04445740208029747
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_608.mp4,0,0.0032266515772789717
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_191.mp4,0,0.0022910272236913443
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_175.mp4,1,0.9969592690467834
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_431.mp4,1,0.9957330822944641
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0068.avi,0,0.0035366590600460768
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_222.mp4,1,0.5923686623573303
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_705.mp4,0,0.0005030264728702605
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0001.avi,1,0.9742059707641602
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0039.avi,0,0.0008632660028524697
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_348.mp4,1,0.9907270073890686
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_907.mp4,1,0.9978246092796326
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_404.mp4,0,0.012844815850257874
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0337.avi,0,0.03313126787543297
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0047.avi,0,0.0004856814630329609
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0640.avi,1,0.8776571750640869
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0678.avi,0,0.9820308685302734
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0087.avi,1,0.898779571056366
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0689.avi,0,0.0009206653339788318
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_835.mp4,1,0.9253636002540588
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0201.avi,0,0.04666062816977501
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0214.avi,1,0.8535388112068176
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0023.avi,1,0.9338520765304565
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_385.mp4,0,0.0013354027178138494
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0627.avi,0,0.00479002483189106
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0509.avi,0,0.26014986634254456
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0303.avi,0,0.0019526733085513115
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_910.mp4,1,0.9911542534828186
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_914.mp4,1,0.9982924461364746
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0285.avi,0,0.22932162880897522
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0225.avi,0,0.9808758497238159
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0707.avi,1,0.9920165538787842
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0651.avi,1,0.9695479273796082
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_45.mp4,0,0.007820600643754005
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0142.avi,1,0.9920044541358948
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0235.avi,0,0.010823833756148815
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0667.avi,0,0.10769541561603546
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0608.avi,1,0.9590942859649658
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_900.mp4,1,0.9959784746170044
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0097.avi,1,0.9670523405075073
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0373.avi,0,0.0088803106918931
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_3.mp4,1,0.8614608645439148
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0027.avi,1,0.9918903708457947
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_712.mp4,0,0.0010965879773721099
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_559.mp4,0,0.9729662537574768
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_358.mp4,1,0.9936361312866211
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_674.mp4,0,0.0019199054222553968
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0651.avi,0,0.5578233599662781
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0080.avi,1,0.98578280210495
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_741.mp4,0,0.003690588753670454
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_973.mp4,0,0.0010929357958957553
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0055.avi,1,0.9775106906890869
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0066.avi,1,0.4395938217639923
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_14.mp4,0,0.9903445839881897
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_445.mp4,0,0.001257584197446704
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0439.avi,1,0.850524365901947
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_584.mp4,1,0.9955870509147644
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_26.mp4,0,0.007166597526520491
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_822.mp4,1,0.9964030981063843
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_366.mp4,0,0.02470356784760952
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0449.avi,1,0.9260014295578003
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0105.avi,0,0.0016101511428132653
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_154.mp4,1,0.9960054159164429
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0114.avi,1,0.22576507925987244
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_802.mp4,0,0.002076471922919154
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0200.avi,1,0.8985945582389832
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_165.mp4,1,0.9966417551040649
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_589.mp4,1,0.9655386209487915
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_754.mp4,1,0.9740124344825745
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0576.avi,0,0.018061120063066483
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_293.mp4,1,0.9965119957923889
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_518.mp4,0,0.01869824342429638
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0646.avi,0,0.9520663022994995
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0781.avi,0,0.047425612807273865
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0045.avi,1,0.7870938181877136
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0057.avi,0,0.9389183521270752
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0123.avi,0,0.25973770022392273
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_758.mp4,1,0.980259895324707
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_634.mp4,1,0.49777767062187195
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0171.avi,0,0.14630009233951569
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_671.mp4,0,0.0022043806966394186
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0191.avi,0,0.3505350649356842
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0444.avi,1,0.44774526357650757
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_107.mp4,0,0.006187683902680874
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0219.avi,1,0.9076950550079346
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0522.avi,0,0.9435514211654663
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0642.avi,1,0.4813958704471588
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_924.mp4,1,0.9973667860031128
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_805.mp4,0,0.0011469983728602529
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0427.avi,0,0.5279904007911682
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0332.avi,0,0.7395440340042114
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0631.avi,1,0.9824579358100891
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_138.mp4,1,0.9934513568878174
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_801.mp4,0,0.0005768824485130608
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0549.avi,0,0.048432741314172745
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_843.mp4,1,0.9742028713226318
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_572.mp4,0,0.963527262210846
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0335.avi,1,0.981650173664093
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_499.mp4,0,0.9610760807991028
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_740.mp4,1,0.994577169418335
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0047.avi,1,0.8457625508308411
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_825.mp4,1,0.986976146697998
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0006.avi,1,0.5739919543266296
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_250.mp4,1,0.9857445359230042
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0157.avi,1,0.7138398885726929
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_897.mp4,1,0.9960058331489563
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_879.avi,0,0.0005296515882946551
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_77.mp4,1,0.9256585240364075
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_179.mp4,1,0.9941533207893372
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_601.mp4,1,0.9968255162239075
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0034.avi,0,0.9576399326324463
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0167.avi,1,0.8696876168251038
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0506.avi,0,0.007625033613294363
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0144.avi,0,0.908521294593811
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_69.mp4,1,0.992310643196106
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0489.avi,0,0.4121529161930084
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0130.avi,0,0.042928505688905716
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0157.avi,0,0.026033952832221985
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0205.avi,0,0.0010530635481700301
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0632.avi,0,0.046419769525527954
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0151.avi,0,0.26884329319000244
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0236.avi,1,0.8897159695625305
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0766.avi,1,0.0666607990860939
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_884.mp4,1,0.994257390499115
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_240.mp4,0,0.0011190983932465315
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_881.avi,0,0.0004275156825315207
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0165.avi,1,0.9710975289344788
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_617.mp4,0,0.0007462124922312796
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0088.avi,0,0.37322819232940674
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_82.mp4,0,0.05521255359053612
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_761.mp4,1,0.9883520603179932
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_968.mp4,1,0.996376633644104
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_637.mp4,1,0.9732444286346436
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0587.avi,0,0.001835153205320239
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_139.mp4,1,0.9864707589149475
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_374.mp4,0,0.0016459164908155799
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_831.mp4,0,0.0005591105436906219
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0339.avi,0,0.4181969165802002
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0129.avi,0,0.03386133164167404
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0779.avi,0,0.5492083430290222
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_189.mp4,1,0.9908990263938904
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_59.mp4,0,0.004101911559700966
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_258.mp4,1,0.8901858329772949
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0088.avi,1,0.9115344285964966
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0746.avi,1,0.9890901446342468
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0327.avi,0,0.039037398993968964
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0493.avi,1,0.6038166284561157
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0700.avi,0,0.013211228884756565
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0231.avi,0,0.36219027638435364
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_784.mp4,0,0.008418225683271885
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_934.mp4,1,0.9979637861251831
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_591.mp4,0,0.4859457015991211
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_630.mp4,1,0.9977495074272156
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0083.avi,1,0.5541285276412964
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_84.mp4,0,0.0016655790386721492
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_570.mp4,1,0.9982810020446777
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_620.mp4,1,0.9965653419494629
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_235.mp4,0,0.0012718993239104748
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0488.avi,1,0.8224997520446777
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_79.mp4,0,0.0003585766244214028
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_300.mp4,1,0.9943885803222656
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0525.avi,1,0.9899810552597046
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_771.mp4,1,0.981888473033905
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_401.mp4,1,0.9972305297851562
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_657.mp4,1,0.9976150393486023
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_99.mp4,0,0.1057480052113533
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_652.mp4,1,0.9941829442977905
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0165.avi,1,0.8037418127059937
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_203.mp4,1,0.9983533024787903
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0144.avi,1,0.7313559651374817
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0749.avi,1,0.9800466895103455
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_812.mp4,1,0.9110062718391418
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0240.avi,1,0.9665907621383667
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_965.mp4,1,0.8544406294822693
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0780.avi,0,0.030228089541196823
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0716.avi,1,0.9444606304168701
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_317.mp4,0,0.01594352349638939
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0127.avi,0,0.018375491723418236
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_450.mp4,0,0.0012253462336957455
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_520.mp4,0,0.0028360995929688215
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0552.avi,1,0.8686239123344421
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_608.mp4,1,0.9827010035514832
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_115.mp4,1,0.953552782535553
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0672.avi,0,0.5293445587158203
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0376.avi,0,0.016889898106455803
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0633.avi,0,0.001531110261566937
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0774.avi,0,0.00976967066526413
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_847.mp4,0,0.031455148011446
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0371.avi,0,0.0008321135537698865
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_929.mp4,0,0.023357348516583443
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_110.mp4,0,0.0012057292042300105
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_123.mp4,0,0.002784260781481862
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_417.mp4,1,0.9908472299575806
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0522.avi,1,0.9869294166564941
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0065.avi,1,0.9281150698661804
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0276.avi,0,0.00980803370475769
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_90.mp4,0,0.008867952041327953
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0476.avi,1,0.9848266839981079
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0369.avi,1,0.5643495321273804
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0603.avi,1,0.9724770188331604
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0761.avi,0,0.011765594594180584
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0751.avi,0,0.000768659170717001
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0143.avi,1,0.98993980884552
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_228.mp4,0,0.0006226407713256776
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_20.mp4,0,0.17934489250183105
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0432.avi,1,0.5784516930580139
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_116.mp4,0,0.6336947679519653
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0764.avi,0,0.9612911939620972
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0076.avi,1,0.9585020542144775
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_986.mp4,0,0.011226236820220947
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0195.avi,0,0.004839051514863968
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_565.mp4,0,0.9738927483558655
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0058.avi,1,0.9864202737808228
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_359.mp4,0,0.04126011207699776
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0301.avi,1,0.9587836265563965
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0570.avi,1,0.9934256672859192
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_3.mp4,0,0.00034665377461351454
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_668.mp4,0,0.3130604922771454
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0408.avi,0,0.23215943574905396
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0569.avi,1,0.9692814946174622
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0502.avi,0,0.05181240290403366
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0096.avi,0,0.03029789589345455
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0448.avi,1,0.9344356060028076
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_675.mp4,1,0.9897136092185974
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_981.mp4,0,0.015819044783711433
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0167.avi,0,0.015689048916101456
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_419.mp4,1,0.9943609237670898
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0101.avi,0,0.0594540573656559
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0505.avi,0,0.0787721499800682
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_420.mp4,1,0.9691613912582397
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_263.mp4,1,0.8908892869949341
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_468.mp4,1,0.9927350878715515
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0234.avi,0,0.0032612946815788746
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_568.mp4,1,0.9934155941009521
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_787.mp4,1,0.9979506731033325
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0135.avi,0,0.8235827088356018
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0184.avi,1,0.9490325450897217
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_637.mp4,0,0.049462124705314636
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_45.mp4,1,0.9829314351081848
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_486.mp4,1,0.9987133741378784
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0109.avi,0,0.1851152628660202
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0156.avi,0,0.09819786995649338
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0610.avi,0,0.009982595220208168
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0783.avi,0,0.0011498327367007732
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_806.mp4,1,0.9985917210578918
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0067.avi,1,0.6626660823822021
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0407.avi,0,0.3581562936306
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_233.mp4,1,0.48233816027641296
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0136.avi,1,0.9777005314826965
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_414.mp4,0,0.04335220903158188
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_132.mp4,1,0.9850358963012695
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0396.avi,1,0.6501347422599792
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0258.avi,0,0.053234439343214035
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0535.avi,1,0.9721576571464539
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0032.avi,0,0.8659234642982483
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_248.mp4,0,0.008986205793917179
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_575.mp4,1,0.9944877624511719
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_215.mp4,0,0.0005274862633086741
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_357.mp4,1,0.9922214150428772
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_616.mp4,0,0.0022751365322619677
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_703.mp4,1,0.9938957095146179
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0029.avi,1,0.9411864876747131
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_863.mp4,1,0.9945822954177856
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0727.avi,0,0.9131208062171936
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_744.mp4,1,0.9952036142349243
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0682.avi,0,0.13804757595062256
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_167.mp4,0,0.0006757636438123882
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_426.mp4,1,0.9928323030471802
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_49.mp4,1,0.9934738278388977
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_763.mp4,1,0.9893431663513184
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0416.avi,0,0.0013143483083695173
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_772.mp4,0,0.0008208088111132383
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0241.avi,0,0.16114576160907745
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_592.mp4,0,0.5208641290664673
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_153.mp4,1,0.9942980408668518
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0041.avi,0,0.6000950932502747
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_927.mp4,0,0.3942638635635376
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_98.mp4,0,0.5836842060089111
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_120.mp4,0,0.001233135350048542
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_345.mp4,0,0.009838186204433441
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0185.avi,0,0.5903152227401733
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0765.avi,0,0.10966113954782486
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0182.avi,0,0.14027057588100433
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0291.avi,1,0.6016814112663269
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_606.mp4,1,0.9970883727073669
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_640.mp4,0,0.00047580988029949367
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_427.mp4,1,0.8007171750068665
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_935.mp4,1,0.995721697807312
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_751.mp4,0,0.0017822819063439965
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0415.avi,0,0.003594478825107217
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0754.avi,1,0.9797220230102539
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0154.avi,1,0.6944336891174316
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_199.mp4,0,0.017798911780118942
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0697.avi,1,0.9154917597770691
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_137.mp4,0,0.02224046364426613
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0225.avi,1,0.9841272234916687
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_327.mp4,0,0.005144922062754631
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0680.avi,1,0.9725021123886108
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0077.avi,1,0.9685075879096985
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_242.mp4,1,0.9390707015991211
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0111.avi,1,0.37174272537231445
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_919.mp4,0,0.012306321412324905
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_627.mp4,0,0.001207683701068163
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0289.avi,0,0.8772898316383362
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_587.mp4,1,0.9809300899505615
+original,SIRCH original (epoch 4),C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0166.avi,1,0.9516347646713257
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0413.avi,1,0.9050594568252563
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0215.avi,1,0.961247444152832
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_466.mp4,1,0.9672973155975342
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0429.avi,0,0.15978646278381348
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0575.avi,1,0.9786161780357361
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0303.avi,1,0.9543462991714478
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_216.mp4,0,0.6386771202087402
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_973.mp4,1,0.8764492869377136
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0167.avi,1,0.9827536344528198
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_891.avi,0,0.0016452709678560495
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0512.avi,1,0.9787998795509338
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_156.mp4,0,0.0023190381471067667
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0087.avi,0,0.2235688716173172
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0114.avi,0,0.6988688111305237
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0565.avi,0,0.5454618334770203
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_128.mp4,1,0.9524779319763184
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0705.avi,0,0.2831837236881256
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_329.mp4,0,0.04586401209235191
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0282.avi,0,0.36347442865371704
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_837.mp4,1,0.9084650874137878
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_263.mp4,0,0.0010878397151827812
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0554.avi,1,0.9672435522079468
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_565.mp4,1,0.9521222114562988
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0393.avi,1,0.936808168888092
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0470.avi,1,0.8819262385368347
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_896.avi,0,0.0017643739702180028
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0062.avi,0,0.14191679656505585
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0484.avi,0,0.03836863115429878
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_337.mp4,1,0.9848426580429077
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_798.mp4,1,0.9338831305503845
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_757.mp4,1,0.9658860564231873
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_679.mp4,1,0.9586430191993713
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0635.avi,0,0.18374882638454437
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0150.avi,1,0.986285388469696
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_685.mp4,1,0.9778638482093811
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_735.mp4,0,0.0032115180511027575
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_671.mp4,1,0.9592976570129395
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0611.avi,1,0.6878395080566406
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_390.mp4,1,0.9785301089286804
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_319.mp4,0,0.00895314384251833
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_172.mp4,0,0.0021317312493920326
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_379.mp4,0,0.006963465828448534
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0719.avi,0,0.26428255438804626
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0580.avi,1,0.9675045013427734
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_475.mp4,0,0.11122958362102509
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_122.mp4,1,0.991442859172821
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0050.avi,0,0.2916187644004822
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0121.avi,0,0.09380310773849487
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_487.mp4,1,0.9962260723114014
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0389.avi,1,0.9815089702606201
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_452.mp4,0,0.0025149371940642595
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0021.avi,1,0.9406175017356873
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0442.avi,1,0.7813708186149597
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_103.mp4,1,0.9785552024841309
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_259.mp4,0,0.023147383704781532
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0148.avi,0,0.35177573561668396
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_583.mp4,0,0.04063735529780388
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_632.mp4,1,0.986559271812439
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_819.mp4,0,0.0005934021319262683
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0177.avi,0,0.5067580938339233
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0053.avi,1,0.792219877243042
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_103.mp4,0,0.15920649468898773
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0122.avi,1,0.7770035266876221
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_877.mp4,1,0.6676107048988342
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0350.avi,0,0.0027681789360940456
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0572.avi,1,0.9719327092170715
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0771.avi,0,0.02126515470445156
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0613.avi,1,0.743640124797821
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0763.avi,1,0.8391445875167847
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0509.avi,1,0.35231539607048035
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0636.avi,0,0.01963880844414234
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0183.avi,1,0.9587871432304382
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0111.avi,1,0.7677269577980042
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0364.avi,0,0.016171889379620552
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0061.avi,0,0.8263731002807617
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_680.mp4,0,0.04098479077219963
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0794.avi,0,0.03125756233930588
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_214.mp4,1,0.23874413967132568
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_298.mp4,0,0.006653470918536186
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_788.mp4,0,0.44872528314590454
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_956.mp4,1,0.9907915592193604
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0057.avi,0,0.5613670349121094
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_843.mp4,0,0.6814579367637634
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0211.avi,1,0.9464572668075562
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_210.mp4,0,0.007338195573538542
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0626.avi,1,0.9622583985328674
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_506.mp4,0,0.009165143594145775
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0490.avi,1,0.4344501793384552
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0151.avi,1,0.9806011915206909
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0039.avi,1,0.7352818846702576
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_322.mp4,0,0.0023957588709890842
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_607.mp4,0,0.0032159462571144104
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0592.avi,0,0.0023575592786073685
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0408.avi,1,0.8425610065460205
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_872.avi,0,0.000599248509388417
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_398.mp4,1,0.7349196672439575
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_783.mp4,1,0.9933005571365356
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_236.mp4,0,0.005919331684708595
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0068.avi,0,0.42889654636383057
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_295.mp4,1,0.9907260537147522
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_694.mp4,0,0.0017963723512366414
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0038.avi,1,0.1577112078666687
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_794.mp4,0,0.026973528787493706
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0095.avi,0,0.01665431447327137
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_154.mp4,0,0.0004741934244520962
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0317.avi,0,0.902679979801178
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_214.mp4,0,0.0024779816158115864
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_161.mp4,0,0.0011330799898132682
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0034.avi,1,0.8599647283554077
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0752.avi,1,0.8311585783958435
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_877.avi,0,0.003054604632779956
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0471.avi,0,0.005848177708685398
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0175.avi,1,0.7529721856117249
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0138.avi,0,0.2775682210922241
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_619.mp4,0,0.012137121520936489
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0184.avi,0,0.1932993233203888
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0076.avi,0,0.05271400138735771
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0367.avi,0,0.005812693852931261
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0085.avi,1,0.8728483319282532
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0125.avi,0,0.3982127606868744
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0086.avi,1,0.809930145740509
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0612.avi,1,0.5608663558959961
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0371.avi,1,0.9871304631233215
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0484.avi,1,0.5599298477172852
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0340.avi,1,0.5833058953285217
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0113.avi,0,0.2296469509601593
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_53.mp4,1,0.9857333898544312
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0074.avi,1,0.8859310150146484
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0194.avi,1,0.8347883820533752
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_277.mp4,0,0.06204228475689888
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0113.avi,1,0.4552157521247864
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_184.mp4,1,0.979139506816864
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_472.mp4,0,0.037043698132038116
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0008.avi,1,0.9234986305236816
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_196.mp4,1,0.9594217538833618
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_944.mp4,0,0.0076895360834896564
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0021.avi,1,0.9014819860458374
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_159.mp4,1,0.9704596400260925
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_158.mp4,0,0.00821728352457285
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0575.avi,0,0.012075764127075672
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0036.avi,1,0.9417957067489624
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_108.mp4,1,0.9795452356338501
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0013.avi,1,0.8114900588989258
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0667.avi,1,0.9073441624641418
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_724.mp4,1,0.8867824673652649
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0376.avi,1,0.22322340309619904
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_857.mp4,0,0.0024002438876777887
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_356.mp4,0,0.7302862405776978
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_109.mp4,0,0.22282811999320984
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_928.mp4,1,0.9939103722572327
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_971.mp4,1,0.9886950254440308
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0198.avi,1,0.9332035779953003
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0664.avi,1,0.9136667847633362
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0469.avi,0,0.031925540417432785
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0453.avi,0,0.4261839687824249
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_353.mp4,0,0.2859612703323364
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0255.avi,0,0.05132531374692917
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_970.mp4,1,0.9855270385742188
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_164.mp4,1,0.9950984120368958
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0542.avi,0,0.15002314746379852
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_38.mp4,0,0.014390673488378525
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_7.mp4,1,0.7572800517082214
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0443.avi,1,0.5170177817344666
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0345.avi,0,0.10079971700906754
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0477.avi,0,0.8421967029571533
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_267.mp4,1,0.9746039509773254
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_884.avi,0,0.0004969948204234242
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0182.avi,1,0.6330674886703491
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0539.avi,1,0.5851802825927734
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0785.avi,1,0.9800817966461182
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0705.avi,1,0.969234824180603
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_377.mp4,1,0.8562556505203247
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0128.avi,0,0.30665862560272217
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_462.mp4,1,0.9188897609710693
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0045.avi,0,0.010905362665653229
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0448.avi,0,0.0024314841721206903
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0420.avi,0,0.9118442535400391
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0623.avi,1,0.6060557961463928
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_279.mp4,0,0.0029089555609971285
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_5.mp4,1,0.9789721965789795
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0083.avi,1,0.8353888988494873
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0125.avi,1,0.948542058467865
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_871.mp4,1,0.9925228953361511
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_34.mp4,1,0.32889875769615173
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0138.avi,0,0.03162645548582077
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0100.avi,0,0.726121187210083
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0295.avi,1,0.8479471802711487
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0223.avi,1,0.9206863641738892
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0279.avi,1,0.7575057744979858
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_190.mp4,1,0.9168199300765991
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0230.avi,1,0.9762465357780457
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0638.avi,0,0.033863626420497894
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_950.mp4,1,0.9798914194107056
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_443.mp4,1,0.9861493110656738
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_533.mp4,1,0.9947439432144165
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0622.avi,0,0.3590618073940277
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0155.avi,0,0.005560749210417271
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0467.avi,0,0.8481811881065369
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0501.avi,1,0.7494328618049622
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_546.mp4,1,0.9621981978416443
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_122.mp4,0,0.043564651161432266
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0082.avi,1,0.6225214004516602
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_936.mp4,0,0.007562998216599226
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0253.avi,0,0.10208707302808762
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_117.mp4,0,0.757495641708374
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0285.avi,1,0.6063668727874756
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0361.avi,0,0.0829949676990509
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0514.avi,1,0.9606972336769104
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_596.mp4,1,0.9770451188087463
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_325.mp4,1,0.9883633852005005
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0480.avi,1,0.4150305688381195
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0148.avi,1,0.985480010509491
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_612.mp4,1,0.9923218488693237
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_885.mp4,1,0.9964022040367126
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_259.mp4,1,0.9786495566368103
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_184.mp4,0,0.0023263487964868546
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_483.mp4,1,0.9778728485107422
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_160.mp4,1,0.9868159294128418
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_550.mp4,0,0.05626270920038223
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_958.mp4,1,0.9883289337158203
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_10.mp4,0,0.035823382437229156
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_177.mp4,0,0.10698721557855606
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0773.avi,0,0.6480609774589539
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0063.avi,1,0.9531132578849792
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0358.avi,0,0.333091676235199
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_189.mp4,0,0.24310049414634705
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_732.mp4,0,0.003333763685077429
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0675.avi,0,0.10490686446428299
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_588.mp4,0,0.08963552862405777
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_334.mp4,1,0.9890017509460449
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_416.mp4,0,0.04559014365077019
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0172.avi,1,0.9476429224014282
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0183.avi,0,0.020715851336717606
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0654.avi,0,0.008110948838293552
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_269.mp4,1,0.9943402409553528
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0221.avi,0,0.19555264711380005
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0345.avi,1,0.47743675112724304
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_333.mp4,0,0.4681170582771301
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0242.avi,1,0.9845744371414185
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0018.avi,0,0.2521543502807617
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_647.mp4,0,0.0007874700822867453
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_771.mp4,0,0.001031770370900631
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_990.mp4,0,0.029128188267350197
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_152.mp4,0,0.002032332820817828
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_790.mp4,0,0.00117712770588696
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_252.mp4,0,0.0011574339587241411
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0559.avi,1,0.9671857357025146
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_192.mp4,0,0.010084573179483414
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0293.avi,1,0.9481826424598694
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0019.avi,0,0.032365843653678894
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_403.mp4,1,0.9824661612510681
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0013.avi,0,0.7449615597724915
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_790.mp4,1,0.955112874507904
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_683.mp4,1,0.9807829856872559
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_859.mp4,0,0.004260560497641563
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_230.mp4,1,0.9943028092384338
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_951.mp4,1,0.9762933254241943
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0471.avi,1,0.9218353629112244
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_249.mp4,1,0.995856523513794
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0719.avi,1,0.9300528168678284
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_869.avi,0,0.0007596104987896979
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_375.mp4,0,0.009917526505887508
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0368.avi,1,0.9282798767089844
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_494.mp4,0,0.10638664662837982
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0282.avi,1,0.7546275854110718
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_98.mp4,1,0.9912494421005249
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_40.mp4,0,0.09064719080924988
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0009.avi,1,0.8532530665397644
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0153.avi,0,0.03822513297200203
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0037.avi,0,0.1090158224105835
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_8.mp4,0,0.00036842329427599907
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0782.avi,0,0.4251851737499237
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_574.mp4,0,0.8939008712768555
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_226.mp4,0,0.023176703602075577
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0029.avi,0,0.05977166071534157
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_619.mp4,1,0.9905255436897278
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0339.avi,1,0.8825212121009827
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_674.mp4,1,0.966294527053833
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0017.avi,0,0.21236927807331085
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_605.mp4,0,0.0035151662304997444
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0447.avi,1,0.9357434511184692
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0130.avi,1,0.9366840720176697
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_841.mp4,1,0.8737455606460571
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_909.avi,0,0.0012379575055092573
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_942.mp4,0,0.008890380151569843
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_238.mp4,0,0.005881037563085556
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_166.mp4,1,0.9910288453102112
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_423.mp4,1,0.935788631439209
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0362.avi,0,0.029793279245495796
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_208.mp4,0,0.009101876057684422
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0349.avi,0,0.09103517234325409
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_528.mp4,0,0.010659734718501568
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0655.avi,0,0.02954692393541336
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0624.avi,1,0.6001827120780945
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_608.mp4,0,0.002103162696585059
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_191.mp4,0,0.0031923723872750998
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_175.mp4,1,0.9924415946006775
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_431.mp4,1,0.9899842739105225
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0068.avi,0,0.00901444535702467
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_222.mp4,1,0.7057945728302002
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_705.mp4,0,0.000850844953674823
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0001.avi,1,0.9147328734397888
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0039.avi,0,0.0059106964617967606
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_348.mp4,1,0.9869036078453064
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_907.mp4,1,0.9950481653213501
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_404.mp4,0,0.13331793248653412
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0337.avi,0,0.4817580580711365
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0047.avi,0,0.0034113293513655663
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0640.avi,1,0.9270048141479492
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0678.avi,0,0.9255566000938416
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0087.avi,1,0.9438997507095337
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0689.avi,0,0.0029544958379119635
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_835.mp4,1,0.9640908241271973
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0201.avi,0,0.04466501623392105
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0214.avi,1,0.9170618057250977
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0023.avi,1,0.9086772799491882
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_385.mp4,0,0.0023522917181253433
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0627.avi,0,0.030394921079277992
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0509.avi,0,0.5634427070617676
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0303.avi,0,0.017378326505422592
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_910.mp4,1,0.9747259020805359
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_914.mp4,1,0.996407151222229
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0285.avi,0,0.1623455137014389
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0225.avi,0,0.5393913984298706
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0707.avi,1,0.9916391968727112
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0651.avi,1,0.9587101936340332
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_45.mp4,0,0.17536570131778717
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0142.avi,1,0.9902987480163574
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0235.avi,0,0.1484963446855545
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0667.avi,0,0.15347477793693542
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0608.avi,1,0.8784224987030029
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_900.mp4,1,0.994543731212616
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0097.avi,1,0.9906347393989563
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0373.avi,0,0.017414532601833344
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_3.mp4,1,0.9247846603393555
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0027.avi,1,0.9839245080947876
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_712.mp4,0,0.003358111483976245
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_559.mp4,0,0.9393929243087769
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_358.mp4,1,0.9822632074356079
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_674.mp4,0,0.0029753961134701967
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0651.avi,0,0.09059565514326096
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0080.avi,1,0.9403572082519531
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_741.mp4,0,0.004272792488336563
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_973.mp4,0,0.006044080480933189
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0055.avi,1,0.7782386541366577
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0066.avi,1,0.5895599126815796
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_14.mp4,0,0.9862016439437866
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_445.mp4,0,0.32499682903289795
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0439.avi,1,0.8381332755088806
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_584.mp4,1,0.9907864332199097
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_26.mp4,0,0.08140081912279129
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_822.mp4,1,0.9910812377929688
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_366.mp4,0,0.049561209976673126
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0449.avi,1,0.9518200159072876
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0105.avi,0,0.004219395108520985
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_154.mp4,1,0.9875218272209167
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0114.avi,1,0.4822147786617279
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_802.mp4,0,0.002077304059639573
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0200.avi,1,0.9291732311248779
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_165.mp4,1,0.9887582063674927
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_589.mp4,1,0.9225153923034668
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_754.mp4,1,0.9309995174407959
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0576.avi,0,0.19175724685192108
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_293.mp4,1,0.9906501173973083
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_518.mp4,0,0.02020835317671299
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0646.avi,0,0.24657520651817322
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0781.avi,0,0.11856050789356232
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0045.avi,1,0.9457645416259766
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0057.avi,0,0.7188394665718079
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0123.avi,0,0.4287962019443512
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_758.mp4,1,0.9607892036437988
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_634.mp4,1,0.7761903405189514
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0171.avi,0,0.27307459712028503
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_671.mp4,0,0.0019661197438836098
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0191.avi,0,0.26282092928886414
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0444.avi,1,0.6916850209236145
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_107.mp4,0,0.010966391302645206
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0219.avi,1,0.913866400718689
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0522.avi,0,0.9145894050598145
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0642.avi,1,0.5729160904884338
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_924.mp4,1,0.9948974847793579
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_805.mp4,0,0.0013110913569107652
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0427.avi,0,0.014283733442425728
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0332.avi,0,0.6782760620117188
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0631.avi,1,0.9837782979011536
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_138.mp4,1,0.9784554243087769
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_801.mp4,0,0.0011564476881176233
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0549.avi,0,0.02200906164944172
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_843.mp4,1,0.982913613319397
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_572.mp4,0,0.911449670791626
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0335.avi,1,0.9628645181655884
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_499.mp4,0,0.5399546027183533
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_740.mp4,1,0.9784455895423889
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0047.avi,1,0.9093446135520935
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_825.mp4,1,0.9671258330345154
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0006.avi,1,0.8210688829421997
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_250.mp4,1,0.9893885254859924
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0157.avi,1,0.5774020552635193
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_897.mp4,1,0.9800105690956116
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_879.avi,0,0.0017504558200016618
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_77.mp4,1,0.9522656202316284
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_179.mp4,1,0.9882912635803223
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_601.mp4,1,0.9902342557907104
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0034.avi,0,0.5107105374336243
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0167.avi,1,0.824770987033844
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0506.avi,0,0.007882924750447273
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0144.avi,0,0.5251749157905579
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_69.mp4,1,0.9712221026420593
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0489.avi,0,0.7926828861236572
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0130.avi,0,0.24665942788124084
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0157.avi,0,0.1090158224105835
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0205.avi,0,0.0015345095889642835
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0632.avi,0,0.11643392592668533
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0151.avi,0,0.44581207633018494
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0236.avi,1,0.9031552076339722
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0766.avi,1,0.8432680368423462
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_884.mp4,1,0.9929157495498657
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_240.mp4,0,0.007339036092162132
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_881.avi,0,0.0004336383135523647
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0165.avi,1,0.9595187902450562
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_617.mp4,0,0.0008171219378709793
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0088.avi,0,0.0162179134786129
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_82.mp4,0,0.02790452539920807
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_761.mp4,1,0.9876955151557922
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_968.mp4,1,0.993704617023468
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_637.mp4,1,0.9617919325828552
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0587.avi,0,0.006595274433493614
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_139.mp4,1,0.9752477407455444
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_374.mp4,0,0.0029576821252703667
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_831.mp4,0,0.0006731953471899033
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0339.avi,0,0.6570042967796326
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0129.avi,0,0.08763158321380615
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0779.avi,0,0.24619701504707336
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_189.mp4,1,0.9613083600997925
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_59.mp4,0,0.006869153119623661
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_258.mp4,1,0.8444660305976868
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0088.avi,1,0.9426645636558533
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0746.avi,1,0.9808613061904907
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0327.avi,0,0.04424099251627922
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0493.avi,1,0.6484494209289551
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0700.avi,0,0.048474278301000595
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0231.avi,0,0.6024667024612427
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_784.mp4,0,0.004376043565571308
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_934.mp4,1,0.994918167591095
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_591.mp4,0,0.3109550476074219
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_630.mp4,1,0.9945133328437805
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0083.avi,1,0.7219241857528687
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_84.mp4,0,0.0077021862380206585
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_570.mp4,1,0.9908419847488403
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_620.mp4,1,0.9909405708312988
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_235.mp4,0,0.002355986274778843
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0488.avi,1,0.9014432430267334
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_79.mp4,0,0.0011608927743509412
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_300.mp4,1,0.9865409135818481
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0525.avi,1,0.9440935254096985
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_771.mp4,1,0.9712561964988708
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_401.mp4,1,0.9908692240715027
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_657.mp4,1,0.9881380200386047
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_99.mp4,0,0.023248091340065002
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_652.mp4,1,0.9670470356941223
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0165.avi,1,0.9134732484817505
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_203.mp4,1,0.9961426258087158
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0144.avi,1,0.849804699420929
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0749.avi,1,0.9656710624694824
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_812.mp4,1,0.7585110664367676
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0240.avi,1,0.9591249227523804
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_965.mp4,1,0.8607562184333801
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0780.avi,0,0.01176899392157793
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0716.avi,1,0.9480679035186768
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_317.mp4,0,0.039765506982803345
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0127.avi,0,0.027163855731487274
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_450.mp4,0,0.00196474464610219
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_520.mp4,0,0.004003262147307396
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0552.avi,1,0.7163882255554199
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_608.mp4,1,0.7949702143669128
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_115.mp4,1,0.9683692455291748
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0672.avi,0,0.06065721437335014
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0376.avi,0,0.05880523473024368
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0633.avi,0,0.0112060671672225
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0774.avi,0,0.017018383368849754
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_847.mp4,0,0.00321060698479414
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0371.avi,0,0.007331109140068293
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_929.mp4,0,0.004853924736380577
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_110.mp4,0,0.001520800869911909
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_123.mp4,0,0.0075843799859285355
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_417.mp4,1,0.9722884893417358
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0522.avi,1,0.9815470576286316
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0065.avi,1,0.9464612007141113
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0276.avi,0,0.027833692729473114
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_90.mp4,0,0.11971762776374817
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0476.avi,1,0.9740262627601624
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0369.avi,1,0.8851205706596375
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0603.avi,1,0.9405010342597961
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0761.avi,0,0.021254438906908035
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0751.avi,0,0.02301623299717903
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0143.avi,1,0.9840144515037537
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_228.mp4,0,0.0024777858052402735
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_20.mp4,0,0.12340046465396881
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0432.avi,1,0.3662513792514801
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_116.mp4,0,0.12513785064220428
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0764.avi,0,0.8652656674385071
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0076.avi,1,0.8553305268287659
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_986.mp4,0,0.050724729895591736
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0195.avi,0,0.025786977261304855
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_565.mp4,0,0.9132445454597473
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0058.avi,1,0.9486749172210693
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_359.mp4,0,0.11780931055545807
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0301.avi,1,0.8283491730690002
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0570.avi,1,0.9800153374671936
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_3.mp4,0,0.000687493069563061
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_668.mp4,0,0.08679117262363434
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0408.avi,0,0.44369325041770935
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0569.avi,1,0.9300012588500977
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0502.avi,0,0.15748125314712524
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0096.avi,0,0.0500597283244133
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0448.avi,1,0.9505333304405212
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_675.mp4,1,0.9748490452766418
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_981.mp4,0,0.0076645477674901485
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0167.avi,0,0.011823293752968311
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_419.mp4,1,0.9888616800308228
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0101.avi,0,0.08355985581874847
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0505.avi,0,0.12645713984966278
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_420.mp4,1,0.8849949240684509
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_263.mp4,1,0.9248588681221008
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_468.mp4,1,0.9927813410758972
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0234.avi,0,0.011662779375910759
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_568.mp4,1,0.9846276044845581
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_787.mp4,1,0.9934564828872681
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0135.avi,0,0.20033690333366394
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0184.avi,1,0.9597827792167664
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_637.mp4,0,0.0486217625439167
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_45.mp4,1,0.984898567199707
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_486.mp4,1,0.9957337379455566
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0109.avi,0,0.6565238833427429
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0156.avi,0,0.36377474665641785
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0610.avi,0,0.021739929914474487
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0783.avi,0,0.002966001396998763
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_806.mp4,1,0.995881974697113
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0067.avi,1,0.834855318069458
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0407.avi,0,0.32265162467956543
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_233.mp4,1,0.835763692855835
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0136.avi,1,0.9679906964302063
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_414.mp4,0,0.2562844157218933
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_132.mp4,1,0.9689492583274841
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0396.avi,1,0.6951707601547241
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0258.avi,0,0.041116148233413696
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0535.avi,1,0.7838250994682312
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0032.avi,0,0.6263722777366638
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_248.mp4,0,0.020670464262366295
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_575.mp4,1,0.9875752925872803
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_215.mp4,0,0.0016047669341787696
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_357.mp4,1,0.9903135895729065
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_616.mp4,0,0.0014268807135522366
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_703.mp4,1,0.9811615943908691
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0029.avi,1,0.7020385265350342
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_863.mp4,1,0.9907035231590271
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0727.avi,0,0.45428353548049927
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_744.mp4,1,0.9887151718139648
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0682.avi,0,0.14017686247825623
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_167.mp4,0,0.0023207333870232105
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_426.mp4,1,0.9927172064781189
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_49.mp4,1,0.9867538213729858
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_763.mp4,1,0.9735045433044434
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0416.avi,0,0.004487466998398304
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_772.mp4,0,0.0009799350518733263
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0241.avi,0,0.03067401982843876
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_592.mp4,0,0.4829570949077606
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_153.mp4,1,0.9748045802116394
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0041.avi,0,0.13849344849586487
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_927.mp4,0,0.016261503100395203
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_98.mp4,0,0.14956119656562805
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_120.mp4,0,0.0038703412283211946
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_345.mp4,0,0.01837225630879402
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0185.avi,0,0.07993318885564804
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0765.avi,0,0.10287149250507355
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\NonFight\rwf_val_nonfight_0182.avi,0,0.09283331036567688
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0291.avi,1,0.8254875540733337
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_606.mp4,1,0.9926608800888062
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_640.mp4,0,0.0005325413658283651
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_427.mp4,1,0.8881691694259644
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_935.mp4,1,0.9929690957069397
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_751.mp4,0,0.008254709653556347
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0415.avi,0,0.00858384557068348
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0754.avi,1,0.942409098148346
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0154.avi,1,0.9580399394035339
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_199.mp4,0,0.007722062990069389
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0697.avi,1,0.9353432059288025
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_137.mp4,0,0.0689738318324089
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0225.avi,1,0.993033766746521
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_327.mp4,0,0.0033008139580488205
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0680.avi,1,0.9392026662826538
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0077.avi,1,0.861246645450592
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_242.mp4,1,0.9698625802993774
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\Fight\rwf_train_fight_0111.avi,1,0.7470154762268066
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_919.mp4,0,0.03701009228825569
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_627.mp4,0,0.0030817666556686163
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\train\NonFight\rwf_train_nonfight_0289.avi,0,0.868716299533844
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\Violence\V_587.mp4,1,0.8236760497093201
+augmente,SIRCH augment?,C:\SIRCH_ENV\datasets\RWF-2000\val\Fight\rwf_val_fight_0166.avi,1,0.9451209902763367
