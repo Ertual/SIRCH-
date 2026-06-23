@@ -1,0 +1,2 @@
+experiment,threshold,n_test,tn,fp,fn,tp,accuracy,precision,recall,f1_score,ms_per_frame,model_path,training_log
+phase3_h2_gru,0.5,599,262,38,22,277,0.8998330550918197,0.8793650793650793,0.9264214046822743,0.9022801302931596,36.45660007537307,C:\SIRCH_ENV\models\phase3\sirch_model_gru.h5,C:\SIRCH_ENV\models\phase3\training_log_gru.csv

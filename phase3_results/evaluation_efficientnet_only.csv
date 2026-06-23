@@ -1,0 +1,2 @@
+experiment,threshold,n_test,tn,fp,fn,tp,accuracy,precision,recall,f1_score,ms_per_frame,model_path,training_log
+phase3_h1_efficientnet_only,0.5,599,256,44,44,255,0.8530884808013356,0.8528428093645485,0.8528428093645485,0.8528428093645485,42.79288640603398,C:\SIRCH_ENV\models\phase3\sirch_model_efficientnet_only.h5,C:\SIRCH_ENV\models\phase3\training_log_efficientnet_only.csv

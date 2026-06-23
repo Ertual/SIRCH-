@@ -1,0 +1,2 @@
+experiment,train_domain,test_domain,threshold,n_test,tn,fp,fn,tp,accuracy,precision,recall,f1_score,roc_auc,ms_per_frame,model_path,training_log
+rlvs_only_on_rwf,RLVS,RWF-2000,0.5,1991,278,722,178,813,0.547966,0.529642,0.820383,0.643705,0.639518,62.617759,C:\SIRCH_ENV\models\phase3\sirch_model_rlvs_only.weights.h5,C:\SIRCH_ENV\models\phase3\training_log_rlvs_only.csv

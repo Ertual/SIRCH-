@@ -1,0 +1,7 @@
+model,display_name,dataset_origin,threshold,total,tn,fp,fn,tp,accuracy,precision,recall,f1_score
+original,SIRCH original (epoch 4),RLVS,0.5,295,133,17,3,142,0.932203,0.893082,0.979310,0.934211
+augmente,SIRCH augment?,RLVS,0.5,295,140,10,2,143,0.959322,0.934641,0.986207,0.959732
+original,SIRCH original (epoch 4),RWF-2000,0.5,304,109,41,18,136,0.805921,0.768362,0.883117,0.821752
+augmente,SIRCH augment?,RWF-2000,0.5,304,123,27,9,145,0.881579,0.843023,0.941558,0.889571
+original,SIRCH original (epoch 4),GLOBAL,0.5,599,242,58,21,278,0.868114,0.827381,0.929766,0.875591
+augmente,SIRCH augment?,GLOBAL,0.5,599,263,37,11,288,0.919866,0.886154,0.963211,0.923077

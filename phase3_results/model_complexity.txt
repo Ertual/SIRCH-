@@ -1,0 +1,69 @@
+SIRCH - Phase 3 P3-B - Complexite computationnelle du modele original
+==============================================================================
+
+Modele analyse: C:\SIRCH_ENV\models\sirch_model.h5
+Mode de chargement: architecture reconstruite + load_weights (raison: ValueError: No model config found in the file at <tensorflow.python.platform.gfile.GFile object at 0x000002AAB1439090>.)
+Taille disque: 21.85 MB (reference attendue: 21.85 MB)
+Input shape: (None, 20, 224, 224, 3)
+Output shape: (None, 1)
+Nombre de couches Keras: 7
+
+Parametres
+--------------------
+Parametres totaux: 5 656 484
+Parametres entrainables: 1 606 913
+Parametres non entrainables: 4 049 571
+
+RAM processus pendant l inference
+-----------------------------------
+RSS avant chargement modele (apres import TensorFlow): 303.00 MB
+RSS apres chargement modele: 387.81 MB
+Delta chargement modele: 84.80 MB
+RSS apres chargement des 100 frames: 537.90 MB
+RSS apres inference: 602.68 MB
+Temps de chargement modele: 5.89 s
+
+Temps inference CPU sur 100 frames de test
+------------------------------------------
+Mesure: 5 videos x 20 frames = 100 frames
+Videos utilisees:
+  - C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_102.mp4
+  - C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_107.mp4
+  - C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_109.mp4
+  - C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_119.mp4
+  - C:\SIRCH_ENV\datasets\RLVS\Real Life Violence Dataset\NonViolence\NV_12.mp4
+
+Protocole 1 - inference pure, frames deja chargees
+Temps total pur inference (hors warm-up): 2.887 s
+Temps moyen par sequence de 20 frames: 577.31 ms
+Temps moyen par frame: 28.87 ms/frame
+Debit theorique pur inference: 34.64 fps
+Latences sequences pures (ms): 628.29, 584.03, 569.99, 550.96, 553.27
+
+Protocole 2 - comparable phase 2, lecture/pretraitement + prediction
+Temps total end-to-end (hors warm-up): 4.733 s
+Temps moyen par sequence de 20 frames: 946.55 ms
+Temps moyen par frame: 47.33 ms/frame
+Debit theorique end-to-end: 21.13 fps
+Reference phase 2 a confirmer: 54.27 ms/frame
+Ecart vs reference: -6.94 ms/frame
+Latences sequences end-to-end (ms): 623.88, 816.51, 1157.00, 678.09, 1457.27
+
+Configuration PC de test
+-------------------------
+CPU: 12th Gen Intel(R) Core(TM) i5-12450H
+RAM physique: 7.73 GB
+GPU: Intel(R) UHD Graphics; NVIDIA GeForce RTX 2050
+OS/Python: Windows-10-10.0.26200-SP0 / Python 3.10.11
+TensorFlow: 2.12.0
+
+Faisabilite embarquee theorique
+------------------------------------
+Raspberry Pi 5: Broadcom BCM2712, CPU quad-core Arm Cortex-A76 2.4GHz, VideoCore VII, RAM jusqu a 16GB. Sans accelerateur IA dedie compatible TensorFlow/CUDA, SIRCH complet en Keras FP32 est faisable en demonstration mais probablement pas confortable en temps reel. Estimation prudente a partir du protocole end-to-end: environ 118.3 a 236.6 ms/frame, soit 2.4 a 4.7 s par fenetre de 20 frames. Optimisations recommandees: TensorFlow Lite, quantification int8/float16, reduction resolution ou N_FRAMES, refroidissement actif.
+NVIDIA Jetson Nano: 472 GFLOPS, GPU Maxwell 128 coeurs, CPU Cortex-A57, 4GB LPDDR4, 5-10W. Plus adapte que le Raspberry Pi 5 si le modele est converti TensorRT/FP16. Estimation prudente a partir du protocole end-to-end: environ 33.1 a 71.0 ms/frame, soit 0.7 a 1.4 s par fenetre de 20 frames. Limite principale: 4GB RAM, donc batch=1, modele optimise, swap/cooling et pipeline video leger.
+Conclusion: le modele original est leger en taille disque (21.85 MB) et modere en parametres. La mesure actuelle confirme l ordre de grandeur de la phase 2: 54.27 ms/frame historique contre 47.33 ms/frame sur 100 frames aujourd hui avec lecture/pretraitement + prediction. Jetson Nano est le candidat embarque le plus plausible; Raspberry Pi 5 demande une version TFLite quantifiee ou une configuration allegee.
+
+Sources publiques utilisees
+----------------------------
+Raspberry Pi 5 specifications: https://www.raspberrypi.com/products/raspberry-pi-5/
+NVIDIA Jetson Nano specifications: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/product-development/

@@ -1,0 +1,17 @@
+section,model,metric,value,ci95_low,ci95_high,bootstrap_iterations,threshold,notes
+bootstrap_ci,original,accuracy,0.868114,0.843072,0.893155,1000,0.5,Bootstrap apparie seed=42 sur les memes videos; AUC utilise les scores continus.
+bootstrap_ci,original,f1_score,0.875591,0.850312,0.900770,1000,0.5,Bootstrap apparie seed=42 sur les memes videos; AUC utilise les scores continus.
+bootstrap_ci,original,roc_auc,0.944560,0.929118,0.959853,1000,0.5,Bootstrap apparie seed=42 sur les memes videos; AUC utilise les scores continus.
+bootstrap_ci,augmente,accuracy,0.919866,0.898164,0.941569,1000,0.5,Bootstrap apparie seed=42 sur les memes videos; AUC utilise les scores continus.
+bootstrap_ci,augmente,f1_score,0.923077,0.901576,0.944353,1000,0.5,Bootstrap apparie seed=42 sur les memes videos; AUC utilise les scores continus.
+bootstrap_ci,augmente,roc_auc,0.976667,0.966804,0.986143,1000,0.5,Bootstrap apparie seed=42 sur les memes videos; AUC utilise les scores continus.
+bootstrap_delta_augmente_minus_original,augmente-original,accuracy,0.051753,0.028381,0.078464,1000,0.5,Delta positif = modele augmente meilleur.
+bootstrap_delta_augmente_minus_original,augmente-original,f1_score,0.047486,0.025123,0.072287,1000,0.5,Delta positif = modele augmente meilleur.
+bootstrap_delta_augmente_minus_original,augmente-original,roc_auc,0.032107,0.020843,0.044460,1000,0.5,Delta positif = modele augmente meilleur.
+mcnemar,original_vs_augmente,both_correct,504,,,,0.5,
+mcnemar,original_vs_augmente,original_correct_augmente_wrong_b,16,,,,0.5,
+mcnemar,original_vs_augmente,original_wrong_augmente_correct_c,47,,,,0.5,
+mcnemar,original_vs_augmente,both_wrong,32,,,,0.5,
+mcnemar,original_vs_augmente,discordant_pairs,63,,,,0.5,
+mcnemar,original_vs_augmente,chi_square_continuity_corrected,14.285714,,,,0.5,
+mcnemar,original_vs_augmente,exact_binomial_p_value,0.00011706,,,,0.5,significant_p_lt_0_05=True
