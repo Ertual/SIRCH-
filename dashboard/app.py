@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import io
+from pathlib import Path
 
 from flask import Flask, Response, redirect, render_template, request, send_from_directory, url_for
 
@@ -10,6 +11,8 @@ from database.db import export_rows, get_settings, init_db, list_incidents, save
 
 
 app = Flask(__name__)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+CAPTURES_DIR = (PROJECT_ROOT / config.CAPTURES_FOLDER).resolve()
 
 
 @app.route("/")
@@ -42,7 +45,7 @@ def settings():
 
 @app.route("/captures/<path:filename>")
 def capture(filename):
-    return send_from_directory(config.CAPTURES_FOLDER, filename)
+    return send_from_directory(CAPTURES_DIR, Path(filename).name)
 
 
 @app.route("/export.csv")

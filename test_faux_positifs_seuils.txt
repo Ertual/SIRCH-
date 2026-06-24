@@ -1,0 +1,46 @@
+SIRCH - Test faux positifs avec seuils
+Modele: C:\SIRCH_ENV\models\sirch_model.h5
+N_FRAMES=20, K=5, seuils=0.5, 0.65, 0.7
+
+Resume par seuil
+Seuil | test_sport | test_danse | test_calme | Global
+0.50 | 9/15 (60.00%) | 8/10 (80.00%) | 0/5 (0.00%) | 17/30 (56.67%)
+0.65 | 6/15 (40.00%) | 8/10 (80.00%) | 0/5 (0.00%) | 14/30 (46.67%)
+0.70 | 6/15 (40.00%) | 8/10 (80.00%) | 0/5 (0.00%) | 14/30 (46.67%)
+
+Detail video par video
+Categorie | Video | max_moyenne_K5 | theta=0.50 | theta=0.65 | theta=0.70
+test_sport | basketball_01_WwMLOcTVUmc.mp4 | 0.037038 | non-violence | non-violence | non-violence
+test_sport | basketball_02_Czaz0AiIfkQ.mp4 | 0.438485 | non-violence | non-violence | non-violence
+test_sport | basketball_03_TWLLv2ikavc.mp4 | 0.470375 | non-violence | non-violence | non-violence
+test_sport | basketball_04_N8ir6EaDceI.mp4 | 0.971659 | violence | violence | violence
+test_sport | basketball_05_wtpobZDZv3A.mp4 | 0.990135 | violence | violence | violence
+test_sport | boxe_01_DBeTvfwjAug.mp4 | 0.335869 | non-violence | non-violence | non-violence
+test_sport | boxe_02_ewfo7pWZ3DU.mp4 | 0.888511 | violence | violence | violence
+test_sport | boxe_03_CycVhzGQazQ.mp4 | 0.500022 | violence | non-violence | non-violence
+test_sport | boxe_04_UsCSozlLlhs.mp4 | 0.604039 | violence | non-violence | non-violence
+test_sport | boxe_05_37dgPBSUosE.mp4 | 0.200103 | non-violence | non-violence | non-violence
+test_sport | football_01_eMr6OOmLlJs.mp4 | 0.981424 | violence | violence | violence
+test_sport | football_02_O1x9Nrp5TTU.mp4 | 0.950500 | violence | violence | violence
+test_sport | football_03_wnVJcY_ECH4.mp4 | 0.367216 | non-violence | non-violence | non-violence
+test_sport | football_04_7I2Ge845PXg.mp4 | 0.528292 | violence | non-violence | non-violence
+test_sport | football_05_qh7UrU9wVMo.mp4 | 0.986066 | violence | violence | violence
+test_danse | contemporaine_01_CoPUfvwcHmE.mp4 | 0.993758 | violence | violence | violence
+test_danse | contemporaine_02_bHAgWyVXytg.mp4 | 0.912989 | violence | violence | violence
+test_danse | contemporaine_03_LN9Y1JnGCUU.mp4 | 0.948090 | violence | violence | violence
+test_danse | contemporaine_04_ZN8iSru6_7k.mp4 | 0.986491 | violence | violence | violence
+test_danse | contemporaine_05_FHTD9GHVhx8.mp4 | 0.939407 | violence | violence | violence
+test_danse | hiphop_01_gqE3cXWHQRo.mp4 | 0.988849 | violence | violence | violence
+test_danse | hiphop_02_FYzyvVwYvWk.mp4 | 0.226998 | non-violence | non-violence | non-violence
+test_danse | hiphop_03_4JltE1OcI8U.mp4 | 0.991676 | violence | violence | violence
+test_danse | hiphop_04_Gf6YmTG-s3k.mp4 | 0.705251 | violence | violence | violence
+test_danse | hiphop_05_T-1uuAbQNRc.mp4 | 0.008802 | non-violence | non-violence | non-violence
+test_calme | calme_01_A_ji2AxKSqU.mp4 | 0.003146 | non-violence | non-violence | non-violence
+test_calme | calme_02_QOtoI9I9diw.mp4 | 0.317998 | non-violence | non-violence | non-violence
+test_calme | calme_03_TGC4asdjd8Q.mp4 | 0.097872 | non-violence | non-violence | non-violence
+test_calme | calme_04_xnNg0G6hT_A.mp4 | 0.006056 | non-violence | non-violence | non-violence
+test_calme | calme_05_H0ZPRUJ5eYU.mp4 | 0.234765 | non-violence | non-violence | non-violence
+
+Comparaison avec theta=0.50
+theta=0.65: 14 faux positifs (46.67%), soit 3 faux positifs de moins que theta=0.50 (56.67%).
+theta=0.70: 14 faux positifs (46.67%), soit 3 faux positifs de moins que theta=0.50 (56.67%).

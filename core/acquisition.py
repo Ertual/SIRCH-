@@ -19,13 +19,29 @@ def normalize_source(source: Union[int, str]) -> VideoInput:
 @dataclass
 class VideoSource:
     source: VideoInput = 0
+    width: int | None = 640
+    height: int | None = 480
+    fps: int | None = 15
+    buffer_size: int = 1
 
     def __post_init__(self) -> None:
         self.source = normalize_source(self.source)
         self.capture: Optional[cv2.VideoCapture] = None
 
     def open(self) -> None:
-        self.capture = cv2.VideoCapture(self.source)
+        if isinstance(self.source, int):
+            self.capture = cv2.VideoCapture(self.source, cv2.CAP_DSHOW)
+            if not self.capture.isOpened():
+                self.capture = cv2.VideoCapture(self.source)
+            self.capture.set(cv2.CAP_PROP_BUFFERSIZE, self.buffer_size)
+            if self.width:
+                self.capture.set(cv2.CAP_PROP_FRAME_WIDTH, self.width)
+            if self.height:
+                self.capture.set(cv2.CAP_PROP_FRAME_HEIGHT, self.height)
+            if self.fps:
+                self.capture.set(cv2.CAP_PROP_FPS, self.fps)
+        else:
+            self.capture = cv2.VideoCapture(self.source)
         if not self.capture.isOpened():
             raise RuntimeError(f"Impossible d'ouvrir la source video : {self.source}")
 

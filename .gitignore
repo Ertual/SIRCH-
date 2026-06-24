@@ -1,15 +1,25 @@
-# Mots de passe et données sensibles
+# Configuration locale et secrets
 config.py
+.env
 
-# Modèles trop lourds
+# Environnement Python et caches
+sirch_env/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Modeles et checkpoints volumineux
 *.h5
 *.weights.h5
+models/checkpoints*/
+models/training*.csv
+models/training*.log
+models/training*.txt
 
-# Datasets trop lourds
+# Datasets volumineux ou telechargeables
 datasets/RLVS/
 datasets/RWF-2000/
-
-# Vidéos de test (téléchargeables facilement)
 datasets/test_sport/
 datasets/test_danse/
 datasets/test_calme/
@@ -17,17 +27,14 @@ datasets/test_sport_v2/
 datasets/test_danse_v2/
 datasets/test_calme_v2/
 datasets/train_augmente/
+datasets/*.csv
 
-# Fichiers Python temporaires
-sirch_env/
-__pycache__/
-*.pyc
-*.pyo
-.ipynb_checkpoints/
-
-# Logs et résultats volumineux
-*.csv
-*.txt
-
-# Captures d'écran automatiques
+# Donnees d'execution privees
+database/sirch.db
 database/captures/
+
+# Sorties temporaires
+tmp/
+output/
+*.log
+docs/*.inspect.ndjson
