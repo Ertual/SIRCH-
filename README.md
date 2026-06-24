@@ -12,6 +12,9 @@ Depot GitHub : [github.com/Ertual/SIRCH-](https://github.com/Ertual/SIRCH-)
 Presentation technique :
 [docs/presentation_technique_SIRCH.pptx](docs/presentation_technique_SIRCH.pptx)
 
+Rapport technique du code :
+[docs/rapport_technique_code_SIRCH.md](docs/rapport_technique_code_SIRCH.md)
+
 ![Dashboard SIRCH](docs/dashboard_sirch.png)
 
 ## Fonctionnalites

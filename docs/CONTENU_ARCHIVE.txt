@@ -1,0 +1,43 @@
+TRACY - PRESENTATION DU PROJET SIRCH
+====================================
+
+Cette archive contient :
+
+1. Presentation
+   - presentation_technique_SIRCH.pptx
+   - dashboard_sirch.png
+
+2. Rapports
+   - rapport_technique_code_SIRCH.md
+   - rapport_sirch_global.md
+   - rapport_sirch_global_complet.pdf
+
+3. Documentation
+   - README.md
+   - config.example.py
+   - requirements.txt
+
+4. Code source
+   - main.py
+   - core/
+   - alerts/
+   - dashboard/
+   - database/db.py
+   - tests/
+   - tools/
+   - colab/
+
+5. Resultats experimentaux
+   - phase2_results/
+   - phase3_results/
+
+6. GitHub
+   - https://github.com/Ertual/SIRCH-
+
+Les elements confidentiels ne sont pas inclus :
+- config.py avec les identifiants locaux ;
+- database/sirch.db ;
+- captures personnelles ;
+- datasets ;
+- modeles et checkpoints volumineux ;
+- environnement virtuel Python.

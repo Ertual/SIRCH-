@@ -147,6 +147,31 @@ function addPipelineBox(slide, x, y, w, number, title, detail) {
   });
 }
 
+function addCodePanel(slide, title, code, x, y, w, h, fontSize = 16) {
+  addRect(slide, x, y, w, h, C.ink);
+  addRect(slide, x, y, w, 42, "#1D2939");
+  addText(slide, title, x + 18, y + 10, w - 36, 26, {
+    fontSize: 17,
+    bold: true,
+    color: "#FFFFFF",
+    fontFamily: "Consolas",
+  });
+  addText(slide, code, x + 18, y + 58, w - 36, h - 72, {
+    fontSize,
+    color: "#F2F4F7",
+    fontFamily: "Consolas",
+  });
+}
+
+function addExplanation(slide, title, items, x, y, w) {
+  addText(slide, title, x, y, w, 44, {
+    fontSize: 25,
+    bold: true,
+    color: C.green,
+  });
+  addBulletList(slide, items, x, y + 68, w, 18, 82);
+}
+
 async function buildDeck() {
   const deck = Presentation.create({ slideSize: { width: W, height: H } });
 
@@ -343,11 +368,321 @@ async function buildDeck() {
     });
   }
 
-  // 6. Live experience
+  // 6. Acquisition and preprocessing code
   {
     const slide = deck.slides.add();
     slide.background.fill = C.canvas;
-    addHeader(slide, "Fonctionnement en direct", 6);
+    addHeader(slide, "Code: acquisition et pretraitement", 6);
+    addCodePanel(
+      slide,
+      "core/acquisition.py",
+      `def open(self) -> None:
+    if isinstance(self.source, int):
+        self.capture = cv2.VideoCapture(
+            self.source, cv2.CAP_DSHOW
+        )
+        self.capture.set(
+            cv2.CAP_PROP_BUFFERSIZE,
+            self.buffer_size,
+        )
+        self.capture.set(
+            cv2.CAP_PROP_FRAME_WIDTH,
+            self.width,
+        )`,
+      42,
+      150,
+      560,
+      500,
+    );
+    addCodePanel(
+      slide,
+      "core/preprocessing.py",
+      `def preprocess_frame(frame, img_size=IMG_SIZE):
+    rgb = cv2.cvtColor(
+        frame, cv2.COLOR_BGR2RGB
+    )
+    resized = cv2.resize(
+        rgb, (img_size, img_size)
+    )
+    return preprocess_input(
+        resized.astype(np.float32)
+    )
+
+def add_frame(self, frame):
+    self.frames.append(
+        preprocess_frame(frame)
+    )
+    if len(self.frames) < self.n_frames:
+        return None
+    return np.expand_dims(
+        np.stack(list(self.frames)), axis=0
+    )`,
+      636,
+      150,
+      602,
+      500,
+    );
+  }
+
+  // 7. Inference code
+  {
+    const slide = deck.slides.add();
+    slide.background.fill = C.canvas;
+    addHeader(slide, "Code: construction et chargement du modele", 7);
+    addExplanation(
+      slide,
+      "Ce que montrent ces lignes",
+      [
+        "EfficientNetB0 extrait les caracteristiques de chaque frame.",
+        "TimeDistributed applique le meme reseau aux 20 images.",
+        "Le LSTM apprend l'evolution temporelle du mouvement.",
+        "La couche sigmoid produit un score entre 0 et 1.",
+      ],
+      42,
+      160,
+      350,
+    );
+    addCodePanel(
+      slide,
+      "core/inference.py",
+      `def build_model() -> Model:
+    base_model = EfficientNetB0(
+        weights="imagenet",
+        include_top=False,
+        pooling="avg",
+        input_shape=(IMG_SIZE, IMG_SIZE, 3),
+    )
+    base_model.trainable = False
+
+    sequence_input = layers.Input(
+        shape=(N_FRAMES, IMG_SIZE, IMG_SIZE, 3)
+    )
+    features = layers.TimeDistributed(
+        base_model
+    )(sequence_input)
+    x = layers.LSTM(LSTM_UNITS)(features)
+    x = layers.Dropout(0.5)(x)
+    x = layers.Dense(128, activation="relu")(x)
+    output = layers.Dense(
+        1, activation="sigmoid"
+    )(x)
+    return Model(sequence_input, output)`,
+      430,
+      150,
+      808,
+      500,
+    );
+  }
+
+  // 8. Decision code
+  {
+    const slide = deck.slides.add();
+    slide.background.fill = C.canvas;
+    addHeader(slide, "Code: decision temporelle", 8);
+    addCodePanel(
+      slide,
+      "core/decision.py",
+      `class DecisionEngine:
+    def update(self, score):
+        self.scores.append(float(score))
+        mean_score = (
+            sum(self.scores) / len(self.scores)
+        )
+
+        if len(self.scores) < self.k_window:
+            return False, mean_score
+
+        return (
+            mean_score >= self.threshold,
+            mean_score,
+        )
+
+    def configure(self, threshold, k_window):
+        self.threshold = float(threshold)
+        if k_window != self.k_window:
+            self.k_window = int(k_window)
+            self.scores = collections.deque(
+                maxlen=self.k_window
+            )`,
+      42,
+      150,
+      680,
+      500,
+    );
+    addExplanation(
+      slide,
+      "Pourquoi cette logique",
+      [
+        "Un seul score eleve ne suffit pas.",
+        "La moyenne de K=5 reduit les decisions instables.",
+        "Le seuil est modifiable depuis le dashboard.",
+        "La decision finale reste explicable et verifiable.",
+      ],
+      770,
+      170,
+      430,
+    );
+  }
+
+  // 9. Alerts and database code
+  {
+    const slide = deck.slides.add();
+    slide.background.fill = C.canvas;
+    addHeader(slide, "Code: alertes et enregistrement", 9);
+    addCodePanel(
+      slide,
+      "alerts/alertmanager.py",
+      `def send_alerts(self, payload):
+    if not self.can_send():
+        return False
+
+    self.last_alert_time = time.time()
+    self.play_sound()
+    self.send_email(payload)
+    self.send_telegram(payload)
+    return True
+
+def send_telegram(self, payload):
+    token = (TELEGRAM_TOKEN or "").strip()
+    chat_id = (TELEGRAM_CHAT_ID or "").strip()
+    if token == "" or chat_id == "":
+        return
+    if token == "METS_TON_TOKEN_ICI":
+        return`,
+      42,
+      150,
+      560,
+      500,
+    );
+    addCodePanel(
+      slide,
+      "database/db.py",
+      `def add_incident(
+    score, mean_score,
+    capture_path=None, source=None,
+):
+    init_db()
+    with get_connection() as connection:
+        connection.execute(
+            "INSERT INTO incidents "
+            "(created_at, score, mean_score, "
+            "capture_path, source) "
+            "VALUES (?, ?, ?, ?, ?)",
+            (
+                datetime.now().isoformat(
+                    timespec="seconds"
+                ),
+                float(score), float(mean_score),
+                capture_path, source,
+            ),
+        )
+        connection.commit()`,
+      636,
+      150,
+      602,
+      500,
+    );
+  }
+
+  // 10. Dashboard code
+  {
+    const slide = deck.slides.add();
+    slide.background.fill = C.canvas;
+    addHeader(slide, "Code: dashboard Flask", 10);
+    addExplanation(
+      slide,
+      "Fonctions exposees",
+      [
+        "La page principale affiche les dix derniers incidents.",
+        "Le formulaire sauvegarde le seuil et la fenetre K.",
+        "La route captures sert les images depuis le bon dossier.",
+        "L'export CSV rend les incidents exploitables.",
+      ],
+      42,
+      160,
+      365,
+    );
+    addCodePanel(
+      slide,
+      "dashboard/app.py",
+      `@app.route("/")
+def index():
+    incidents = list_incidents(limit=10)
+    settings = get_settings()
+    return render_template(
+        "index.html",
+        incidents=incidents,
+        threshold=settings["threshold"],
+        k_window=settings["k_window"],
+    )
+
+@app.route("/captures/<path:filename>")
+def capture(filename):
+    return send_from_directory(
+        CAPTURES_DIR, Path(filename).name
+    )`,
+      445,
+      150,
+      793,
+      500,
+    );
+  }
+
+  // 11. Main loop code
+  {
+    const slide = deck.slides.add();
+    slide.background.fill = C.canvas;
+    addHeader(slide, "Code: orchestration temps reel", 11);
+    addCodePanel(
+      slide,
+      "main.py",
+      `with VideoSource(source) as video:
+    while True:
+        frame = video.read()
+        if frame is None:
+            break
+
+        sequence = buffer.add_frame(frame)
+        if sequence is None:
+            continue
+
+        score = inference.predict(sequence)
+        is_violence, mean_score = decision.update(score)
+
+        if is_violence:
+            capture_path = save_capture(frame)
+            add_incident(
+                score, mean_score, capture_path, source
+            )
+            alerts.send_alerts(
+                AlertPayload(mean_score, capture_path)
+            )`,
+      42,
+      150,
+      720,
+      500,
+    );
+    addExplanation(
+      slide,
+      "La boucle relie les 7 modules",
+      [
+        "Lit une frame.",
+        "Construit une sequence.",
+        "Lance l'inference.",
+        "Prend une decision.",
+        "Capture, archive et alerte.",
+      ],
+      810,
+      165,
+      390,
+    );
+  }
+
+  // 12. Live experience
+  {
+    const slide = deck.slides.add();
+    slide.background.fill = C.canvas;
+    addHeader(slide, "Fonctionnement en direct", 12);
     addText(slide, "Deux interfaces travaillent ensemble", 42, 142, 460, 46, {
       fontSize: 26,
       bold: true,
@@ -370,11 +705,11 @@ async function buildDeck() {
     await addImage(slide, DASHBOARD_IMAGE, 604, 172, 612, 440, "contain");
   }
 
-  // 7. Alerts and traceability
+  // 13. Alerts and traceability
   {
     const slide = deck.slides.add();
     slide.background.fill = C.canvas;
-    addHeader(slide, "Decision, alertes et tracabilite", 7);
+    addHeader(slide, "Decision, alertes et tracabilite", 13);
     const items = [
       ["Score", "Le modele produit p."],
       ["Moyenne K=5", "Les scores sont lisses."],
@@ -409,11 +744,11 @@ async function buildDeck() {
     });
   }
 
-  // 8. Main results
+  // 14. Main results
   {
     const slide = deck.slides.add();
     slide.background.fill = C.canvas;
-    addHeader(slide, "Resultats valides sur 599 videos", 8);
+    addHeader(slide, "Resultats valides sur 599 videos", 14);
     addText(slide, "Modele original deploye, seuil theta = 0,50", 42, 132, 530, 36, {
       fontSize: 19,
       color: C.muted,
@@ -426,11 +761,11 @@ async function buildDeck() {
     await addImage(slide, CONFUSION_IMAGE, 612, 162, 614, 466, "contain");
   }
 
-  // 9. Research variants
+  // 15. Research variants
   {
     const slide = deck.slides.add();
     slide.background.fill = C.canvas;
-    addHeader(slide, "Ce que les experiences ont montre", 9);
+    addHeader(slide, "Ce que les experiences ont montre", 15);
     addRect(slide, 42, 132, 820, 520, "#F7F7F7");
     await addImage(slide, ABLATION_IMAGE, 58, 150, 788, 480, "contain");
     addText(slide, "Lecture simple", 900, 150, 300, 42, {
@@ -453,11 +788,11 @@ async function buildDeck() {
     );
   }
 
-  // 10. Demo procedure
+  // 16. Demo procedure
   {
     const slide = deck.slides.add();
     slide.background.fill = C.canvas;
-    addHeader(slide, "Demonstration live devant l'encadreur", 10);
+    addHeader(slide, "Demonstration live devant l'encadreur", 16);
     addText(slide, "Terminal 1 - dashboard", 42, 150, 360, 34, {
       fontSize: 20,
       bold: true,
@@ -503,11 +838,11 @@ async function buildDeck() {
     );
   }
 
-  // 11. Closing
+  // 17. Closing
   {
     const slide = deck.slides.add();
     slide.background.fill = C.canvas;
-    addHeader(slide, "Projet reproductible et verifiable", 11);
+    addHeader(slide, "Projet reproductible et verifiable", 17);
     addMetric(slide, 42, 180, 270, "7", "modules integres", C.green);
     addMetric(slide, 335, 180, 270, "599", "videos de test", C.blue);
     addMetric(slide, 628, 180, 270, "21,85 MB", "modele original", C.orange);
