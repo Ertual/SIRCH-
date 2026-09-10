@@ -14,9 +14,14 @@ verifie aussi que le test reconstruit correspond exactement aux 599 videos deja
 referencees dans `phase2_results/metriques_avancees_scores_599.csv`.
 
 Chaque ligne contient la taille et le SHA-256 du fichier. Les contenus identiques
-qui traversent plusieurs ensembles sont consignes dans un rapport et dans le
-sceau. Aucun fichier source n'est retire automatiquement : le manifeste historique
-reste reproductible et son etat de contamination est explicite.
+sont resolus avec la priorite deterministe `train > validation > test` : une seule
+occurrence canonique est conservee et les autres sont exclues des manifestes.
+Aucun fichier video source n'est supprime.
+
+Le seul groupe contradictoire, `V_504.mp4` / `NV_226.mp4`, a ete examine sur 20
+images reparties sur tout le clip. Il montre un match de tennis : son etiquette
+canonique est donc corrigee en `non_violence`. La preuve visuelle est conservee
+dans `outputs/ground_truth_conflict_contact_sheet.png`.
 
 ## Commande
 
@@ -31,9 +36,12 @@ C:\SIRCH_ENV\Scripts\python.exe revision\exp01_manifests_sha256\build_manifests.
 - `outputs/test_manifest.csv`
 - `outputs/hard_negative_v2_manifest.csv`
 - `outputs/cross_split_duplicates.csv`
+- `outputs/duplicate_resolution.csv`
+- `outputs/ground_truth_conflict_contact_sheet.png`
 - `outputs/manifest_seal.json`
 - `outputs/summary.md`
 
-Les empreintes des quatre CSV inscrites dans `manifest_seal.json` constituent
-le sceau du protocole. Toute modification ulterieure d'un manifeste change son
-empreinte.
+Les empreintes des quatre manifestes et du rapport de resolution inscrites dans
+`manifest_seal.json` constituent le sceau du protocole. Apres resolution,
+`cross_split_duplicates.csv` doit contenir uniquement son en-tete et le statut du
+sceau doit etre `sealed_clean`.

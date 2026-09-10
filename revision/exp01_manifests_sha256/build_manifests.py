@@ -17,6 +17,18 @@ from sklearn.model_selection import train_test_split
 VIDEO_PATTERNS = ("*.mp4", "*.avi", "*.mov", "*.mkv")
 EXPECTED_MAIN_COUNTS = {"train": 2793, "validation": 599, "test": 599}
 EXPECTED_HARD_NEGATIVE_COUNTS = {"sport": 15, "danse": 10, "calme": 5}
+SPLIT_PRIORITY = {"train": 0, "validation": 1, "test": 2}
+GROUND_TRUTH_LABEL_OVERRIDES = {
+    "824edfa52b7b6fecd85754be7f841cdd5cecb7519103623d4c17f2a325039612": {
+        "label": 0,
+        "label_name": "non_violence",
+        "basis": (
+            "Verification visuelle de 20 images reparties sur les 5,37 secondes : "
+            "match de tennis, sans violence."
+        ),
+        "evidence": "ground_truth_conflict_contact_sheet.png",
+    }
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -180,6 +192,93 @@ def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
     temporary.replace(path)
 
 
+def cross_split_groups(
+    rows_by_split: dict[str, list[dict[str, object]]],
+) -> dict[str, list[dict[str, object]]]:
+    rows_by_hash: dict[str, list[dict[str, object]]] = defaultdict(list)
+    for rows in rows_by_split.values():
+        for row in rows:
+            rows_by_hash[str(row["sha256"])].append(row)
+    return {
+        digest: rows
+        for digest, rows in rows_by_hash.items()
+        if len({str(row["split"]) for row in rows}) > 1
+    }
+
+
+def resolve_main_duplicates(
+    rows_by_split: dict[str, list[dict[str, object]]],
+) -> tuple[dict[str, list[dict[str, object]]], list[dict[str, object]]]:
+    main_rows = {name: rows_by_split[name] for name in SPLIT_PRIORITY}
+    duplicate_groups = cross_split_groups(main_rows)
+    removed_ids: set[int] = set()
+    resolution_rows: list[dict[str, object]] = []
+
+    for group_index, (digest, rows) in enumerate(sorted(duplicate_groups.items()), start=1):
+        ordered_splits = sorted(
+            {str(row["split"]) for row in rows}, key=SPLIT_PRIORITY.__getitem__
+        )
+        canonical_split = ordered_splits[0]
+        canonical_row = min(
+            (row for row in rows if row["split"] == canonical_split),
+            key=lambda row: str(row["relative_path"]).casefold(),
+        )
+        original_labels = {
+            id(row): (int(row["label"]), str(row["label_name"])) for row in rows
+        }
+        override = GROUND_TRUTH_LABEL_OVERRIDES.get(digest)
+        if override:
+            canonical_row["label"] = int(override["label"])
+            canonical_row["label_name"] = str(override["label_name"])
+
+        for row in sorted(
+            rows,
+            key=lambda item: (
+                SPLIT_PRIORITY[str(item["split"])],
+                str(item["relative_path"]).casefold(),
+            ),
+        ):
+            is_canonical = row is canonical_row
+            if not is_canonical:
+                removed_ids.add(id(row))
+            if is_canonical and override:
+                action = "keep_canonical_relabelled"
+            elif is_canonical:
+                action = "keep_canonical"
+            else:
+                action = "remove_cross_split_duplicate"
+            resolution_rows.append(
+                {
+                    "duplicate_group": group_index,
+                    "sha256": digest,
+                    "original_splits": "<->".join(ordered_splits),
+                    "split": row["split"],
+                    "dataset": row["dataset"],
+                    "category": row["category"],
+                    "original_label": original_labels[id(row)][0],
+                    "original_label_name": original_labels[id(row)][1],
+                    "relative_path": row["relative_path"],
+                    "action": action,
+                    "canonical_split": canonical_split,
+                    "canonical_relative_path": canonical_row["relative_path"],
+                    "canonical_label_after": canonical_row["label"],
+                    "ground_truth_basis": (
+                        str(override["basis"])
+                        if override
+                        else "Etiquettes sources concordantes."
+                    ),
+                    "evidence": str(override["evidence"]) if override else "",
+                }
+            )
+
+    for split_name in SPLIT_PRIORITY:
+        cleaned = [row for row in rows_by_split[split_name] if id(row) not in removed_ids]
+        for index, row in enumerate(cleaned):
+            row["split_index"] = index
+        rows_by_split[split_name] = cleaned
+    return duplicate_groups, resolution_rows
+
+
 def main() -> None:
     args = parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -195,7 +294,6 @@ def main() -> None:
         raise RuntimeError("Un chemin principal apparait dans plusieurs splits.")
 
     rows_by_split: dict[str, list[dict[str, object]]] = defaultdict(list)
-    hash_locations: dict[str, list[tuple[str, str]]] = defaultdict(list)
     total_to_hash = len(all_main_paths) + sum(EXPECTED_HARD_NEGATIVE_COUNTS.values())
     progress = 0
 
@@ -219,10 +317,11 @@ def main() -> None:
                 "sha256": digest,
             }
             rows_by_split[split_name].append(row)
-            hash_locations[digest].append((split_name, f"{dataset}/{relative_path}"))
             progress += 1
             if progress % 250 == 0:
                 print(f"SHA-256: {progress}/{total_to_hash}", flush=True)
+
+    source_cross_split_duplicates, resolution_rows = resolve_main_duplicates(rows_by_split)
 
     hard_rows: list[dict[str, object]] = []
     hard_paths = hard_negative_paths(args.project_root)
@@ -241,7 +340,6 @@ def main() -> None:
                 "sha256": digest,
             }
             hard_rows.append(row)
-            hash_locations[digest].append(("hard_negative_v2", row["relative_path"]))
             progress += 1
     rows_by_split["hard_negative_v2"] = hard_rows
     print(f"SHA-256: {progress}/{total_to_hash}", flush=True)
@@ -252,15 +350,7 @@ def main() -> None:
         write_csv(manifest_path, rows)
         manifest_paths[split_name] = manifest_path
 
-    rows_by_hash: dict[str, list[dict[str, object]]] = defaultdict(list)
-    for rows in rows_by_split.values():
-        for row in rows:
-            rows_by_hash[str(row["sha256"])].append(row)
-    cross_split_duplicates = {
-        digest: rows
-        for digest, rows in rows_by_hash.items()
-        if len({str(row["split"]) for row in rows}) > 1
-    }
+    cross_split_duplicates = cross_split_groups(rows_by_split)
     duplicate_report = args.output_dir / "cross_split_duplicates.csv"
     with duplicate_report.open("w", newline="", encoding="utf-8") as handle:
         fieldnames = [
@@ -292,6 +382,29 @@ def main() -> None:
                     }
                 )
 
+    resolution_report = args.output_dir / "duplicate_resolution.csv"
+    with resolution_report.open("w", newline="", encoding="utf-8") as handle:
+        fieldnames = [
+            "duplicate_group",
+            "sha256",
+            "original_splits",
+            "split",
+            "dataset",
+            "category",
+            "original_label",
+            "original_label_name",
+            "relative_path",
+            "action",
+            "canonical_split",
+            "canonical_relative_path",
+            "canonical_label_after",
+            "ground_truth_basis",
+            "evidence",
+        ]
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(resolution_rows)
+
     hard_negative_overlap_groups = sum(
         1
         for rows in cross_split_duplicates.values()
@@ -302,6 +415,13 @@ def main() -> None:
         1
         for rows in cross_split_duplicates.values()
         if len({int(row["label"]) for row in rows}) > 1
+    )
+    resolution_by_group: dict[int, list[dict[str, object]]] = defaultdict(list)
+    for row in resolution_rows:
+        resolution_by_group[int(row["duplicate_group"])].append(row)
+    source_label_conflict_groups = sum(
+        len({int(row["original_label"]) for row in rows}) > 1
+        for rows in resolution_by_group.values()
     )
 
     manifest_hashes = {name: sha256_file(path) for name, path in manifest_paths.items()}
@@ -318,21 +438,27 @@ def main() -> None:
         for name, rows in rows_by_split.items()
     }
     seal = {
-        "schema_version": 1,
+        "schema_version": 2,
         "created_utc": datetime.now(timezone.utc).isoformat(),
-        "status": (
-            "sealed_with_cross_split_duplicates"
-            if cross_split_duplicates
-            else "sealed_clean"
+        "status": "sealed_clean" if not cross_split_duplicates else "seal_failed",
+        "split_protocol": (
+            "train_test_split 70/15/15, stratified, seed=42; then SHA-256 "
+            "deduplication with canonical priority train > validation > test"
         ),
-        "split_protocol": "train_test_split 70/15/15, stratified, seed=42",
-        "test_reference_verified": True,
+        "historical_test_reference_verified_before_deduplication": True,
+        "source_cross_split_sha256_duplicate_groups": len(source_cross_split_duplicates),
         "cross_split_sha256_duplicate_groups": len(cross_split_duplicates),
+        "duplicate_rows_removed": sum(
+            row["action"] == "remove_cross_split_duplicate" for row in resolution_rows
+        ),
         "hard_negative_overlap_groups": hard_negative_overlap_groups,
+        "source_label_conflict_groups": source_label_conflict_groups,
         "label_conflict_groups": label_conflict_groups,
+        "ground_truth_label_corrections": len(GROUND_TRUTH_LABEL_OVERRIDES),
         "counts": counts,
         "manifest_sha256": manifest_hashes,
         "duplicate_report_sha256": sha256_file(duplicate_report),
+        "duplicate_resolution_sha256": sha256_file(resolution_report),
     }
     seal_path = args.output_dir / "manifest_seal.json"
     seal_path.write_text(json.dumps(seal, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
@@ -354,11 +480,40 @@ def main() -> None:
     summary_lines.extend(
         [
             "",
-            "Le test principal reconstruit correspond exactement aux 599 videos publiees.",
-            f"Groupes SHA-256 traversant plusieurs ensembles : {len(cross_split_duplicates)}.",
+            "Le test historique reconstruit correspondait exactement aux 599 videos publiees avant deduplication.",
+            f"Groupes SHA-256 inter-splits detectes avant correction : {len(source_cross_split_duplicates)}.",
+            f"Lignes dupliquees retirees des manifestes : {seal['duplicate_rows_removed']}.",
+            f"Groupes SHA-256 inter-splits apres correction : {len(cross_split_duplicates)}.",
             f"Chevauchements hard-negative v2 / corpus principal : {hard_negative_overlap_groups}.",
-            f"Groupes avec etiquettes contradictoires : {label_conflict_groups}.",
-            "Voir `cross_split_duplicates.csv` pour les chemins concernes.",
+            f"Conflits d'etiquettes avant/apres correction : {source_label_conflict_groups}/{label_conflict_groups}.",
+            "",
+            "Regle canonique : conserver train, sinon validation, sinon test. Aucun fichier video source n'a ete supprime.",
+            "Le conflit V_504.mp4 / NV_226.mp4 est un match de tennis : etiquette canonique corrigee en non_violence.",
+            "",
+            "| Groupe | SHA-256 | Splits d'origine | Occurrence conservee | Occurrence retiree |",
+            "|---:|---|---|---|---|",
+        ]
+    )
+    for group_index in sorted({int(row["duplicate_group"]) for row in resolution_rows}):
+        group_rows = [
+            row for row in resolution_rows if int(row["duplicate_group"]) == group_index
+        ]
+        kept = next(row for row in group_rows if str(row["action"]).startswith("keep"))
+        removed = [
+            f"{row['split']}:{row['relative_path']}"
+            for row in group_rows
+            if row["action"] == "remove_cross_split_duplicate"
+        ]
+        summary_lines.append(
+            f"| {group_index} | `{str(kept['sha256'])}` | {kept['original_splits']} | "
+            f"{kept['canonical_split']}:{kept['canonical_relative_path']} | "
+            f"{'; '.join(removed)} |"
+        )
+    summary_lines.extend(
+        [
+            "",
+            "Voir `duplicate_resolution.csv` pour les etiquettes, actions et justifications detaillees.",
+            "`cross_split_duplicates.csv` est vide apres resolution (en-tete uniquement).",
         ]
     )
     (args.output_dir / "summary.md").write_text(

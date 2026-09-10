@@ -1036,7 +1036,7 @@ train,1033,RLVS,,1,violence,Violence/V_188.mp4,528683,a63769fc24c92f5950c4c4be0c
 train,1034,RLVS,,1,violence,Violence/V_705.mp4,862687,75cedfd73dd95e292008ef25ae991c0ad3c7f60af48c064a29afce3367280277
 train,1035,RLVS,,1,violence,Violence/V_867.mp4,1033098,03c56b4c3397ac7094e558af9e4a68f356ae6a70c432657592c30ddd0ac1697d
 train,1036,RWF-2000,,0,non_violence,train/NonFight/rwf_train_nonfight_0099.avi,24464278,1db58d1470a11eab629eeee778e0d7b15d8bdb9d39806e8f0bf0de9e663bc8c6
-train,1037,RLVS,,1,violence,Violence/V_504.mp4,1100831,824edfa52b7b6fecd85754be7f841cdd5cecb7519103623d4c17f2a325039612
+train,1037,RLVS,,0,non_violence,Violence/V_504.mp4,1100831,824edfa52b7b6fecd85754be7f841cdd5cecb7519103623d4c17f2a325039612
 train,1038,RWF-2000,,1,violence,train/Fight/rwf_train_fight_0362.avi,8604628,2049687c7c3c03effc56bcce85a8f72ac96817c284c9f05ed552d479d9f4a499
 train,1039,RLVS,,0,non_violence,NonViolence/NV_861.mp4,835601,dff38d98d563043122e31d50ab1ac72ca80909e2d881fad010d225b670dd7785
 train,1040,RWF-2000,,1,violence,train/Fight/rwf_train_fight_0252.avi,5237674,47dad6a47edceea9a26b914779a5bcb1c7fba6eec911a0b987ea872d545fcb07
