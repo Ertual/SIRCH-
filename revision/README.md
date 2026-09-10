@@ -28,3 +28,6 @@ Avant tout reentrainement augmente, rechercher la liste historique exacte des 25
 videos d'enrichissement dans Git, les anciens notebooks et les journaux. Si elle est
 introuvable, tout nouveau lot devra etre prouve disjoint par SHA-256 du corpus
 principal et des 30 videos hard-negative v2 deja scellees par l'experience 1.
+
+Ce controle est maintenant realise dans `exp04_augmented_clean`. Les 25 videos
+historiques ont ete retrouvees; aucun remplacement n'a ete necessaire.

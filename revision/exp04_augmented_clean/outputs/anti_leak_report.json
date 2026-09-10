@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-10T19:38:23.958379+00:00",
+  "status": "sealed_clean",
+  "historical_set_recovered": true,
+  "historical_evidence": [
+    "SIRCH_CONTEXT_CODEX_V2_CLAUDECODE.md at commit dbb71cb",
+    "test_faux_positifs_seuils.txt",
+    "physical source folders datasets/test_sport and datasets/test_danse"
+  ],
+  "principal_manifest_seal_sha256": "52403ee5d3a65efb94b62f62e357d7f23d6fc969ec5dcbcbcebd33e7135f8ab9",
+  "source_manifest_sha256": {
+    "train": "df855f1d1e0daabc1aa72c897ff2b4b0c09bba4a09cb7110bbb5f72484224767",
+    "validation": "933a26378a88236beafeb51fc91b53c7abab5185aba9d97daa0b68dd2310e397",
+    "test": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f",
+    "hard_negative_v2": "4b9c6c135ec3869e7b109f1aa5a695b3a544368b07ada753919ca226e9c76dba"
+  },
+  "enrichment_manifest_sha256": "6072792b877f83ba055cb723ee6ddfecb2c2a3bfbaecd8d83d83a7ed6793c382",
+  "augmented_train_manifest_sha256": "f28b0ee1cb6862dcb8bf51923a4c39734abc9d55a8001818269a61b9f28a5cd9",
+  "counts": {
+    "principal_train": 2793,
+    "enrichment": 25,
+    "augmented_train": 2818,
+    "augmented_train_violence": 1392,
+    "augmented_train_non_violence": 1426,
+    "validation_unchanged": 594,
+    "test_unchanged": 592,
+    "hard_negative_v2_unchanged": 30
+  },
+  "internal_enrichment_sha256_duplicates": 0,
+  "overlap_sha256_groups": {
+    "train": 0,
+    "validation": 0,
+    "test": 0,
+    "hard_negative_v2": 0
+  },
+  "old_test_sport_and_dance_status": "training_only_after_this_point",
+  "hard_negative_evaluation_set": "hard_negative_v2_only"
+}
