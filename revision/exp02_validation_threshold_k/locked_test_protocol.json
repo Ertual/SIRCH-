@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "preregistered_before_final_test",
+  "created_utc": "2026-09-10T14:19:44.9159103Z",
+  "objective": "One final evaluation of the validation-locked SIRCH configuration on the cleaned test split.",
+  "allowed_final_evaluations": 1,
+  "model": {
+    "path": "C:\\SIRCH_ENV\\models\\sirch_model.h5",
+    "sha256": "9d63a86c78f042dea0d12fe1c880f07f57d13eed95abdd4773aef672982615ec"
+  },
+  "selected_configuration": {
+    "path": "revision/exp02_validation_threshold_k/outputs/selected_config.json",
+    "sha256": "084c8bf4d66339833e6d77d9f76cbe4a89b6f64f0588d0d4023912f27d4aa644",
+    "selected_on": "validation_only",
+    "theta": 0.7,
+    "k": 7,
+    "n_frames": 20,
+    "stride_frames": 5
+  },
+  "test": {
+    "manifest_path": "revision/exp01_manifests_sha256/outputs/test_manifest.csv",
+    "manifest_sha256": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f",
+    "videos": 592,
+    "violence": 297,
+    "non_violence": 295,
+    "cross_split_sha256_duplicate_groups": 0
+  },
+  "decision_rule": "A video is positive when at least one complete rolling mean of K=7 consecutive sequence scores is greater than or equal to theta=0.70.",
+  "score_generation": "Same implementation as validation selection: 20-frame windows, stride 5, EfficientNetB0 features and the locked temporal head.",
+  "short_clip_policy": "Repeat the last frame exactly as in validation selection so all validation candidate K values were comparable.",
+  "no_post_test_adjustment": true,
+  "outputs": [
+    "outputs/final_test_locked/video_predictions.csv",
+    "outputs/final_test_locked/final_test_metrics.json",
+    "outputs/final_test_locked/confusion_matrix.png",
+    "outputs/final_test_locked/summary.md"
+  ]
+}

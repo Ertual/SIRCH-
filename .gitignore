@@ -38,3 +38,4 @@ tmp/
 output/
 *.log
 docs/*.inspect.ndjson
+revision/exp02_validation_threshold_k/outputs/final_test_locked/cache/

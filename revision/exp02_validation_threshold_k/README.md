@@ -43,3 +43,17 @@ C:\SIRCH_ENV\Scripts\python.exe revision\exp02_validation_threshold_k\select_thr
 
 Le cache est indexe par SHA-256 et n'est pas versionne. Les resultats publies sont
 toujours recalcules sur la liste exacte du manifeste scelle courant.
+
+## Evaluation finale unique du test
+
+Apres verrouillage sur validation, le protocole de l'evaluation finale est fixe
+dans `locked_test_protocol.json`. La commande ci-dessous evalue uniquement
+`theta=0,70` et `K=7` sur les 592 videos du test nettoye :
+
+```powershell
+C:\SIRCH_ENV\Scripts\python.exe revision\exp02_validation_threshold_k\evaluate_locked_test.py
+```
+
+Le script controle les SHA-256 du modele, de la configuration et du manifeste.
+Il reprend son cache apres une interruption, mais refuse une seconde evaluation
+une fois `outputs/final_test_locked/final_test_metrics.json` publie.
