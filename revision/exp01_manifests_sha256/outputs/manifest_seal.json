@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-09T21:02:26.545400+00:00",
+  "status": "sealed_with_cross_split_duplicates",
+  "split_protocol": "train_test_split 70/15/15, stratified, seed=42",
+  "test_reference_verified": true,
+  "cross_split_sha256_duplicate_groups": 12,
+  "hard_negative_overlap_groups": 0,
+  "label_conflict_groups": 1,
+  "counts": {
+    "train": {
+      "total": 2793,
+      "violence": 1393,
+      "non_violence": 1400,
+      "datasets": {
+        "RWF-2000": 1382,
+        "RLVS": 1411
+      },
+      "categories": {}
+    },
+    "validation": {
+      "total": 599,
+      "violence": 299,
+      "non_violence": 300,
+      "datasets": {
+        "RLVS": 294,
+        "RWF-2000": 305
+      },
+      "categories": {}
+    },
+    "test": {
+      "total": 599,
+      "violence": 299,
+      "non_violence": 300,
+      "datasets": {
+        "RWF-2000": 304,
+        "RLVS": 295
+      },
+      "categories": {}
+    },
+    "hard_negative_v2": {
+      "total": 30,
+      "violence": 0,
+      "non_violence": 30,
+      "datasets": {
+        "hard_negative_v2": 30
+      },
+      "categories": {
+        "sport": 15,
+        "danse": 10,
+        "calme": 5
+      }
+    }
+  },
+  "manifest_sha256": {
+    "train": "781863538eccea0a53366430cc211349f84c918740ec51639be796a94c1b6fdd",
+    "validation": "0d5609314f3b8dde4305d022e03167bcfd984eb9094ca9896202ab4e9d343292",
+    "test": "67644b14ef932f2b9220888e7803da6f882a178389bb2c33ca76bf27d8530c63",
+    "hard_negative_v2": "4b9c6c135ec3869e7b109f1aa5a695b3a544368b07ada753919ca226e9c76dba"
+  },
+  "duplicate_report_sha256": "47acc38de5cdc28a6514ba367199342f67d55997e4c492db1894599da5746eab"
+}
