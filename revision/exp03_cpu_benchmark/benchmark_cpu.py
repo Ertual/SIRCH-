@@ -370,6 +370,16 @@ def main() -> None:
         f"La variation entre repetitions le confirme : inference pure {pure_repeat_means} ms/frame ; bout en bout {end_to_end_repeat_means} ms/frame. Les passages deviennent ici legerement plus rapides, ce qui est compatible avec la stabilisation des caches TensorFlow, systeme et disque. Le pipeline complet ajoute aussi la variabilite des codecs, de la lecture disque et du redimensionnement sur un corpus plus heterogene.",
         "",
         "Les deux chiffres ne sont donc pas directement comparables. L'ancien resultat est une petite mesure ponctuelle favorable ; le nouveau resultat, avec distribution P50/P95/P99 et mesures brutes, est la reference reproductible a retenir.",
+        "",
+        "## Debit reel soutenable et portee du terme temps reel",
+        "",
+        f"La moyenne bout en bout de {end_to_end['mean_ms_per_frame']:.2f} ms/frame correspond a environ {1000 / end_to_end['mean_ms_per_frame']:.2f} frames/s, alors qu'un flux de 25 ou 30 fps impose respectivement 40,00 ou 33,33 ms/frame. Le pipeline CPU mesure ne peut donc pas traiter exhaustivement un flux continu a 25-30 fps sans perte ni retard.",
+        "",
+        f"La latence normalisee ne doit pas etre confondue avec la duree d'un appel du modele : une prediction sur 20 frames prend en moyenne {pure['mean_ms_per_sequence']:.2f} ms en inference pure. Avec `--infer-every 5`, un flux de 25 fps demanderait 5 predictions/s, soit au plus 200 ms par appel, et un flux de 30 fps en demanderait 6, soit 166,67 ms par appel. La mesure d'environ {pure['mean_ms_per_sequence'] / 1000:.2f} s par appel reste trop lente, meme avec cet espacement.",
+        "",
+        "Dans `main.py`, acquisition, pretraitement, prediction et affichage sont synchrones dans un seul thread. Pendant `model.predict`, aucune frame n'est lue. L'application ne possede ni file d'attente explicite, ni thread de capture, ni mecanisme explicite de saut de frames. Elle demande seulement `CAP_PROP_BUFFERSIZE=1` a OpenCV sans verifier que le pilote l'accepte. Si ce tampon est respecte, les images arrivees pendant l'inference sont abandonnees ou remplacees par la plus recente ; s'il est ignore, le tampon du pilote peut accumuler des images et produire du retard. `--infer-every 5` espace les predictions, mais ne resout pas le blocage pendant une prediction.",
+        "",
+        "La revendication exacte est donc : demonstration interactive ou quasi temps reel avec echantillonnage/perte possible de frames sur ce CPU, et non traitement exhaustif garanti a 25-30 fps. Une revendication de temps reel plein debit exige une mesure directe de la boucle camera et une optimisation ou une architecture asynchrone validant au plus 40 ms/frame a 25 fps (33,33 ms/frame a 30 fps).",
     ]
     (args.output_dir / "summary.md").write_text("\n".join(summary) + "\n", encoding="utf-8")
     print(json.dumps({"environment": environment, "summary": summary_rows}, indent=2), flush=True)

@@ -47,3 +47,10 @@ Le resume compare aussi ce protocole a l'ancienne mesure sur seulement 5 videos
 RLVS non violentes. Les warm-ups sont exclus dans les deux cas ; la nouvelle
 reference est plus robuste car elle couvre 100 videos equilibrees, trois passages
 et publie les mesures brutes ainsi que les percentiles.
+
+Le resume qualifie egalement la revendication de temps reel. Le debit soutenable
+est calcule a partir de la latence bout en bout et confronte aux budgets de 40 ms
+par frame a 25 fps et 33,33 ms par frame a 30 fps. Le comportement de la boucle
+camera de `main.py` est documente separement afin de ne pas confondre espacement
+des predictions, abandon eventuel de frames par le pilote et traitement complet
+du flux.

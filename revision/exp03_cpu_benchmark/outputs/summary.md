@@ -24,3 +24,13 @@ Le warm-up n'explique pas l'ecart : il etait deja exclu de l'ancienne mesure et 
 La variation entre repetitions le confirme : inference pure 53.39, 49.94, 48.81 ms/frame ; bout en bout 101.88, 98.07, 96.59 ms/frame. Les passages deviennent ici legerement plus rapides, ce qui est compatible avec la stabilisation des caches TensorFlow, systeme et disque. Le pipeline complet ajoute aussi la variabilite des codecs, de la lecture disque et du redimensionnement sur un corpus plus heterogene.
 
 Les deux chiffres ne sont donc pas directement comparables. L'ancien resultat est une petite mesure ponctuelle favorable ; le nouveau resultat, avec distribution P50/P95/P99 et mesures brutes, est la reference reproductible a retenir.
+
+## Debit reel soutenable et portee du terme temps reel
+
+La moyenne bout en bout de 98.85 ms/frame correspond a environ 10.12 frames/s, alors qu'un flux de 25 ou 30 fps impose respectivement 40,00 ou 33,33 ms/frame. Le pipeline CPU mesure ne peut donc pas traiter exhaustivement un flux continu a 25-30 fps sans perte ni retard.
+
+La latence normalisee ne doit pas etre confondue avec la duree d'un appel du modele : une prediction sur 20 frames prend en moyenne 1014.29 ms en inference pure. Avec `--infer-every 5`, un flux de 25 fps demanderait 5 predictions/s, soit au plus 200 ms par appel, et un flux de 30 fps en demanderait 6, soit 166,67 ms par appel. La mesure d'environ 1.01 s par appel reste trop lente, meme avec cet espacement.
+
+Dans `main.py`, acquisition, pretraitement, prediction et affichage sont synchrones dans un seul thread. Pendant `model.predict`, aucune frame n'est lue. L'application ne possede ni file d'attente explicite, ni thread de capture, ni mecanisme explicite de saut de frames. Elle demande seulement `CAP_PROP_BUFFERSIZE=1` a OpenCV sans verifier que le pilote l'accepte. Si ce tampon est respecte, les images arrivees pendant l'inference sont abandonnees ou remplacees par la plus recente ; s'il est ignore, le tampon du pilote peut accumuler des images et produire du retard. `--infer-every 5` espace les predictions, mais ne resout pas le blocage pendant une prediction.
+
+La revendication exacte est donc : demonstration interactive ou quasi temps reel avec echantillonnage/perte possible de frames sur ce CPU, et non traitement exhaustif garanti a 25-30 fps. Une revendication de temps reel plein debit exige une mesure directe de la boucle camera et une optimisation ou une architecture asynchrone validant au plus 40 ms/frame a 25 fps (33,33 ms/frame a 30 fps).
