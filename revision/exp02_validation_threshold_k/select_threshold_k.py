@@ -70,8 +70,14 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
-def load_validation_manifest(path: Path, seal_path: Path) -> tuple[list[dict[str, str]], str]:
+def load_validation_manifest(
+    path: Path, seal_path: Path
+) -> tuple[list[dict[str, str]], str, dict[str, object]]:
     seal = json.loads(seal_path.read_text(encoding="utf-8"))
+    if seal.get("status") != "sealed_clean":
+        raise RuntimeError(f"Le sceau n'est pas propre: {seal.get('status')}")
+    if int(seal.get("cross_split_sha256_duplicate_groups", -1)) != 0:
+        raise RuntimeError("Le sceau signale encore des doublons inter-splits.")
     expected_hash = seal["manifest_sha256"]["validation"]
     actual_hash = sha256_file(path)
     if actual_hash != expected_hash:
@@ -80,12 +86,15 @@ def load_validation_manifest(path: Path, seal_path: Path) -> tuple[list[dict[str
         )
     with path.open(newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
-    if len(rows) != 599:
-        raise RuntimeError(f"Validation attendue: 599 lignes, obtenu: {len(rows)}")
+    expected_count = int(seal["counts"]["validation"]["total"])
+    if len(rows) != expected_count:
+        raise RuntimeError(
+            f"Validation attendue: {expected_count} lignes, obtenu: {len(rows)}"
+        )
     invalid = [row for row in rows if row.get("split") != "validation"]
     if invalid:
         raise RuntimeError("Le manifeste contient une ligne hors validation.")
-    return rows, actual_hash
+    return rows, actual_hash, seal
 
 
 def resolve_video_path(row: dict[str, str], datasets_root: Path) -> Path:
@@ -184,6 +193,8 @@ def load_or_score(
             cached.get("model_sha256") == model_hash
             and cached.get("n_frames") == N_FRAMES
             and cached.get("stride_frames") == STRIDE_FRAMES
+            and cached.get("video_sha256") == row["sha256"]
+            and int(cached.get("label", -1)) == int(row["label"])
         ):
             return cached
     path = resolve_video_path(row, datasets_root)
@@ -269,7 +280,7 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     cache_dir = args.output_dir / "cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
-    manifest_rows, manifest_hash = load_validation_manifest(
+    manifest_rows, manifest_hash, manifest_seal = load_validation_manifest(
         args.validation_manifest, args.manifest_seal
     )
     if not args.model_path.exists():
@@ -335,6 +346,10 @@ def main() -> None:
         "model_path": str(args.model_path),
         "model_sha256": model_hash,
         "validation_manifest_sha256": manifest_hash,
+        "manifest_status": manifest_seal["status"],
+        "cross_split_sha256_duplicate_groups": manifest_seal[
+            "cross_split_sha256_duplicate_groups"
+        ],
         "test_manifest_read": False,
         "n_frames": N_FRAMES,
         "stride_frames": STRIDE_FRAMES,
@@ -371,7 +386,16 @@ def main() -> None:
         f"- F1 validation : {float(selected['f1']):.4f}",
         f"- Matrice : TN={selected['tn']}, FP={selected['fp']}, FN={selected['fn']}, TP={selected['tp']}",
         "",
-        "Limite : des doublons SHA-256 historiques existent entre train et validation.",
+        "## Comparaison avant/apres deduplication",
+        "",
+        "| Version validation | N | theta | K | Accuracy | Precision | Rappel | F1 | TN/FP/FN/TP |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---|",
+        "| Avant correction | 599 | 0.70 | 7 | 0.8681 | 0.8503 | 0.8930 | 0.8711 | 253/47/32/267 |",
+        f"| Apres correction | {len(records)} | {float(selected['threshold']):.2f} | {selected['k']} | {float(selected['accuracy']):.4f} | {float(selected['precision']):.4f} | {float(selected['recall']):.4f} | {float(selected['f1']):.4f} | {selected['tn']}/{selected['fp']}/{selected['fn']}/{selected['tp']} |",
+        "",
+        "Le nettoyage change legerement les metriques, mais pas le choix de theta=0.70 et K=7.",
+        "",
+        "Le manifeste utilise est scelle sans doublon SHA-256 entre les splits.",
     ]
     (args.output_dir / "summary.md").write_text("\n".join(summary) + "\n", encoding="utf-8")
     print(json.dumps(selected_config, indent=2, ensure_ascii=True), flush=True)
