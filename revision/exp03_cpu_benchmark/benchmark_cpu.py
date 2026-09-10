@@ -71,17 +71,26 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
-def load_manifest(path: Path, seal_path: Path) -> tuple[list[dict[str, str]], str]:
+def load_manifest(
+    path: Path, seal_path: Path
+) -> tuple[list[dict[str, str]], str, dict[str, object]]:
     seal = json.loads(seal_path.read_text(encoding="utf-8"))
+    if seal.get("status") != "sealed_clean":
+        raise RuntimeError(f"Le sceau n'est pas propre: {seal.get('status')}")
+    if int(seal.get("cross_split_sha256_duplicate_groups", -1)) != 0:
+        raise RuntimeError("Le sceau signale encore des doublons inter-splits.")
     expected_hash = seal["manifest_sha256"]["validation"]
     actual_hash = sha256_file(path)
     if actual_hash != expected_hash:
         raise RuntimeError("Le manifeste de validation ne correspond pas au sceau.")
     with path.open(newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
-    if len(rows) != 599 or any(row["split"] != "validation" for row in rows):
-        raise RuntimeError("Le benchmark accepte uniquement les 599 lignes de validation.")
-    return rows, actual_hash
+    expected_count = int(seal["counts"]["validation"]["total"])
+    if len(rows) != expected_count or any(row["split"] != "validation" for row in rows):
+        raise RuntimeError(
+            f"Le benchmark attend les {expected_count} lignes de validation scellees."
+        )
+    return rows, actual_hash, seal
 
 
 def resolve_video_path(row: dict[str, str], datasets_root: Path) -> Path:
@@ -192,7 +201,9 @@ def make_figure(summary_rows: list[dict[str, object]], output_path: Path) -> Non
 def main() -> None:
     args = parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    rows, manifest_hash = load_manifest(args.validation_manifest, args.manifest_seal)
+    rows, manifest_hash, manifest_seal = load_manifest(
+        args.validation_manifest, args.manifest_seal
+    )
     selected = select_rows(rows)
     paths = [resolve_video_path(row, args.datasets_root) for row in selected]
     for row, path in zip(selected, paths):
@@ -285,6 +296,10 @@ def main() -> None:
         "model_sha256": model_hash,
         "model_load_seconds": model_load_seconds,
         "validation_manifest_sha256": manifest_hash,
+        "manifest_status": manifest_seal["status"],
+        "cross_split_sha256_duplicate_groups": manifest_seal[
+            "cross_split_sha256_duplicate_groups"
+        ],
         "test_manifest_read": False,
         "n_frames": N_FRAMES,
         "batch_size": 1,
@@ -310,6 +325,24 @@ def main() -> None:
         for row in summary_rows
         if row["protocol"] == "end_to_end" and row["scope"] == "pooled"
     )
+    pure_repeats = [
+        row
+        for row in summary_rows
+        if row["protocol"] == "pure_inference" and row["scope"].startswith("repeat_")
+    ]
+    end_to_end_repeats = [
+        row
+        for row in summary_rows
+        if row["protocol"] == "end_to_end" and row["scope"].startswith("repeat_")
+    ]
+    old_pure = 28.87
+    old_end_to_end = 47.33
+    pure_repeat_means = ", ".join(
+        f"{float(row['mean_ms_per_frame']):.2f}" for row in pure_repeats
+    )
+    end_to_end_repeat_means = ", ".join(
+        f"{float(row['mean_ms_per_frame']):.2f}" for row in end_to_end_repeats
+    )
     summary = [
         "# Benchmark CPU SIRCH original",
         "",
@@ -322,6 +355,21 @@ def main() -> None:
         "",
         "Le chargement du modele et les controles SHA-256 sont exclus des latences.",
         "Le jeu de test principal n'a pas ete lu.",
+        "",
+        "## Ecart avec les chiffres publies auparavant",
+        "",
+        "| Mesure | Ancien protocole | Nouveau protocole | Ecart |",
+        "|---|---:|---:|---:|",
+        f"| Inference pure | {old_pure:.2f} | {pure['mean_ms_per_frame']:.2f} | +{pure['mean_ms_per_frame'] - old_pure:.2f} ms/frame ({(pure['mean_ms_per_frame'] / old_pure - 1) * 100:.1f} %) |",
+        f"| Bout en bout | {old_end_to_end:.2f} | {end_to_end['mean_ms_per_frame']:.2f} | +{end_to_end['mean_ms_per_frame'] - old_end_to_end:.2f} ms/frame ({(end_to_end['mean_ms_per_frame'] / old_end_to_end - 1) * 100:.1f} %) |",
+        "",
+        "L'ancien benchmark (`phase3_results/model_complexity.txt`) utilisait seulement 5 videos RLVS non violentes, soit 5 mesures de sequence et 100 frames au total, en un seul passage. Le nouveau benchmark utilise 100 videos de validation equilibrees (50 violentes et 50 non violentes, RLVS et RWF-2000), trois passages et 300 mesures.",
+        "",
+        "Le warm-up n'explique pas l'ecart : il etait deja exclu de l'ancienne mesure et les 10 warm-ups du nouveau protocole sont egalement exclus. Le nombre de 300 mesures ne ralentit pas mathematiquement une prediction ; il expose mieux la variabilite et la charge soutenue du CPU.",
+        "",
+        f"La variation entre repetitions le confirme : inference pure {pure_repeat_means} ms/frame ; bout en bout {end_to_end_repeat_means} ms/frame. Les passages deviennent ici legerement plus rapides, ce qui est compatible avec la stabilisation des caches TensorFlow, systeme et disque. Le pipeline complet ajoute aussi la variabilite des codecs, de la lecture disque et du redimensionnement sur un corpus plus heterogene.",
+        "",
+        "Les deux chiffres ne sont donc pas directement comparables. L'ancien resultat est une petite mesure ponctuelle favorable ; le nouveau resultat, avec distribution P50/P95/P99 et mesures brutes, est la reference reproductible a retenir.",
     ]
     (args.output_dir / "summary.md").write_text("\n".join(summary) + "\n", encoding="utf-8")
     print(json.dumps({"environment": environment, "summary": summary_rows}, indent=2), flush=True)

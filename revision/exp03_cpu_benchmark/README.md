@@ -42,3 +42,8 @@ C:\SIRCH_ENV\Scripts\python.exe revision\exp03_cpu_benchmark\benchmark_cpu.py
 La latence par frame est la latence d'une sequence divisee par 20, pour rester
 comparable aux rapports precedents. La latence operationnelle d'une prediction
 reste la valeur par sequence.
+
+Le resume compare aussi ce protocole a l'ancienne mesure sur seulement 5 videos
+RLVS non violentes. Les warm-ups sont exclus dans les deux cas ; la nouvelle
+reference est plus robuste car elle couvre 100 videos equilibrees, trois passages
+et publie les mesures brutes ainsi que les percentiles.
