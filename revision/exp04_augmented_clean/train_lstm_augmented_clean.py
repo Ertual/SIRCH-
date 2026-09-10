@@ -139,6 +139,28 @@ def write_status(path: Path, payload: dict[str, object]) -> None:
     temporary.replace(path)
 
 
+def json_metric(value: object) -> object:
+    if hasattr(value, "numpy"):
+        value = value.numpy()
+    array = np.asarray(value)
+    if array.size == 1:
+        return float(array.reshape(-1)[0])
+    return array.tolist()
+
+
+def prepare_hdf5_export(model: Model) -> None:
+    # TensorFlow 2.12 leaves EfficientNet's RGB Rescaling scale as an
+    # EagerTensor, which the legacy HDF5 JSON serializer cannot encode.
+    for layer in model.submodules:
+        if not isinstance(layer, layers.Rescaling):
+            continue
+        for attribute in ("scale", "offset"):
+            value = getattr(layer, attribute)
+            if tf.is_tensor(value):
+                array = value.numpy()
+                setattr(layer, attribute, float(array) if array.ndim == 0 else array.tolist())
+
+
 class StatusCallback(tf.keras.callbacks.Callback):
     def __init__(self, path: Path, base: dict[str, object]) -> None:
         super().__init__()
@@ -158,7 +180,7 @@ class StatusCallback(tf.keras.callbacks.Callback):
                 **self.base,
                 "status": "training",
                 "last_completed_epoch": epoch + 1,
-                "metrics": {key: float(value) for key, value in (logs or {}).items()},
+                "metrics": {key: json_metric(value) for key, value in (logs or {}).items()},
                 "updated_utc": datetime.now(timezone.utc).isoformat(),
             },
         )
@@ -184,6 +206,8 @@ def main() -> None:
     checkpoints = output_root / "checkpoints"
     checkpoints.mkdir(parents=True, exist_ok=True)
     model_path = output_root / "sirch_model_lstm_augmented_clean.h5"
+    best_weights_path = output_root / "best_lstm_augmented_clean.weights.h5"
+    best_state_path = output_root / "best_state.json"
     log_path = output_root / "training_log_lstm_augmented_clean.csv"
     status_path = output_root / "training_status.json"
 
@@ -236,6 +260,10 @@ def main() -> None:
             if row.get("val_loss"):
                 value = float(row["val_loss"])
                 best_val_loss = value if best_val_loss is None else min(best_val_loss, value)
+    if best_state_path.exists():
+        recovered_best = json.loads(best_state_path.read_text(encoding="utf-8"))
+        value = float(recovered_best["val_loss"])
+        best_val_loss = value if best_val_loss is None else min(best_val_loss, value)
 
     base_status = {
         "experiment": "lstm_augmented_clean",
@@ -249,6 +277,7 @@ def main() -> None:
         "epochs_max": EPOCHS,
         "initial_epoch": initial_epoch,
         "model_path": str(model_path),
+        "best_weights_path": str(best_weights_path),
         "training_log": str(log_path),
         "checkpoint_dir": str(checkpoints),
         "augmented_train_manifest_sha256": anti_leak["augmented_train_manifest_sha256"],
@@ -282,16 +311,16 @@ def main() -> None:
         tf.keras.callbacks.ModelCheckpoint(
             str(checkpoint_pattern), save_best_only=False, save_weights_only=True, verbose=1
         ),
+        tf.keras.callbacks.CSVLogger(str(log_path), append=True),
         tf.keras.callbacks.ModelCheckpoint(
-            str(model_path),
+            str(best_weights_path),
             monitor="val_loss",
             mode="min",
             save_best_only=True,
-            save_weights_only=False,
+            save_weights_only=True,
             initial_value_threshold=best_val_loss,
             verbose=1,
         ),
-        tf.keras.callbacks.CSVLogger(str(log_path), append=True),
         tf.keras.callbacks.EarlyStopping(
             monitor="val_loss", patience=6, restore_best_weights=True, verbose=1
         ),
@@ -313,8 +342,10 @@ def main() -> None:
                 use_multiprocessing=False,
                 verbose=1,
             )
-        if not model_path.exists():
-            model.save(model_path)
+        if best_weights_path.exists():
+            model.load_weights(best_weights_path)
+        prepare_hdf5_export(model)
+        model.save(model_path, include_optimizer=False)
         write_status(
             status_path,
             {**base_status, "status": "complete", "completed_utc": datetime.now(timezone.utc).isoformat()},

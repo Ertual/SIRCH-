@@ -34,6 +34,10 @@ train, validation, test principal et hard-negative v2. Les anciens dossiers
 - EarlyStopping sur `val_loss`, patience 6, `restore_best_weights=True`.
 - ReduceLROnPlateau, facteur 0,5, patience 3, minimum 1e-6.
 - Checkpoint de poids apres chaque epoch et CSV appendable pour la reprise.
+- Les meilleurs poids sont conserves separement. Le modele HDF5 final est
+  exporte sans etat d'optimiseur. Le tenseur RGB interne de Rescaling est
+  converti en liste numerique equivalente pour contourner un defaut de
+  serialisation HDF5 de TensorFlow 2.12, sans changer le calcul du modele.
 - CPU seul, 8 threads TensorFlow demandes.
 
 ## Commandes
