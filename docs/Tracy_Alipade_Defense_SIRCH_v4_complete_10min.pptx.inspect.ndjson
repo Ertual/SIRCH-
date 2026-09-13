@@ -1,0 +1,531 @@
+{"kind":"deck","id":"pr/pqp7x8","name":"Deck"}
+{"kind":"layout","layoutId":"de318b5c-891f-4aeb-9924-682e617b1452","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7f54000f-08f2-4a45-9880-51a344b8d202","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/nny8xv","slide":1,"title":"SIRCH","textShapes":6}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":1,"text":"SIRCH","textPreview":"SIRCH","textChars":5,"textLines":1,"bbox":[0,150,1280,70]}
+{"kind":"textbox","id":"sh/0z61032l","slide":1,"text":"Système Intelligent de Reconnaissance de Comportements Humains","textPreview":"Système Intelligent de Reconnaissance de Comportements Humains","textChars":62,"textLines":1,"bbox":[0,235,1280,34]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":1,"bbox":[430,300,420,5]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":1,"text":"Application à la détection de violence en temps réel","textPreview":"Application à la détection de violence en temps réel","textChars":52,"textLines":1,"bbox":[250,346,780,60]}
+{"kind":"shape","id":"sh/72x4nap4","slide":1,"bbox":[300,510,680,96]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":1,"text":"Alipade Benzanza Tracy\nUniversité Nouveaux Horizons, Faculté des Sciences Informatiques\nDirecteur : Prof. Antoine Bagula    Codirecteur : Assistant Landry Mbale\nAnnée académique 2025 à 2026","textPreview":"Alipade Benzanza Tracy | Université Nouveaux Horizons, Faculté des Sciences Informatiques | Directeur : Prof. Antoine Bagula    Codirecte...","textChars":189,"textLines":4,"bbox":[328,526,624,68]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":1,"text":"Titre","textPreview":"Titre","textChars":5,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":1,"text":"1 / 13","textPreview":"1 / 13","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"notes","id":"nt/nny8xv","slide":1,"text":""}
+{"kind":"slide","id":"sl/wisa09","slide":2,"title":"Plan de la présentation","textShapes":22}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":2,"text":"Plan de la présentation","textPreview":"Plan de la présentation","textChars":23,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/g7adsji5","slide":2,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":2,"text":"Une progression courte : du problème scientifique à la validation du système.","textPreview":"Une progression courte : du problème scientifique à la validation du système.","textChars":77,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/yd0z6103","slide":2,"bbox":[90,185,470,86]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":2,"bbox":[108,207,42,42]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[108,215,42,28]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":2,"text":"Contexte et problème","textPreview":"Contexte et problème","textChars":20,"textLines":1,"bbox":[168,205,360,24]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":2,"text":"Pourquoi automatiser la surveillance vidéo ?","textPreview":"Pourquoi automatiser la surveillance vidéo ?","textChars":44,"textLines":1,"bbox":[168,235,365,24]}
+{"kind":"shape","id":"sh/r65wjudg","slide":2,"bbox":[660,185,470,86]}
+{"kind":"shape","id":"sh/vahoza1g","slide":2,"bbox":[678,207,42,42]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[678,215,42,28]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":2,"text":"Objectifs et hypothèse","textPreview":"Objectifs et hypothèse","textChars":22,"textLines":1,"bbox":[738,205,360,24]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":2,"text":"Ce que SIRCH cherche à démontrer.","textPreview":"Ce que SIRCH cherche à démontrer.","textChars":33,"textLines":1,"bbox":[738,235,365,24]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":2,"bbox":[90,315,470,86]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":2,"bbox":[108,337,42,42]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[108,345,42,28]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":2,"text":"Méthode et outils","textPreview":"Méthode et outils","textChars":17,"textLines":1,"bbox":[168,335,360,24]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":2,"text":"Données, modèle, pipeline et technologies.","textPreview":"Données, modèle, pipeline et technologies.","textChars":42,"textLines":1,"bbox":[168,365,365,24]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":2,"bbox":[660,315,470,86]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":2,"bbox":[678,337,42,42]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":2,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[678,345,42,28]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":2,"text":"Implémentation","textPreview":"Implémentation","textChars":14,"textLines":1,"bbox":[738,335,360,24]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":2,"text":"Comment les sept modules fonctionnent ensemble.","textPreview":"Comment les sept modules fonctionnent ensemble.","textChars":47,"textLines":1,"bbox":[738,365,365,24]}
+{"kind":"shape","id":"sh/at47y1kr","slide":2,"bbox":[90,445,470,86]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":2,"bbox":[108,467,42,42]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":2,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[108,475,42,28]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":2,"text":"Résultats et discussion","textPreview":"Résultats et discussion","textChars":23,"textLines":1,"bbox":[168,465,360,24]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":2,"text":"Ce que les métriques disent vraiment sur SIRCH.","textPreview":"Ce que les métriques disent vraiment sur SIRCH.","textChars":47,"textLines":1,"bbox":[168,495,365,24]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":2,"bbox":[660,445,470,86]}
+{"kind":"shape","id":"sh/tovahoza","slide":2,"bbox":[678,467,42,42]}
+{"kind":"textbox","id":"sh/032lszqt","slide":2,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[678,475,42,28]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":2,"text":"Limites et perspectives","textPreview":"Limites et perspectives","textChars":23,"textLines":1,"bbox":[738,465,360,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":2,"text":"Ce que le système maîtrise et ce qui reste à améliorer.","textPreview":"Ce que le système maîtrise et ce qui reste à améliorer.","textChars":55,"textLines":1,"bbox":[738,495,365,24]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":2,"text":"Plan","textPreview":"Plan","textChars":4,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":2,"text":"2 / 15","textPreview":"2 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"notes","id":"nt/wisa09","slide":2,"text":""}
+{"kind":"slide","id":"sl/xny0th","slide":3,"title":"La surveillance vidéo produit trop d’images pour l’œil humain","textShapes":11}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":3,"text":"La surveillance vidéo produit trop d’images pour l’œil humain","textPreview":"La surveillance vidéo produit trop d’images pour l’œil humain","textChars":61,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/4r65wjud","slide":3,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":3,"text":"Le besoin n’est pas seulement de classifier une vidéo, mais d’aider une réaction rapide.","textPreview":"Le besoin n’est pas seulement de classifier une vidéo, mais d’aider une réaction rapide.","textChars":88,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/fepkzupw","slide":3,"bbox":[535,175,280,170]}
+{"kind":"shape","id":"sh/4zidonyd","slide":3,"bbox":[535,175,7,170]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":3,"text":"Contexte","textPreview":"Contexte","textChars":8,"textLines":1,"bbox":[559,199,240,24]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":3,"text":"Les caméras se multiplient, mais l’attention humaine reste limitée et se fatigue vite.","textPreview":"Les caméras se multiplient, mais l’attention humaine reste limitée et se fatigue vite.","textChars":86,"textLines":1,"bbox":[559,239,236,90]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":3,"bbox":[840,175,300,170]}
+{"kind":"shape","id":"sh/fepkzupw","slide":3,"bbox":[840,175,7,170]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":3,"text":"Problème","textPreview":"Problème","textChars":8,"textLines":1,"bbox":[864,199,260,24]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":3,"text":"Les approches existantes confondent souvent violence et activité physique intense.","textPreview":"Les approches existantes confondent souvent violence et activité physique intense.","textChars":82,"textLines":1,"bbox":[864,239,256,90]}
+{"kind":"shape","id":"sh/4zidonyd","slide":3,"bbox":[535,375,605,130]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":3,"bbox":[535,375,7,130]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":3,"text":"Question de recherche","textPreview":"Question de recherche","textChars":21,"textLines":1,"bbox":[559,399,565,24]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":3,"text":"Comment reconnaître automatiquement des comportements violents en temps réel, avec de meilleures performances que les approches actuelles, tout en restant déployable sur un ordinateur ordinaire ?","textPreview":"Comment reconnaître automatiquement des comportements violents en temps réel, avec de meilleures performances que les approches actuelles...","textChars":195,"textLines":1,"bbox":[559,439,561,50]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":3,"text":"Ce que SIRCH cherche à combler : un système complet, local, mesuré sur des données variées et testé aussi sur des scènes sportives ou dansées.","textPreview":"Ce que SIRCH cherche à combler : un système complet, local, mesuré sur des données variées et testé aussi sur des scènes sportives ou dan...","textChars":142,"textLines":1,"bbox":[135,560,1010,44]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":3,"text":"Contexte et problématique","textPreview":"Contexte et problématique","textChars":25,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":3,"text":"3 / 15","textPreview":"3 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/r65wjudg","slide":3,"name":"","alt":"Salle de surveillance","bbox":[70,175,420,260]}
+{"kind":"notes","id":"nt/xny0th","slide":3,"text":""}
+{"kind":"slide","id":"sl/vbuq78","slide":4,"title":"SIRCH vise un système complet, pas seulement un bon modèle","textShapes":19}
+{"kind":"textbox","id":"sh/loj2t83i","slide":4,"text":"SIRCH vise un système complet, pas seulement un bon modèle","textPreview":"SIRCH vise un système complet, pas seulement un bon modèle","textChars":58,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":4,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":4,"text":"Les objectifs couvrent la littérature, le modèle, l’évaluation et le déploiement.","textPreview":"Les objectifs couvrent la littérature, le modèle, l’évaluation et le déploiement.","textChars":81,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":4,"bbox":[70,175,520,128]}
+{"kind":"shape","id":"sh/lwval87e","slide":4,"bbox":[70,175,7,128]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":4,"text":"Objectif général","textPreview":"Objectif général","textChars":16,"textLines":1,"bbox":[94,199,480,24]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":4,"text":"Concevoir et évaluer un système intelligent capable de détecter automatiquement la violence dans une vidéo, en temps réel, sur matériel ordinaire.","textPreview":"Concevoir et évaluer un système intelligent capable de détecter automatiquement la violence dans une vidéo, en temps réel, sur matériel o...","textChars":146,"textLines":1,"bbox":[94,239,476,48]}
+{"kind":"shape","id":"sh/sneloj2t","slide":4,"bbox":[650,175,520,128]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":4,"bbox":[650,175,7,128]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":4,"text":"Hypothèse de travail","textPreview":"Hypothèse de travail","textChars":20,"textLines":1,"bbox":[674,199,480,24]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":4,"text":"Une architecture EfficientNetB0 + LSTM entraînée sur RLVS + RWF-2000 peut reconnaître la violence avec un bon compromis entre performance, rapidité et déployabilité.","textPreview":"Une architecture EfficientNetB0 + LSTM entraînée sur RLVS + RWF-2000 peut reconnaître la violence avec un bon compromis entre performance...","textChars":165,"textLines":1,"bbox":[674,239,476,48]}
+{"kind":"shape","id":"sh/neloj2t8","slide":4,"bbox":[86,380,178,108]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":4,"text":"O1","textPreview":"O1","textChars":2,"textLines":1,"bbox":[86,398,178,26]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":4,"text":"Analyser les travaux existants","textPreview":"Analyser les travaux existants","textChars":30,"textLines":1,"bbox":[102,430,146,48]}
+{"kind":"shape","id":"sh/cbulwval","slide":4,"bbox":[269,431,36,5]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":4,"bbox":[311,380,178,108]}
+{"kind":"textbox","id":"sh/u54zidon","slide":4,"text":"O2","textPreview":"O2","textChars":2,"textLines":1,"bbox":[311,398,178,26]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":4,"text":"Choisir et justifier l’architecture","textPreview":"Choisir et justifier l’architecture","textChars":35,"textLines":1,"bbox":[327,430,146,48]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":4,"bbox":[494,431,36,5]}
+{"kind":"shape","id":"sh/cj6tovah","slide":4,"bbox":[536,380,178,108]}
+{"kind":"textbox","id":"sh/54zidony","slide":4,"text":"O3","textPreview":"O3","textChars":2,"textLines":1,"bbox":[536,398,178,26]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":4,"text":"Entraîner et évaluer le modèle","textPreview":"Entraîner et évaluer le modèle","textChars":30,"textLines":1,"bbox":[552,430,146,48]}
+{"kind":"shape","id":"sh/nyd0z610","slide":4,"bbox":[719,431,36,5]}
+{"kind":"shape","id":"sh/cvixczed","slide":4,"bbox":[761,380,178,108]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":4,"text":"O4","textPreview":"O4","textChars":2,"textLines":1,"bbox":[761,398,178,26]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":4,"text":"Intégrer capture, décision, alertes et dashboard","textPreview":"Intégrer capture, décision, alertes et dashboard","textChars":48,"textLines":1,"bbox":[777,430,146,48]}
+{"kind":"shape","id":"sh/nap4r65w","slide":4,"bbox":[944,431,36,5]}
+{"kind":"shape","id":"sh/c7u54zid","slide":4,"bbox":[986,380,178,108]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":4,"text":"O5","textPreview":"O5","textChars":2,"textLines":1,"bbox":[986,398,178,26]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":4,"text":"Tester les limites : sport, danse et généralisation","textPreview":"Tester les limites : sport, danse et généralisation","textChars":51,"textLines":1,"bbox":[1002,430,146,48]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":4,"text":"Lecture attendue par le jury : le travail n’évalue pas seulement un score, il vérifie si la solution peut devenir un outil utilisable.","textPreview":"Lecture attendue par le jury : le travail n’évalue pas seulement un score, il vérifie si la solution peut devenir un outil utilisable.","textChars":134,"textLines":1,"bbox":[140,560,1000,42]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":4,"text":"Objectifs et hypothèse","textPreview":"Objectifs et hypothèse","textChars":22,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":4,"text":"4 / 15","textPreview":"4 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"notes","id":"nt/vbuq78","slide":4,"text":""}
+{"kind":"slide","id":"sl/kvi3t1","slide":5,"title":"La littérature progresse, mais laisse trois angles morts","textShapes":19}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":5,"text":"La littérature progresse, mais laisse trois angles morts","textPreview":"La littérature progresse, mais laisse trois angles morts","textChars":56,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/fyxobm58","slide":5,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":5,"text":"SIRCH part des approches existantes et ajoute l’évaluation des biais et le déploiement.","textPreview":"SIRCH part des approches existantes et ajoute l’évaluation des biais et le déploiement.","textChars":87,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/xczed8v6","slide":5,"bbox":[70,175,260,64]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":5,"text":"Approche","textPreview":"Approche","textChars":8,"textLines":1,"bbox":[78,185,244,48]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":5,"bbox":[330,175,260,64]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":5,"text":"Force","textPreview":"Force","textChars":5,"textLines":1,"bbox":[338,185,244,48]}
+{"kind":"shape","id":"sh/1gvy90je","slide":5,"bbox":[590,175,320,64]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":5,"text":"Limite","textPreview":"Limite","textChars":6,"textLines":1,"bbox":[598,185,304,48]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":5,"bbox":[70,239,260,64]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":5,"text":"Optical flow classique","textPreview":"Optical flow classique","textChars":22,"textLines":1,"bbox":[78,249,244,48]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":5,"bbox":[330,239,260,64]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":5,"text":"Rapide","textPreview":"Rapide","textChars":6,"textLines":1,"bbox":[338,249,244,48]}
+{"kind":"shape","id":"sh/al87ed8b","slide":5,"bbox":[590,239,320,64]}
+{"kind":"textbox","id":"sh/z61032ls","slide":5,"text":"Peu précis sur scènes complexes","textPreview":"Peu précis sur scènes complexes","textChars":31,"textLines":1,"bbox":[598,249,304,48]}
+{"kind":"shape","id":"sh/orytsvu9","slide":5,"bbox":[70,303,260,64]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":5,"text":"CNN 3D","textPreview":"CNN 3D","textChars":6,"textLines":1,"bbox":[78,313,244,48]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":5,"bbox":[330,303,260,64]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":5,"text":"Très précis","textPreview":"Très précis","textChars":11,"textLines":1,"bbox":[338,313,244,48]}
+{"kind":"shape","id":"sh/nih4byhg","slide":5,"bbox":[590,303,320,64]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":5,"text":"Trop lourd pour un PC ordinaire","textPreview":"Trop lourd pour un PC ordinaire","textChars":31,"textLines":1,"bbox":[598,313,304,48]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":5,"bbox":[70,367,260,64]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":5,"text":"CNN + LSTM","textPreview":"CNN + LSTM","textChars":10,"textLines":1,"bbox":[78,377,244,48]}
+{"kind":"shape","id":"sh/r65wjudg","slide":5,"bbox":[330,367,260,64]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":5,"text":"Léger et temporel","textPreview":"Léger et temporel","textChars":17,"textLines":1,"bbox":[338,377,244,48]}
+{"kind":"shape","id":"sh/9cvixcze","slide":5,"bbox":[590,367,320,64]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":5,"text":"Souvent évalué sur un seul dataset","textPreview":"Souvent évalué sur un seul dataset","textChars":34,"textLines":1,"bbox":[598,377,304,48]}
+{"kind":"shape","id":"sh/yd0z6103","slide":5,"bbox":[890,430,300,102]}
+{"kind":"textbox","id":"sh/svu9knih","slide":5,"text":"Apport de SIRCH","textPreview":"Apport de SIRCH","textChars":15,"textLines":1,"bbox":[914,450,250,22]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":5,"text":"Combiner deux datasets, analyser les faux positifs sport/danse et livrer une chaîne complète avec alertes et tableau de bord.","textPreview":"Combiner deux datasets, analyser les faux positifs sport/danse et livrer une chaîne complète avec alertes et tableau de bord.","textChars":125,"textLines":1,"bbox":[914,480,248,42]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":5,"text":"Interprétation : le modèle n’est pas jugé uniquement sur sa précision, mais aussi sur son comportement hors laboratoire.","textPreview":"Interprétation : le modèle n’est pas jugé uniquement sur sa précision, mais aussi sur son comportement hors laboratoire.","textChars":120,"textLines":1,"bbox":[135,575,1010,38]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":5,"text":"Revue de la littérature","textPreview":"Revue de la littérature","textChars":23,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":5,"text":"5 / 15","textPreview":"5 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/87ed8bat","slide":5,"name":"","alt":"Réseau de neurones","bbox":[945,210,210,180]}
+{"kind":"notes","id":"nt/kvi3t1","slide":5,"text":""}
+{"kind":"slide","id":"sl/8cpa8n","slide":6,"title":"La méthode suit une chaîne scientifique reproductible","textShapes":22}
+{"kind":"textbox","id":"sh/adsji5sn","slide":6,"text":"La méthode suit une chaîne scientifique reproductible","textPreview":"La méthode suit une chaîne scientifique reproductible","textChars":53,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":6,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/sji5snel","slide":6,"text":"Chaque étape répond à une question : quoi apprendre, comment décider, puis comment vérifier.","textPreview":"Chaque étape répond à une question : quoi apprendre, comment décider, puis comment vérifier.","textChars":92,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/3m94fu18","slide":6,"bbox":[80,225,150,118]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":6,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[80,246,150,30]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":6,"text":"Analyse du problème","textPreview":"Analyse du problème","textChars":19,"textLines":1,"bbox":[94,288,122,36]}
+{"kind":"shape","id":"sh/s72x4nap","slide":6,"bbox":[234,281,36,5]}
+{"kind":"shape","id":"sh/zidonyd0","slide":6,"bbox":[270,225,150,118]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":6,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[270,246,150,30]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":6,"text":"Corpus RLVS + RWF-2000","textPreview":"Corpus RLVS + RWF-2000","textChars":22,"textLines":1,"bbox":[284,288,122,36]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":6,"bbox":[424,281,36,5]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":6,"bbox":[460,225,150,118]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":6,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[460,246,150,30]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":6,"text":"Prétraitement N = 20 frames","textPreview":"Prétraitement N = 20 frames","textChars":27,"textLines":1,"bbox":[474,288,122,36]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":6,"bbox":[614,281,36,5]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":6,"bbox":[650,225,150,118]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":6,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[650,246,150,30]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":6,"text":"EfficientNetB0 + LSTM","textPreview":"EfficientNetB0 + LSTM","textChars":21,"textLines":1,"bbox":[664,288,122,36]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":6,"bbox":[804,281,36,5]}
+{"kind":"shape","id":"sh/58z25kb6","slide":6,"bbox":[840,225,150,118]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":6,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[840,246,150,30]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":6,"text":"Évaluation test + scénarios","textPreview":"Évaluation test + scénarios","textChars":27,"textLines":1,"bbox":[854,288,122,36]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":6,"bbox":[994,281,36,5]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":6,"bbox":[1030,225,150,118]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1030,246,150,30]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":6,"text":"Déploiement local","textPreview":"Déploiement local","textChars":17,"textLines":1,"bbox":[1044,288,122,36]}
+{"kind":"shape","id":"sh/y90je9cv","slide":6,"bbox":[110,420,330,116]}
+{"kind":"shape","id":"sh/5sneloj2","slide":6,"bbox":[110,420,7,116]}
+{"kind":"textbox","id":"sh/cbulwval","slide":6,"text":"Décision","textPreview":"Décision","textChars":8,"textLines":1,"bbox":[134,444,290,24]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":6,"text":"Le modèle produit un score par séquence. SIRCH moyenne les K = 5 derniers scores et déclenche une alerte si la moyenne dépasse θ = 0,50.","textPreview":"Le modèle produit un score par séquence. SIRCH moyenne les K = 5 derniers scores et déclenche une alerte si la moyenne dépasse θ = 0,50.","textChars":136,"textLines":1,"bbox":[134,484,286,36]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":6,"bbox":[475,420,330,116]}
+{"kind":"shape","id":"sh/87ed8bat","slide":6,"bbox":[475,420,7,116]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":6,"text":"Validation","textPreview":"Validation","textChars":10,"textLines":1,"bbox":[499,444,290,24]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":6,"text":"Les résultats sont analysés par métriques, matrices de confusion, ROC-AUC, PR-AUC, McNemar, ablation et cross-dataset.","textPreview":"Les résultats sont analysés par métriques, matrices de confusion, ROC-AUC, PR-AUC, McNemar, ablation et cross-dataset.","textChars":118,"textLines":1,"bbox":[499,484,286,36]}
+{"kind":"shape","id":"sh/je9cvixc","slide":6,"bbox":[840,420,330,116]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":6,"bbox":[840,420,7,116]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":6,"text":"Déploiement","textPreview":"Déploiement","textChars":11,"textLines":1,"bbox":[864,444,290,24]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":6,"text":"La solution tourne localement : webcam ou vidéo, base SQLite, email, Telegram optionnel et dashboard Flask.","textPreview":"La solution tourne localement : webcam ou vidéo, base SQLite, email, Telegram optionnel et dashboard Flask.","textChars":107,"textLines":1,"bbox":[864,484,286,36]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":6,"text":"Méthodologie","textPreview":"Méthodologie","textChars":12,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/z61032ls","slide":6,"text":"6 / 15","textPreview":"6 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"notes","id":"nt/8cpa8n","slide":6,"text":""}
+{"kind":"slide","id":"sl/yd7b9m","slide":7,"title":"Le corpus combine deux mondes visuels","textShapes":35}
+{"kind":"textbox","id":"sh/4r65wjud","slide":7,"text":"Le corpus combine deux mondes visuels","textPreview":"Le corpus combine deux mondes visuels","textChars":37,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":7,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":7,"text":"RLVS est plus contrôlé, RWF-2000 se rapproche davantage de la vidéosurveillance réelle.","textPreview":"RLVS est plus contrôlé, RWF-2000 se rapproche davantage de la vidéosurveillance réelle.","textChars":87,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":7,"bbox":[70,170,170,54]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":7,"text":"Dataset","textPreview":"Dataset","textChars":7,"textLines":1,"bbox":[78,180,154,38]}
+{"kind":"shape","id":"sh/fepkzupw","slide":7,"bbox":[240,170,140,54]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":7,"text":"Violence","textPreview":"Violence","textChars":8,"textLines":1,"bbox":[248,180,124,38]}
+{"kind":"shape","id":"sh/xobm58z2","slide":7,"bbox":[380,170,150,54]}
+{"kind":"textbox","id":"sh/83itgfml","slide":7,"text":"Non-violence","textPreview":"Non-violence","textChars":12,"textLines":1,"bbox":[388,180,134,38]}
+{"kind":"shape","id":"sh/y90je9cv","slide":7,"bbox":[530,170,150,54]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":7,"text":"Total","textPreview":"Total","textChars":5,"textLines":1,"bbox":[538,180,134,38]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":7,"bbox":[680,170,160,54]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":7,"text":"Style","textPreview":"Style","textChars":5,"textLines":1,"bbox":[688,180,144,38]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":7,"bbox":[70,224,170,54]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":7,"text":"RLVS","textPreview":"RLVS","textChars":4,"textLines":1,"bbox":[78,234,154,38]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":7,"bbox":[240,224,140,54]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":7,"text":"1 000","textPreview":"1 000","textChars":5,"textLines":1,"bbox":[248,234,124,38]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":7,"bbox":[380,224,150,54]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":7,"text":"1 000","textPreview":"1 000","textChars":5,"textLines":1,"bbox":[388,234,134,38]}
+{"kind":"shape","id":"sh/fepkzupw","slide":7,"bbox":[530,224,150,54]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":7,"text":"2 000","textPreview":"2 000","textChars":5,"textLines":1,"bbox":[538,234,134,38]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":7,"bbox":[680,224,160,54]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":7,"text":"Contrôlé","textPreview":"Contrôlé","textChars":8,"textLines":1,"bbox":[688,234,144,38]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":7,"bbox":[70,278,170,54]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":7,"text":"RWF-2000","textPreview":"RWF-2000","textChars":8,"textLines":1,"bbox":[78,288,154,38]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":7,"bbox":[240,278,140,54]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":7,"text":"991","textPreview":"991","textChars":3,"textLines":1,"bbox":[248,288,124,38]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":7,"bbox":[380,278,150,54]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":7,"text":"1 000","textPreview":"1 000","textChars":5,"textLines":1,"bbox":[388,288,134,38]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":7,"bbox":[530,278,150,54]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":7,"text":"1 991","textPreview":"1 991","textChars":5,"textLines":1,"bbox":[538,288,134,38]}
+{"kind":"shape","id":"sh/i5sneloj","slide":7,"bbox":[680,278,160,54]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":7,"text":"CCTV réel","textPreview":"CCTV réel","textChars":9,"textLines":1,"bbox":[688,288,144,38]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":7,"bbox":[70,332,170,54]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":7,"text":"Total","textPreview":"Total","textChars":5,"textLines":1,"bbox":[78,342,154,38]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":7,"bbox":[240,332,140,54]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":7,"text":"1 991","textPreview":"1 991","textChars":5,"textLines":1,"bbox":[248,342,124,38]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":7,"bbox":[380,332,150,54]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":7,"text":"2 000","textPreview":"2 000","textChars":5,"textLines":1,"bbox":[388,342,134,38]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":7,"bbox":[530,332,150,54]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":7,"text":"3 991","textPreview":"3 991","textChars":5,"textLines":1,"bbox":[538,342,134,38]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":7,"bbox":[680,332,160,54]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":7,"text":"Équilibré","textPreview":"Équilibré","textChars":9,"textLines":1,"bbox":[688,342,144,38]}
+{"kind":"shape","id":"sh/sneloj2t","slide":7,"bbox":[100,470,190,108]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":7,"text":"2 793","textPreview":"2 793","textChars":5,"textLines":1,"bbox":[118,490,154,34]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":7,"text":"Entraînement","textPreview":"Entraînement","textChars":12,"textLines":1,"bbox":[118,528,154,20]}
+{"kind":"textbox","id":"sh/lwval87e","slide":7,"text":"vidéos","textPreview":"vidéos","textChars":6,"textLines":1,"bbox":[118,550,154,18]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":7,"bbox":[325,470,190,108]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":7,"text":"599","textPreview":"599","textChars":3,"textLines":1,"bbox":[343,490,154,34]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":7,"text":"Validation","textPreview":"Validation","textChars":10,"textLines":1,"bbox":[343,528,154,20]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":7,"text":"vidéos","textPreview":"vidéos","textChars":6,"textLines":1,"bbox":[343,550,154,18]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":7,"bbox":[550,470,190,108]}
+{"kind":"textbox","id":"sh/61032lsz","slide":7,"text":"599","textPreview":"599","textChars":3,"textLines":1,"bbox":[568,490,154,34]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":7,"text":"Test","textPreview":"Test","textChars":4,"textLines":1,"bbox":[568,528,154,20]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":7,"text":"vidéos","textPreview":"vidéos","textChars":6,"textLines":1,"bbox":[568,550,154,18]}
+{"kind":"shape","id":"sh/dsji5sne","slide":7,"bbox":[800,470,360,108]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":7,"text":"Protocole","textPreview":"Protocole","textChars":9,"textLines":1,"bbox":[825,490,300,24]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":7,"text":"N = 20 frames, K = 5, θ = 0,50. Split stratifié avec seed = 42 pour garder l’équilibre entre violence et non-violence.","textPreview":"N = 20 frames, K = 5, θ = 0,50. Split stratifié avec seed = 42 pour garder l’équilibre entre violence et non-violence.","textChars":118,"textLines":1,"bbox":[825,520,310,42]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":7,"text":"Données et protocole","textPreview":"Données et protocole","textChars":20,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":7,"text":"7 / 15","textPreview":"7 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/qtcj6tov","slide":7,"name":"","alt":"Description du dataset","bbox":[800,158,360,250]}
+{"kind":"notes","id":"nt/yd7b9m","slide":7,"text":""}
+{"kind":"slide","id":"sl/bw2vn9","slide":8,"title":"Les outils ont été choisis pour rester local, léger et reproductible","textShapes":23}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":8,"text":"Les outils ont été choisis pour rester local, léger et reproductible","textPreview":"Les outils ont été choisis pour rester local, léger et reproductible","textChars":68,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/fyxobm58","slide":8,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":8,"text":"Le choix technique sert la contrainte principale : fonctionner sans infrastructure cloud.","textPreview":"Le choix technique sert la contrainte principale : fonctionner sans infrastructure cloud.","textChars":89,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/xczed8v6","slide":8,"bbox":[80,175,520,82]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":8,"text":"Python","textPreview":"Python","textChars":6,"textLines":1,"bbox":[102,191,150,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":8,"text":"Langage principal","textPreview":"Langage principal","textChars":17,"textLines":1,"bbox":[268,190,140,24]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":8,"text":"Écosystème IA et vision très riche","textPreview":"Écosystème IA et vision très riche","textChars":34,"textLines":1,"bbox":[268,218,300,20]}
+{"kind":"shape","id":"sh/1gvy90je","slide":8,"bbox":[680,175,520,82]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":8,"text":"TensorFlow / Keras","textPreview":"TensorFlow / Keras","textChars":18,"textLines":1,"bbox":[702,191,150,24]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":8,"text":"Entraînement du modèle","textPreview":"Entraînement du modèle","textChars":22,"textLines":1,"bbox":[868,190,140,24]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":8,"text":"Construction simple d’EfficientNetB0 + LSTM","textPreview":"Construction simple d’EfficientNetB0 + LSTM","textChars":43,"textLines":1,"bbox":[868,218,300,20]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":8,"bbox":[80,295,520,82]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":8,"text":"OpenCV","textPreview":"OpenCV","textChars":6,"textLines":1,"bbox":[102,311,150,24]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":8,"text":"Lecture vidéo","textPreview":"Lecture vidéo","textChars":13,"textLines":1,"bbox":[268,310,140,24]}
+{"kind":"textbox","id":"sh/z61032ls","slide":8,"text":"Capture webcam, frames et prétraitement","textPreview":"Capture webcam, frames et prétraitement","textChars":39,"textLines":1,"bbox":[268,338,300,20]}
+{"kind":"shape","id":"sh/orytsvu9","slide":8,"bbox":[680,295,520,82]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":8,"text":"SQLite","textPreview":"SQLite","textChars":6,"textLines":1,"bbox":[702,311,150,24]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":8,"text":"Incidents","textPreview":"Incidents","textChars":9,"textLines":1,"bbox":[868,310,140,24]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":8,"text":"Base locale sans serveur","textPreview":"Base locale sans serveur","textChars":24,"textLines":1,"bbox":[868,338,300,20]}
+{"kind":"shape","id":"sh/nih4byhg","slide":8,"bbox":[80,415,520,82]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":8,"text":"Flask","textPreview":"Flask","textChars":5,"textLines":1,"bbox":[102,431,150,24]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":8,"text":"Dashboard","textPreview":"Dashboard","textChars":9,"textLines":1,"bbox":[268,430,140,24]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":8,"text":"Interface Web légère sur localhost","textPreview":"Interface Web légère sur localhost","textChars":34,"textLines":1,"bbox":[268,458,300,20]}
+{"kind":"shape","id":"sh/r65wjudg","slide":8,"bbox":[680,415,520,82]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":8,"text":"SMTP / Telegram","textPreview":"SMTP / Telegram","textChars":15,"textLines":1,"bbox":[702,431,150,24]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":8,"text":"Alertes","textPreview":"Alertes","textChars":7,"textLines":1,"bbox":[868,430,140,24]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":8,"text":"Notifications opérateur, Telegram optionnel","textPreview":"Notifications opérateur, Telegram optionnel","textChars":43,"textLines":1,"bbox":[868,458,300,20]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":8,"text":"Interprétation : l’architecture technique est cohérente avec le contexte local de ressources limitées.","textPreview":"Interprétation : l’architecture technique est cohérente avec le contexte local de ressources limitées.","textChars":102,"textLines":1,"bbox":[150,575,980,34]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":8,"text":"Outils et technologies","textPreview":"Outils et technologies","textChars":22,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/svu9knih","slide":8,"text":"8 / 15","textPreview":"8 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"notes","id":"nt/bw2vn9","slide":8,"text":""}
+{"kind":"slide","id":"sl/mgv6ej","slide":9,"title":"L’implémentation relie sept modules de bout en bout","textShapes":16}
+{"kind":"textbox","id":"sh/ji5snelo","slide":9,"text":"L’implémentation relie sept modules de bout en bout","textPreview":"L’implémentation relie sept modules de bout en bout","textChars":51,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":9,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":9,"text":"Le système va de la caméra à la notification et à l’historique des incidents.","textPreview":"Le système va de la caméra à la notification et à l’historique des incidents.","textChars":77,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/ulwval87","slide":9,"bbox":[64,190,130,58]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":9,"text":"Capture","textPreview":"Capture","textChars":7,"textLines":1,"bbox":[70,210,118,18]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":9,"bbox":[198,218,32,5]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":9,"bbox":[229,190,130,58]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":9,"text":"Prétraitement","textPreview":"Prétraitement","textChars":13,"textLines":1,"bbox":[235,210,118,18]}
+{"kind":"shape","id":"sh/j2t83itg","slide":9,"bbox":[363,218,32,5]}
+{"kind":"shape","id":"sh/byhgn29g","slide":9,"bbox":[394,190,130,58]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":9,"text":"EfficientNetB0","textPreview":"EfficientNetB0","textChars":14,"textLines":1,"bbox":[400,210,118,18]}
+{"kind":"shape","id":"sh/t47y1kre","slide":9,"bbox":[528,218,32,5]}
+{"kind":"shape","id":"sh/0je9cvix","slide":9,"bbox":[559,190,130,58]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":9,"text":"LSTM","textPreview":"LSTM","textChars":4,"textLines":1,"bbox":[565,210,118,18]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":9,"bbox":[693,218,32,5]}
+{"kind":"shape","id":"sh/tcj6tova","slide":9,"bbox":[724,190,130,58]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":9,"text":"Décision K","textPreview":"Décision K","textChars":10,"textLines":1,"bbox":[730,210,118,18]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":9,"bbox":[858,218,32,5]}
+{"kind":"shape","id":"sh/ixczed8v","slide":9,"bbox":[889,190,130,58]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":9,"text":"Alertes","textPreview":"Alertes","textChars":7,"textLines":1,"bbox":[895,210,118,18]}
+{"kind":"shape","id":"sh/z61032ls","slide":9,"bbox":[1023,218,32,5]}
+{"kind":"shape","id":"sh/orytsvu9","slide":9,"bbox":[1054,190,130,58]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":9,"text":"Dashboard","textPreview":"Dashboard","textChars":9,"textLines":1,"bbox":[1060,210,118,18]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":9,"bbox":[675,330,230,150]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":9,"bbox":[675,330,7,150]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":9,"text":"Score vidéo","textPreview":"Score vidéo","textChars":11,"textLines":1,"bbox":[699,354,190,24]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":9,"text":"20 frames deviennent 20 vecteurs. Le LSTM produit une probabilité de violence pour la séquence.","textPreview":"20 frames deviennent 20 vecteurs. Le LSTM produit une probabilité de violence pour la séquence.","textChars":95,"textLines":1,"bbox":[699,394,186,70]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":9,"bbox":[930,330,230,150]}
+{"kind":"shape","id":"sh/psfil0rq","slide":9,"bbox":[930,330,7,150]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":9,"text":"Incident","textPreview":"Incident","textChars":8,"textLines":1,"bbox":[954,354,190,24]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":9,"text":"Si la moyenne des 5 derniers scores dépasse le seuil, SIRCH enregistre une capture et déclenche l’alerte.","textPreview":"Si la moyenne des 5 derniers scores dépasse le seuil, SIRCH enregistre une capture et déclenche l’alerte.","textChars":105,"textLines":1,"bbox":[954,394,186,70]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":9,"text":"Ce point est important pour la soutenance : SIRCH n’est pas un notebook isolé, c’est une application locale exploitable en démonstration.","textPreview":"Ce point est important pour la soutenance : SIRCH n’est pas un notebook isolé, c’est une application locale exploitable en démonstration.","textChars":137,"textLines":1,"bbox":[130,575,1020,38]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":9,"text":"Implémentation","textPreview":"Implémentation","textChars":14,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/wval87ed","slide":9,"text":"9 / 15","textPreview":"9 / 15","textChars":6,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/9w3m94fu","slide":9,"name":"","alt":"Dashboard SIRCH","bbox":[120,330,480,215]}
+{"kind":"notes","id":"nt/mgv6ej","slide":9,"text":""}
+{"kind":"slide","id":"sl/11w4g6","slide":10,"title":"Le modèle original détecte bien la violence, mais génère encore des fausses a...","textShapes":21}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":10,"text":"Le modèle original détecte bien la violence, mais génère encore des fausses alertes","textPreview":"Le modèle original détecte bien la violence, mais génère encore des fausses alertes","textChars":83,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":10,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":10,"text":"Résultats sur le jeu de test principal de 599 vidéos, θ = 0,50.","textPreview":"Résultats sur le jeu de test principal de 599 vidéos, θ = 0,50.","textChars":63,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":10,"bbox":[70,175,170,108]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":10,"text":"86,81 %","textPreview":"86,81 %","textChars":7,"textLines":1,"bbox":[88,195,134,34]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":10,"text":"Accuracy","textPreview":"Accuracy","textChars":8,"textLines":1,"bbox":[88,233,134,20]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":10,"text":"599 vidéos","textPreview":"599 vidéos","textChars":10,"textLines":1,"bbox":[88,255,134,18]}
+{"kind":"shape","id":"sh/je9cvixc","slide":10,"bbox":[260,175,170,108]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":10,"text":"82,74 %","textPreview":"82,74 %","textChars":7,"textLines":1,"bbox":[278,195,134,34]}
+{"kind":"textbox","id":"sh/svu9knih","slide":10,"text":"Précision","textPreview":"Précision","textChars":9,"textLines":1,"bbox":[278,233,134,20]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":10,"text":"fiabilité des alertes","textPreview":"fiabilité des alertes","textChars":21,"textLines":1,"bbox":[278,255,134,18]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":10,"bbox":[450,175,170,108]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":10,"text":"92,98 %","textPreview":"92,98 %","textChars":7,"textLines":1,"bbox":[468,195,134,34]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":10,"text":"Rappel","textPreview":"Rappel","textChars":6,"textLines":1,"bbox":[468,233,134,20]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":10,"text":"violences détectées","textPreview":"violences détectées","textChars":19,"textLines":1,"bbox":[468,255,134,18]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":10,"bbox":[640,175,170,108]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":10,"text":"87,56 %","textPreview":"87,56 %","textChars":7,"textLines":1,"bbox":[658,195,134,34]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":10,"text":"F1-score","textPreview":"F1-score","textChars":8,"textLines":1,"bbox":[658,233,134,20]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":10,"text":"équilibre global","textPreview":"équilibre global","textChars":16,"textLines":1,"bbox":[658,255,134,18]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":10,"bbox":[830,175,170,108]}
+{"kind":"textbox","id":"sh/wval87ed","slide":10,"text":"0,9446","textPreview":"0,9446","textChars":6,"textLines":1,"bbox":[848,195,134,34]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":10,"text":"ROC-AUC","textPreview":"ROC-AUC","textChars":7,"textLines":1,"bbox":[848,233,134,20]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":10,"text":"séparation forte","textPreview":"séparation forte","textChars":16,"textLines":1,"bbox":[848,255,134,18]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":10,"bbox":[610,342,500,190]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":10,"text":"Ce que dit la matrice","textPreview":"Ce que dit la matrice","textChars":21,"textLines":1,"bbox":[638,365,420,26]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":10,"text":"• Le rappel est élevé : SIRCH rate peu de vraies violences.\n• Les 58 faux positifs montrent que certaines scènes non violentes restent confondues avec la violence.\n• Le score global est donc bon, mais il faut regarder la nature des erreurs.","textPreview":"• Le rappel est élevé : SIRCH rate peu de vraies violences. | • Les 58 faux positifs montrent que certaines scènes non violentes restent ...","textChars":240,"textLines":3,"bbox":[638,405,430,88]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":10,"text":"Résultats principaux","textPreview":"Résultats principaux","textChars":20,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":10,"text":"10 / 15","textPreview":"10 / 15","textChars":7,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/6xkf6dcb","slide":10,"name":"","alt":"Matrice de confusion globale","bbox":[100,330,445,250]}
+{"kind":"notes","id":"nt/11w4g6","slide":10,"text":""}
+{"kind":"slide","id":"sl/fc6k31","slide":11,"title":"Les analyses avancées confirment le gain, mais nuancent son usage","textShapes":10}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":11,"text":"Les analyses avancées confirment le gain, mais nuancent son usage","textPreview":"Les analyses avancées confirment le gain, mais nuancent son usage","textChars":65,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":11,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/0z61032l","slide":11,"text":"AUC, McNemar et ablation aident à comprendre la fiabilité réelle de SIRCH.","textPreview":"AUC, McNemar et ablation aident à comprendre la fiabilité réelle de SIRCH.","textChars":74,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":11,"bbox":[80,455,330,110]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":11,"bbox":[80,455,7,110]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":11,"text":"AUC","textPreview":"AUC","textChars":3,"textLines":1,"bbox":[104,479,290,24]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":11,"text":"0,9446 signifie que le modèle classe très souvent une vidéo violente au-dessus d’une vidéo non violente. Ce n’est pas une accuracy, c’est une mesure de séparation.","textPreview":"0,9446 signifie que le modèle classe très souvent une vidéo violente au-dessus d’une vidéo non violente. Ce n’est pas une accuracy, c’est...","textChars":163,"textLines":1,"bbox":[104,519,286,30]}
+{"kind":"shape","id":"sh/xczed8v6","slide":11,"bbox":[475,455,330,110]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":11,"bbox":[475,455,7,110]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":11,"text":"McNemar","textPreview":"McNemar","textChars":7,"textLines":1,"bbox":[499,479,290,24]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":11,"text":"p = 0,000117 : l’écart observé entre original et augmenté n’est pas dû au hasard sur les mêmes vidéos de test.","textPreview":"p = 0,000117 : l’écart observé entre original et augmenté n’est pas dû au hasard sur les mêmes vidéos de test.","textChars":110,"textLines":1,"bbox":[499,519,286,30]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":11,"bbox":[870,455,330,110]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":11,"bbox":[870,455,7,110]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":11,"text":"Ablation","textPreview":"Ablation","textChars":8,"textLines":1,"bbox":[894,479,290,24]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":11,"text":"Le bloc temporel est utile : il réduit les violences manquées. Le GRU devient une perspective prometteuse.","textPreview":"Le bloc temporel est utile : il réduit les violences manquées. Le GRU devient une perspective prometteuse.","textChars":106,"textLines":1,"bbox":[894,519,286,30]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":11,"text":"Résultats et discussion","textPreview":"Résultats et discussion","textChars":23,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/lwval87e","slide":11,"text":"11 / 15","textPreview":"11 / 15","textChars":7,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/udg7adsj","slide":11,"name":"","alt":"Courbes ROC comparées","bbox":[70,165,340,245]}
+{"kind":"image","id":"im/nyd0z610","slide":11,"name":"","alt":"Analyse statistique bootstrap","bbox":[470,165,330,245]}
+{"kind":"image","id":"im/cj6tovah","slide":11,"name":"","alt":"Ablation complète","bbox":[860,165,330,245]}
+{"kind":"notes","id":"nt/fc6k31","slide":11,"text":""}
+{"kind":"slide","id":"sl/mjgwj8","slide":12,"title":"Le cross-dataset montre que la généralisation est le vrai défi","textShapes":31}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":12,"text":"Le cross-dataset montre que la généralisation est le vrai défi","textPreview":"Le cross-dataset montre que la généralisation est le vrai défi","textChars":62,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/4r65wjud","slide":12,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":12,"text":"Quand on entraîne sur une source et qu’on teste sur l’autre, les scores chutent fortement.","textPreview":"Quand on entraîne sur une source et qu’on teste sur l’autre, les scores chutent fortement.","textChars":90,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":12,"bbox":[70,170,210,54]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":12,"text":"Expérience","textPreview":"Expérience","textChars":10,"textLines":1,"bbox":[78,180,194,38]}
+{"kind":"shape","id":"sh/4zidonyd","slide":12,"bbox":[280,170,170,54]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":12,"text":"Test","textPreview":"Test","textChars":4,"textLines":1,"bbox":[288,180,154,38]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":12,"bbox":[450,170,145,54]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":12,"text":"Accuracy","textPreview":"Accuracy","textChars":8,"textLines":1,"bbox":[458,180,129,38]}
+{"kind":"shape","id":"sh/fepkzupw","slide":12,"bbox":[595,170,145,54]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":12,"text":"Précision","textPreview":"Précision","textChars":9,"textLines":1,"bbox":[603,180,129,38]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":12,"bbox":[740,170,145,54]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":12,"text":"Rappel","textPreview":"Rappel","textChars":6,"textLines":1,"bbox":[748,180,129,38]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":12,"bbox":[885,170,145,54]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":12,"text":"F1","textPreview":"F1","textChars":2,"textLines":1,"bbox":[893,180,129,38]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":12,"bbox":[70,224,210,54]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":12,"text":"RLVS seul","textPreview":"RLVS seul","textChars":9,"textLines":1,"bbox":[78,234,194,38]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":12,"bbox":[280,224,170,54]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":12,"text":"RWF-2000","textPreview":"RWF-2000","textChars":8,"textLines":1,"bbox":[288,234,154,38]}
+{"kind":"shape","id":"sh/y90je9cv","slide":12,"bbox":[450,224,145,54]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":12,"text":"54,80 %","textPreview":"54,80 %","textChars":7,"textLines":1,"bbox":[458,234,129,38]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":12,"bbox":[595,224,145,54]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":12,"text":"52,96 %","textPreview":"52,96 %","textChars":7,"textLines":1,"bbox":[603,234,129,38]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":12,"bbox":[740,224,145,54]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":12,"text":"82,04 %","textPreview":"82,04 %","textChars":7,"textLines":1,"bbox":[748,234,129,38]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":12,"bbox":[885,224,145,54]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":12,"text":"64,37 %","textPreview":"64,37 %","textChars":7,"textLines":1,"bbox":[893,234,129,38]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":12,"bbox":[70,278,210,54]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":12,"text":"RWF-2000 seul","textPreview":"RWF-2000 seul","textChars":13,"textLines":1,"bbox":[78,288,194,38]}
+{"kind":"shape","id":"sh/dcbulwva","slide":12,"bbox":[280,278,170,54]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":12,"text":"RLVS","textPreview":"RLVS","textChars":4,"textLines":1,"bbox":[288,288,154,38]}
+{"kind":"shape","id":"sh/val87ed8","slide":12,"bbox":[450,278,145,54]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":12,"text":"74,50 %","textPreview":"74,50 %","textChars":7,"textLines":1,"bbox":[458,288,129,38]}
+{"kind":"shape","id":"sh/donyd0z6","slide":12,"bbox":[595,278,145,54]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":12,"text":"80,10 %","textPreview":"80,10 %","textChars":7,"textLines":1,"bbox":[603,288,129,38]}
+{"kind":"shape","id":"sh/vixczed8","slide":12,"bbox":[740,278,145,54]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":12,"text":"65,20 %","textPreview":"65,20 %","textChars":7,"textLines":1,"bbox":[748,288,129,38]}
+{"kind":"shape","id":"sh/d0z61032","slide":12,"bbox":[885,278,145,54]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":12,"text":"71,89 %","textPreview":"71,89 %","textChars":7,"textLines":1,"bbox":[893,288,129,38]}
+{"kind":"shape","id":"sh/sji5snel","slide":12,"bbox":[70,332,210,54]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":12,"text":"Combiné original","textPreview":"Combiné original","textChars":16,"textLines":1,"bbox":[78,342,194,38]}
+{"kind":"shape","id":"sh/adsji5sn","slide":12,"bbox":[280,332,170,54]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":12,"text":"599 vidéos","textPreview":"599 vidéos","textChars":10,"textLines":1,"bbox":[288,342,154,38]}
+{"kind":"shape","id":"sh/s72x4nap","slide":12,"bbox":[450,332,145,54]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":12,"text":"86,81 %","textPreview":"86,81 %","textChars":7,"textLines":1,"bbox":[458,342,129,38]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":12,"bbox":[595,332,145,54]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":12,"text":"82,74 %","textPreview":"82,74 %","textChars":7,"textLines":1,"bbox":[603,342,129,38]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":12,"bbox":[740,332,145,54]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":12,"text":"92,98 %","textPreview":"92,98 %","textChars":7,"textLines":1,"bbox":[748,342,129,38]}
+{"kind":"shape","id":"sh/r65wjudg","slide":12,"bbox":[885,332,145,54]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":12,"text":"87,56 %","textPreview":"87,56 %","textChars":7,"textLines":1,"bbox":[893,342,129,38]}
+{"kind":"shape","id":"sh/nih4byhg","slide":12,"bbox":[760,410,360,170]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":12,"text":"Interprétation","textPreview":"Interprétation","textChars":14,"textLines":1,"bbox":[785,432,300,24]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":12,"text":"RLVS et RWF-2000 ne représentent pas le même monde visuel. SIRCH devient plus fiable quand il apprend sur les deux sources, car il voit à la fois des scènes contrôlées et des scènes CCTV réelles.","textPreview":"RLVS et RWF-2000 ne représentent pas le même monde visuel. SIRCH devient plus fiable quand il apprend sur les deux sources, car il voit à...","textChars":195,"textLines":1,"bbox":[785,470,315,68]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":12,"text":"Message pour le jury : le gain de SIRCH vient autant de la diversité des données que de l’architecture du réseau.","textPreview":"Message pour le jury : le gain de SIRCH vient autant de la diversité des données que de l’architecture du réseau.","textChars":113,"textLines":1,"bbox":[130,610,1020,32]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":12,"text":"Expériences de généralisation","textPreview":"Expériences de généralisation","textChars":29,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":12,"text":"12 / 15","textPreview":"12 / 15","textChars":7,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/eloj2t83","slide":12,"name":"","alt":"Matrice RLVS","bbox":[110,410,270,170]}
+{"kind":"image","id":"im/36hcrmhk","slide":12,"name":"","alt":"Matrice RWF-2000","bbox":[430,410,270,170]}
+{"kind":"notes","id":"nt/mjgwj8","slide":12,"text":""}
+{"kind":"slide","id":"sl/bu60mi","slide":13,"title":"Les tests sport et danse révèlent la principale limite opérationnelle","textShapes":21}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":13,"text":"Les tests sport et danse révèlent la principale limite opérationnelle","textPreview":"Les tests sport et danse révèlent la principale limite opérationnelle","textChars":69,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":13,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":13,"text":"Le système associe parfois mouvement intense et violence, surtout hors contexte de surveillance classique.","textPreview":"Le système associe parfois mouvement intense et violence, surtout hors contexte de surveillance classique.","textChars":106,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":13,"bbox":[545,180,160,54]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":13,"text":"Scénario v2","textPreview":"Scénario v2","textChars":11,"textLines":1,"bbox":[553,190,144,38]}
+{"kind":"shape","id":"sh/fepkzupw","slide":13,"bbox":[705,180,145,54]}
+{"kind":"textbox","id":"sh/83itgfml","slide":13,"text":"Faux positifs","textPreview":"Faux positifs","textChars":13,"textLines":1,"bbox":[713,190,129,38]}
+{"kind":"shape","id":"sh/xobm58z2","slide":13,"bbox":[850,180,145,54]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":13,"text":"Taux","textPreview":"Taux","textChars":4,"textLines":1,"bbox":[858,190,129,38]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":13,"bbox":[545,234,160,54]}
+{"kind":"textbox","id":"sh/val87ed8","slide":13,"text":"Sport","textPreview":"Sport","textChars":5,"textLines":1,"bbox":[553,244,144,38]}
+{"kind":"shape","id":"sh/6psfil0r","slide":13,"bbox":[705,234,145,54]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":13,"text":"3 / 15","textPreview":"3 / 15","textChars":6,"textLines":1,"bbox":[713,244,129,38]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":13,"bbox":[850,234,145,54]}
+{"kind":"textbox","id":"sh/vixczed8","slide":13,"text":"20,00 %","textPreview":"20,00 %","textChars":7,"textLines":1,"bbox":[858,244,129,38]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":13,"bbox":[545,288,160,54]}
+{"kind":"textbox","id":"sh/d0z61032","slide":13,"text":"Danse","textPreview":"Danse","textChars":5,"textLines":1,"bbox":[553,298,144,38]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":13,"bbox":[705,288,145,54]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":13,"text":"8 / 10","textPreview":"8 / 10","textChars":6,"textLines":1,"bbox":[713,298,129,38]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":13,"bbox":[850,288,145,54]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":13,"text":"80,00 %","textPreview":"80,00 %","textChars":7,"textLines":1,"bbox":[858,298,129,38]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":13,"bbox":[545,342,160,54]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":13,"text":"Calme","textPreview":"Calme","textChars":5,"textLines":1,"bbox":[553,352,144,38]}
+{"kind":"shape","id":"sh/p4r65wju","slide":13,"bbox":[705,342,145,54]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":13,"text":"3 / 5","textPreview":"3 / 5","textChars":5,"textLines":1,"bbox":[713,352,129,38]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":13,"bbox":[850,342,145,54]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":13,"text":"60,00 %","textPreview":"60,00 %","textChars":7,"textLines":1,"bbox":[858,352,129,38]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":13,"bbox":[545,396,160,54]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":13,"text":"Global","textPreview":"Global","textChars":6,"textLines":1,"bbox":[553,406,144,38]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":13,"bbox":[705,396,145,54]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":13,"text":"14 / 30","textPreview":"14 / 30","textChars":7,"textLines":1,"bbox":[713,406,129,38]}
+{"kind":"shape","id":"sh/4zidonyd","slide":13,"bbox":[850,396,145,54]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":13,"text":"46,67 %","textPreview":"46,67 %","textChars":7,"textLines":1,"bbox":[858,406,129,38]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":13,"bbox":[70,485,1060,80]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":13,"text":"Interprétation pour SIRCH","textPreview":"Interprétation pour SIRCH","textChars":25,"textLines":1,"bbox":[105,502,250,24]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":13,"text":"Ces erreurs ne détruisent pas le système : elles délimitent son bon contexte d’usage. SIRCH convient mieux aux lieux où une activité physique intense n’est pas normale : couloirs, halls, commerces, cours d’école. Une salle de sport exige un réentraînement ciblé.","textPreview":"Ces erreurs ne détruisent pas le système : elles délimitent son bon contexte d’usage. SIRCH convient mieux aux lieux où une activité phys...","textChars":262,"textLines":1,"bbox":[360,501,720,42]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":13,"text":"Limites opérationnelles","textPreview":"Limites opérationnelles","textChars":23,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":13,"text":"13 / 15","textPreview":"13 / 15","textChars":7,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"image","id":"im/p8nqxs72","slide":13,"name":"","alt":"Taux de faux positifs par dataset","bbox":[70,170,420,280]}
+{"kind":"notes","id":"nt/bu60mi","slide":13,"text":""}
+{"kind":"slide","id":"sl/gn8pde","slide":14,"title":"Les limites orientent les prochaines améliorations","textShapes":21}
+{"kind":"textbox","id":"sh/4byhgn29","slide":14,"text":"Les limites orientent les prochaines améliorations","textPreview":"Les limites orientent les prochaines améliorations","textChars":50,"textLines":1,"bbox":[58,44,980,60]}
+{"kind":"shape","id":"sh/bq1oryts","slide":14,"bbox":[58,115,110,5]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":14,"text":"Elles ne contredisent pas les résultats ; elles définissent le bon périmètre d’usage de SIRCH.","textPreview":"Elles ne contredisent pas les résultats ; elles définissent le bon périmètre d’usage de SIRCH.","textChars":94,"textLines":1,"bbox":[58,130,880,34]}
+{"kind":"shape","id":"sh/t83itgfm","slide":14,"bbox":[70,165,320,145]}
+{"kind":"shape","id":"sh/4nap4r65","slide":14,"bbox":[70,165,7,145]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":14,"text":"Limites méthodologiques","textPreview":"Limites méthodologiques","textChars":23,"textLines":1,"bbox":[94,189,280,24]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":14,"text":"N = 20 frames, datasets courts, caméras fixes et absence de test réel prolongé.","textPreview":"N = 20 frames, datasets courts, caméras fixes et absence de test réel prolongé.","textChars":79,"textLines":1,"bbox":[94,229,276,65]}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":14,"bbox":[480,165,320,145]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":14,"bbox":[480,165,7,145]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":14,"text":"Limites techniques","textPreview":"Limites techniques","textChars":18,"textLines":1,"bbox":[504,189,280,24]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":14,"text":"Entraînement sur CPU, latence de prétraitement, GPU Windows non exploitable.","textPreview":"Entraînement sur CPU, latence de prétraitement, GPU Windows non exploitable.","textChars":76,"textLines":1,"bbox":[504,229,276,65]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":14,"bbox":[890,165,320,145]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":14,"bbox":[890,165,7,145]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":14,"text":"Limites d’usage","textPreview":"Limites d’usage","textChars":15,"textLines":1,"bbox":[914,189,280,24]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":14,"text":"Pas adapté tel quel aux salles de sport, scènes de danse ou milieux à mouvement intense normal.","textPreview":"Pas adapté tel quel aux salles de sport, scènes de danse ou milieux à mouvement intense normal.","textChars":95,"textLines":1,"bbox":[914,229,276,65]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":14,"bbox":[110,350,330,46]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":14,"text":"Perspective","textPreview":"Perspective","textChars":11,"textLines":1,"bbox":[118,360,314,30]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":14,"bbox":[440,350,660,46]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":14,"text":"Ce que cela améliorerait","textPreview":"Ce que cela améliorerait","textChars":24,"textLines":1,"bbox":[448,360,644,30]}
+{"kind":"shape","id":"sh/ji5snelo","slide":14,"bbox":[110,396,330,46]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":14,"text":"Ajouter 200 à 300 vidéos sport/danse non violentes","textPreview":"Ajouter 200 à 300 vidéos sport/danse non violentes","textChars":50,"textLines":1,"bbox":[118,406,314,30]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":14,"bbox":[440,396,660,46]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":14,"text":"Réduire la confusion entre mouvement intense et violence","textPreview":"Réduire la confusion entre mouvement intense et violence","textChars":56,"textLines":1,"bbox":[448,406,644,30]}
+{"kind":"shape","id":"sh/j6tovaho","slide":14,"bbox":[110,442,330,46]}
+{"kind":"textbox","id":"sh/ulwval87","slide":14,"text":"Tester GRU et hyperparamètres","textPreview":"Tester GRU et hyperparamètres","textChars":29,"textLines":1,"bbox":[118,452,314,30]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":14,"bbox":[440,442,660,46]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":14,"text":"Confirmer l’architecture temporelle la plus efficace","textPreview":"Confirmer l’architecture temporelle la plus efficace","textChars":52,"textLines":1,"bbox":[448,452,644,30]}
+{"kind":"shape","id":"sh/j2t83itg","slide":14,"bbox":[110,488,330,46]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":14,"text":"Quantification TensorFlow Lite ou TensorRT","textPreview":"Quantification TensorFlow Lite ou TensorRT","textChars":42,"textLines":1,"bbox":[118,498,314,30]}
+{"kind":"shape","id":"sh/4byhgn29","slide":14,"bbox":[440,488,660,46]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":14,"text":"Réduire la latence et faciliter le déploiement embarqué","textPreview":"Réduire la latence et faciliter le déploiement embarqué","textChars":55,"textLines":1,"bbox":[448,498,644,30]}
+{"kind":"shape","id":"sh/m58z25kb","slide":14,"bbox":[110,534,330,46]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":14,"text":"Test réel sur plusieurs semaines","textPreview":"Test réel sur plusieurs semaines","textChars":32,"textLines":1,"bbox":[118,544,314,30]}
+{"kind":"shape","id":"sh/4nap4r65","slide":14,"bbox":[440,534,660,46]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":14,"text":"Mesurer les alertes, l’éclairage, la stabilité et l’usage opérateur","textPreview":"Mesurer les alertes, l’éclairage, la stabilité et l’usage opérateur","textChars":67,"textLines":1,"bbox":[448,544,644,30]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":14,"text":"Conclusion : SIRCH est valide pour des lieux où le mouvement violent est anormal ; il doit être spécialisé avant un usage sportif ou événementiel.","textPreview":"Conclusion : SIRCH est valide pour des lieux où le mouvement violent est anormal ; il doit être spécialisé avant un usage sportif ou évén...","textChars":146,"textLines":1,"bbox":[130,605,1020,36]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":14,"text":"Limites et perspectives","textPreview":"Limites et perspectives","textChars":23,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":14,"text":"14 / 15","textPreview":"14 / 15","textChars":7,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"notes","id":"nt/gn8pde","slide":14,"text":""}
+{"kind":"slide","id":"sl/koir1u","slide":15,"title":"Conclusion","textShapes":12}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":15,"text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[70,62,700,54]}
+{"kind":"shape","id":"sh/onyd0z61","slide":15,"bbox":[70,128,120,5]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":15,"bbox":[90,175,48,48]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":15,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[90,186,48,22]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":15,"text":"SIRCH transforme un modèle en système complet : caméra, inférence, décision, alerte et dashboard.","textPreview":"SIRCH transforme un modèle en système complet : caméra, inférence, décision, alerte et dashboard.","textChars":97,"textLines":1,"bbox":[165,179,910,42]}
+{"kind":"shape","id":"sh/ovahoza1","slide":15,"bbox":[90,267,48,48]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":15,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[90,278,48,22]}
+{"kind":"textbox","id":"sh/61032lsz","slide":15,"text":"Le modèle original atteint 86,81 % d’accuracy, 87,56 % de F1 et une ROC-AUC de 0,9446 sur 599 vidéos.","textPreview":"Le modèle original atteint 86,81 % d’accuracy, 87,56 % de F1 et une ROC-AUC de 0,9446 sur 599 vidéos.","textChars":101,"textLines":1,"bbox":[165,271,910,42]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":15,"bbox":[90,359,48,48]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":15,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[90,370,48,22]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":15,"text":"Les analyses montrent une vraie force sur la détection, mais aussi une limite claire face aux mouvements sportifs ou dansés.","textPreview":"Les analyses montrent une vraie force sur la détection, mais aussi une limite claire face aux mouvements sportifs ou dansés.","textChars":124,"textLines":1,"bbox":[165,363,910,42]}
+{"kind":"shape","id":"sh/t83itgfm","slide":15,"bbox":[90,451,48,48]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":15,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[90,462,48,22]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":15,"text":"Les perspectives portent sur plus de données non violentes dynamiques, le GRU, la quantification et le déploiement embarqué.","textPreview":"Les perspectives portent sur plus de données non violentes dynamiques, le GRU, la quantification et le déploiement embarqué.","textChars":124,"textLines":1,"bbox":[165,455,910,42]}
+{"kind":"shape","id":"sh/m58z25kb","slide":15,"bbox":[180,575,920,58]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":15,"text":"Message final : SIRCH ne remplace pas l’agent de sécurité ; il lui donne un signal rapide, mesurable et vérifiable.","textPreview":"Message final : SIRCH ne remplace pas l’agent de sécurité ; il lui donne un signal rapide, mesurable et vérifiable.","textChars":115,"textLines":1,"bbox":[210,592,860,24]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":15,"text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[58,668,260,18]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":15,"text":"15 / 15","textPreview":"15 / 15","textChars":7,"textLines":1,"bbox":[1160,668,70,18]}
+{"kind":"notes","id":"nt/koir1u","slide":15,"text":""}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "preregistered_before_final_test",
+  "created_utc": "2026-09-12T21:56:27.607921+00:00",
+  "objective": "One final paired evaluation of the validation-locked original and augmented GRU configurations on the cleaned test split.",
+  "allowed_final_evaluations_per_model": 1,
+  "shared_video_decode_and_backbone_pass": true,
+  "models": {
+    "gru_original": {
+      "architecture": "EfficientNetB0 + GRU(256) + Dense(128)",
+      "model_sha256": "fc060649cc4935c59c23596ab926d19af0e189c76983ac666c9038a8d0d98eaf"
+    },
+    "gru_augmented": {
+      "architecture": "EfficientNetB0 + GRU(256) + Dense(128)",
+      "weights_sha256": "f7d3a87697d6b6b1ca36d46cdf7c1af6a499557b3e60dccc06078ff26a15956e",
+      "source_best_epoch": 5,
+      "epoch_11_checkpoint_used": false
+    }
+  },
+  "selected_configurations": {
+    "gru_original": {
+      "selected_config_path": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp08_gru_factorial_evaluation\\outputs\\gru_original\\selected_config.json",
+      "selected_config_sha256": "7f442d4e4f9daa00e14ddb2cb5b4c007ee840fb6b46f2267e37e983e31b95dfd",
+      "selected_on": "validation_only",
+      "theta": 0.6,
+      "k": 10,
+      "n_frames": 20,
+      "stride_frames": 5
+    },
+    "gru_augmented": {
+      "selected_config_path": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp08_gru_factorial_evaluation\\outputs\\gru_augmented\\selected_config.json",
+      "selected_config_sha256": "8e125d66d2af99d0ff0d5eb084d1b368990c8386f2f67dcb366213184d1cfd01",
+      "selected_on": "validation_only",
+      "theta": 0.6,
+      "k": 7,
+      "n_frames": 20,
+      "stride_frames": 5
+    }
+  },
+  "test": {
+    "manifest_path": "revision/exp01_manifests_sha256/outputs/test_manifest.csv",
+    "manifest_sha256": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f",
+    "videos": 592,
+    "violence": 297,
+    "non_violence": 295,
+    "cross_split_sha256_duplicate_groups": 0,
+    "read_before_lock": false
+  },
+  "decision_rule": "A video is positive when at least one complete rolling mean of K consecutive sequence scores is greater than or equal to theta.",
+  "score_generation": "Same implementation as validation: 20-frame windows, stride 5, one bit-identical EfficientNetB0 backbone pass and separate GRU heads.",
+  "short_clip_policy": "Repeat the last frame exactly as in validation.",
+  "no_post_test_adjustment": true
+}

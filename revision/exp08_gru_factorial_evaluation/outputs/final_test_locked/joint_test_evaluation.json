@@ -1,0 +1,56 @@
+{
+  "status": "joint_final_locked_test_complete",
+  "logical_run_started_utc": "2026-09-12T21:57:04.642124+00:00",
+  "completed_utc": "2026-09-12T23:20:43.185116+00:00",
+  "same_video_decode_and_backbone_pass": true,
+  "test_manifest_sha256": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f",
+  "n": 592,
+  "results": {
+    "gru_original": {
+      "theta": 0.6,
+      "k": 10,
+      "metrics": {
+        "n": 592,
+        "tn": 241,
+        "fp": 54,
+        "fn": 19,
+        "tp": 278,
+        "accuracy": 0.8766891891891891,
+        "balanced_accuracy": 0.8764880442846544,
+        "precision": 0.8373493975903614,
+        "recall": 0.936026936026936,
+        "specificity": 0.8169491525423729,
+        "f1": 0.8839427662957074,
+        "false_positive_rate": 0.18305084745762712,
+        "false_negative_rate": 0.06397306397306397,
+        "roc_auc": 0.9553158705701078,
+        "pr_auc": 0.9543198335979606
+      },
+      "result_sha256": "8b0fe6f4c463f565c8e842bd6d3b27e8ea1f98b1884a42e194b1914bbd0c7685",
+      "predictions_sha256": "d935017d3866b0b0499d5ac84996f14e978dbeaa41bf90b1bd0366f3f8ba89ce"
+    },
+    "gru_augmented": {
+      "theta": 0.6,
+      "k": 7,
+      "metrics": {
+        "n": 592,
+        "tn": 241,
+        "fp": 54,
+        "fn": 16,
+        "tp": 281,
+        "accuracy": 0.8817567567567568,
+        "balanced_accuracy": 0.8815385493351595,
+        "precision": 0.8388059701492537,
+        "recall": 0.9461279461279462,
+        "specificity": 0.8169491525423729,
+        "f1": 0.8892405063291139,
+        "false_positive_rate": 0.18305084745762712,
+        "false_negative_rate": 0.05387205387205387,
+        "roc_auc": 0.957244764024425,
+        "pr_auc": 0.9559223818228548
+      },
+      "result_sha256": "1d733638455fe54b2fa5a5b334b2bde4bfa54b8c9f97b3e778871662c85e9e0b",
+      "predictions_sha256": "9916002ce2487aa5637d1e788b9a76ab73c18066e5d98665a36b55d00f8f3382"
+    }
+  }
+}

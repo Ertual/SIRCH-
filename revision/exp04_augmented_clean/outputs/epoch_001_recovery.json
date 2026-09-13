@@ -1,0 +1,10 @@
+{
+  "epoch": 1,
+  "accuracy_displayed": 0.7452,
+  "loss_displayed": 0.5064,
+  "precision_displayed": 0.7327,
+  "recall_displayed": 0.7622,
+  "val_loss": 0.34964,
+  "exact_validation_metrics_pending_recalculation": true,
+  "reason": "CSVLogger was not reached because the following full-model HDF5 callback failed"
+}

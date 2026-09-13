@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "generator": "revision/generate_revision_figures.py",
+  "files": [
+    {
+      "path": "revision/exp04_augmented_clean/outputs/training_curves.png",
+      "sha256": "87f906c31f704e0c2f32d724f8a58a10a1cd66c060bfcd315caa0e368c29aa35",
+      "bytes": 261060
+    },
+    {
+      "path": "revision/exp04_augmented_clean/outputs/training_result.json",
+      "sha256": "71229b14b60a16568b97246b048853a720588326bdf481e15ed54483ce30c6b7",
+      "bytes": 624
+    },
+    {
+      "path": "revision/exp04_augmented_clean/outputs/training_summary.md",
+      "sha256": "9eb092e64741500bbcded8938b585f07c32131786aef79648fbc6a3c1eb51378",
+      "bytes": 403
+    }
+  ]
+}

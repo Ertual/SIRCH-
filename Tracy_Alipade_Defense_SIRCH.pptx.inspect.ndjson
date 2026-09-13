@@ -1,0 +1,242 @@
+{"kind":"deck","id":"pr/gjdgar","name":"Deck"}
+{"kind":"layout","layoutId":"8f8fe2b0-5615-40bb-9d20-790536c23f21","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"be60616c-d40e-4d3c-b498-9f89b449d634","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/o4xcru","slide":1,"title":"SIRCH","textShapes":6}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":1,"text":"SIRCH","textPreview":"SIRCH","textChars":5,"textLines":1,"bbox":[0,146,1280,80]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":1,"text":"Système Intelligent de Reconnaissance de Comportements Humains","textPreview":"Système Intelligent de Reconnaissance de Comportements Humains","textChars":62,"textLines":1,"bbox":[170,244,940,42]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":1,"bbox":[382,306,516,4]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":1,"text":"Détection automatique de violence en temps réel\npar EfficientNetB0 + LSTM","textPreview":"Détection automatique de violence en temps réel | par EfficientNetB0 + LSTM","textChars":73,"textLines":2,"bbox":[252,344,776,82]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":1,"bbox":[300,500,680,104]}
+{"kind":"textbox","id":"sh/83itgfml","slide":1,"text":"Tracy Alipade Benzanza\nDirecteur : Prof. Antoine Bagula\nCodirecteur : Assistant Landry Mbale\nUniversité Nouveaux Horizons, Faculté des Sciences Informatiques\nLubumbashi, RDC. Année académique 2025 à 2026","textPreview":"Tracy Alipade Benzanza | Directeur : Prof. Antoine Bagula | Codirecteur : Assistant Landry Mbale | Université Nouveaux Horizons, Faculté ...","textChars":203,"textLines":5,"bbox":[330,514,620,78]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":1,"text":"Titre","textPreview":"Titre","textChars":5,"textLines":1,"bbox":[58,662,240,22]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":1,"text":"1 / 10","textPreview":"1 / 10","textChars":6,"textLines":1,"bbox":[1135,662,80,22]}
+{"kind":"notes","id":"nt/o4xcru","slide":1,"text":""}
+{"kind":"slide","id":"sl/ktbtx6","slide":2,"title":"Un drame réel, un problème réel","textShapes":6}
+{"kind":"textbox","id":"sh/neloj2t8","slide":2,"text":"Un drame réel, un problème réel","textPreview":"Un drame réel, un problème réel","textChars":31,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/czed8v6p","slide":2,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":2,"text":"Contexte","textPreview":"Contexte","textChars":8,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/u54zidon","slide":2,"text":"2 / 10","textPreview":"2 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"shape","id":"sh/cbulwval","slide":2,"bbox":[640,164,545,310]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":2,"text":"46 % des ménages de Lubumbashi\nse déclarent en insécurité\nselon INS, 2023.","textPreview":"46 % des ménages de Lubumbashi | se déclarent en insécurité | selon INS, 2023.","textChars":74,"textLines":3,"bbox":[675,196,470,112]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":2,"text":"Des caméras existent depuis 2016.\nMais l’œil humain se fatigue.\nLa réaction reste souvent tardive.","textPreview":"Des caméras existent depuis 2016. | Mais l’œil humain se fatigue. | La réaction reste souvent tardive.","textChars":98,"textLines":3,"bbox":[675,330,470,110]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":2,"bbox":[95,526,1090,78]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":2,"text":"Et si la machine pouvait voir à la place de l’homme, en temps réel ?","textPreview":"Et si la machine pouvait voir à la place de l’homme, en temps réel ?","textChars":68,"textLines":1,"bbox":[130,544,1020,40]}
+{"kind":"image","id":"im/i5sneloj","slide":2,"name":"","geometry":"roundRect","alt":"Caméra de surveillance de nuit","bbox":[58,164,520,310]}
+{"kind":"notes","id":"nt/ktbtx6","slide":2,"text":""}
+{"kind":"slide","id":"sl/5j1suj","slide":3,"title":"Ce qui existe déjà, et ses limites","textShapes":16}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":3,"text":"Ce qui existe déjà, et ses limites","textPreview":"Ce qui existe déjà, et ses limites","textChars":34,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":3,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":3,"text":"État de l’art","textPreview":"État de l’art","textChars":13,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":3,"text":"3 / 10","textPreview":"3 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":3,"bbox":[58,170,270,72]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":3,"text":"Approche","textPreview":"Approche","textChars":8,"textLines":1,"bbox":[68,179,250,60]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":3,"bbox":[328,170,270,72]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":3,"text":"Force","textPreview":"Force","textChars":5,"textLines":1,"bbox":[338,179,250,60]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":3,"bbox":[598,170,270,72]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":3,"text":"Limite","textPreview":"Limite","textChars":6,"textLines":1,"bbox":[608,179,250,60]}
+{"kind":"shape","id":"sh/i5sneloj","slide":3,"bbox":[58,242,270,72]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":3,"text":"Optical flow classique","textPreview":"Optical flow classique","textChars":22,"textLines":1,"bbox":[68,251,250,60]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":3,"bbox":[328,242,270,72]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":3,"text":"Rapide","textPreview":"Rapide","textChars":6,"textLines":1,"bbox":[338,251,250,60]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":3,"bbox":[598,242,270,72]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":3,"text":"Peu précis","textPreview":"Peu précis","textChars":10,"textLines":1,"bbox":[608,251,250,60]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":3,"bbox":[58,314,270,72]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":3,"text":"CNN 3D","textPreview":"CNN 3D","textChars":6,"textLines":1,"bbox":[68,323,250,60]}
+{"kind":"shape","id":"sh/dcbulwva","slide":3,"bbox":[328,314,270,72]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":3,"text":"Très précis","textPreview":"Très précis","textChars":11,"textLines":1,"bbox":[338,323,250,60]}
+{"kind":"shape","id":"sh/val87ed8","slide":3,"bbox":[598,314,270,72]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":3,"text":"Trop lourd","textPreview":"Trop lourd","textChars":10,"textLines":1,"bbox":[608,323,250,60]}
+{"kind":"shape","id":"sh/donyd0z6","slide":3,"bbox":[58,386,270,72]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":3,"text":"CNN + LSTM","textPreview":"CNN + LSTM","textChars":10,"textLines":1,"bbox":[68,395,250,60]}
+{"kind":"shape","id":"sh/vixczed8","slide":3,"bbox":[328,386,270,72]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":3,"text":"Léger et précis","textPreview":"Léger et précis","textChars":15,"textLines":1,"bbox":[338,395,250,60]}
+{"kind":"shape","id":"sh/d0z61032","slide":3,"bbox":[598,386,270,72]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":3,"text":"Un seul jeu de données","textPreview":"Un seul jeu de données","textChars":22,"textLines":1,"bbox":[608,395,250,60]}
+{"kind":"shape","id":"sh/y90je9cv","slide":3,"bbox":[125,505,8,52]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":3,"text":"SIRCH part de cette base et va plus loin : sur deux jeux de données.","textPreview":"SIRCH part de cette base et va plus loin : sur deux jeux de données.","textChars":68,"textLines":1,"bbox":[147,511,918,44]}
+{"kind":"image","id":"im/byhgn29g","slide":3,"name":"","geometry":"roundRect","alt":"Schéma de réseau de neurones en couches","bbox":[900,178,310,210]}
+{"kind":"notes","id":"nt/5j1suj","slide":3,"text":""}
+{"kind":"slide","id":"sl/eakyhk","slide":4,"title":"SIRCH : voir et se souvenir","textShapes":19}
+{"kind":"textbox","id":"sh/j2t83itg","slide":4,"text":"SIRCH : voir et se souvenir","textPreview":"SIRCH : voir et se souvenir","textChars":27,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":4,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":4,"text":"Architecture","textPreview":"Architecture","textChars":12,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":4,"text":"4 / 10","textPreview":"4 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":4,"text":"Caméra","textPreview":"Caméra","textChars":6,"textLines":1,"bbox":[58,184,132,68]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[192,198,34,34]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":4,"text":"Prétraitement","textPreview":"Prétraitement","textChars":13,"textLines":1,"bbox":[228,184,132,68]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[362,198,34,34]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":4,"text":"EfficientNetB0","textPreview":"EfficientNetB0","textChars":14,"textLines":1,"bbox":[398,184,132,68]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[532,198,34,34]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":4,"text":"LSTM","textPreview":"LSTM","textChars":4,"textLines":1,"bbox":[568,184,132,68]}
+{"kind":"textbox","id":"sh/d0z61032","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[702,198,34,34]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":4,"text":"Décision","textPreview":"Décision","textChars":8,"textLines":1,"bbox":[738,184,132,68]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[872,198,34,34]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":4,"text":"Alerte","textPreview":"Alerte","textChars":6,"textLines":1,"bbox":[908,184,132,68]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1042,198,34,34]}
+{"kind":"textbox","id":"sh/knih4byh","slide":4,"text":"Dashboard","textPreview":"Dashboard","textChars":9,"textLines":1,"bbox":[1078,184,132,68]}
+{"kind":"shape","id":"sh/val87ed8","slide":4,"bbox":[130,350,470,120]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":4,"text":"EfficientNetB0 = l’œil\nAnalyse chaque image. Modèle léger : 21 Mo.","textPreview":"EfficientNetB0 = l’œil | Analyse chaque image. Modèle léger : 21 Mo.","textChars":66,"textLines":2,"bbox":[160,376,410,70]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":4,"bbox":[680,350,470,120]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":4,"text":"LSTM = la mémoire\nAnalyse le mouvement sur 20 images.","textPreview":"LSTM = la mémoire | Analyse le mouvement sur 20 images.","textChars":53,"textLines":2,"bbox":[710,376,410,70]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":4,"bbox":[300,540,8,52]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":4,"text":"Aucun serveur cloud requis : tout fonctionne localement.","textPreview":"Aucun serveur cloud requis : tout fonctionne localement.","textChars":56,"textLines":1,"bbox":[322,546,658,44]}
+{"kind":"notes","id":"nt/eakyhk","slide":4,"text":""}
+{"kind":"slide","id":"sl/9ue2e3","slide":5,"title":"3 991 vidéos, deux mondes","textShapes":27}
+{"kind":"textbox","id":"sh/5sneloj2","slide":5,"text":"3 991 vidéos, deux mondes","textPreview":"3 991 vidéos, deux mondes","textChars":25,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/u54zidon","slide":5,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":5,"text":"Données","textPreview":"Données","textChars":7,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":5,"text":"5 / 10","textPreview":"5 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":5,"text":"2793","textPreview":"2793","textChars":4,"textLines":1,"bbox":[795,182,70,22]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":5,"text":"599","textPreview":"599","textChars":3,"textLines":1,"bbox":[950,342,70,22]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":5,"text":"599","textPreview":"599","textChars":3,"textLines":1,"bbox":[1104,342,70,22]}
+{"kind":"shape","id":"sh/d8bat47y","slide":5,"bbox":[58,455,115,44]}
+{"kind":"textbox","id":"sh/knih4byh","slide":5,"text":"Source","textPreview":"Source","textChars":6,"textLines":1,"bbox":[68,464,95,32]}
+{"kind":"shape","id":"sh/v6psfil0","slide":5,"bbox":[173,455,105,44]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":5,"text":"Total","textPreview":"Total","textChars":5,"textLines":1,"bbox":[183,464,85,32]}
+{"kind":"shape","id":"sh/d0z61032","slide":5,"bbox":[278,455,110,44]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":5,"text":"Violence","textPreview":"Violence","textChars":8,"textLines":1,"bbox":[288,464,90,32]}
+{"kind":"shape","id":"sh/vu9knih4","slide":5,"bbox":[388,455,135,44]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":5,"text":"Non violence","textPreview":"Non violence","textChars":12,"textLines":1,"bbox":[398,464,115,32]}
+{"kind":"shape","id":"sh/donyd0z6","slide":5,"bbox":[523,455,125,44]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":5,"text":"Style","textPreview":"Style","textChars":5,"textLines":1,"bbox":[533,464,105,32]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":5,"bbox":[58,499,115,44]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":5,"text":"RLVS","textPreview":"RLVS","textChars":4,"textLines":1,"bbox":[68,508,95,32]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":5,"bbox":[173,499,105,44]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":5,"text":"2 000","textPreview":"2 000","textChars":5,"textLines":1,"bbox":[183,508,85,32]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":5,"bbox":[278,499,110,44]}
+{"kind":"textbox","id":"sh/9knih4by","slide":5,"text":"1 000","textPreview":"1 000","textChars":5,"textLines":1,"bbox":[288,508,90,32]}
+{"kind":"shape","id":"sh/2t83itgf","slide":5,"bbox":[388,499,135,44]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":5,"text":"1 000","textPreview":"1 000","textChars":5,"textLines":1,"bbox":[398,508,115,32]}
+{"kind":"shape","id":"sh/gvy90je9","slide":5,"bbox":[523,499,125,44]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":5,"text":"Contrôlé","textPreview":"Contrôlé","textChars":8,"textLines":1,"bbox":[533,508,105,32]}
+{"kind":"shape","id":"sh/fyxobm58","slide":5,"bbox":[58,543,115,44]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":5,"text":"RWF 2000","textPreview":"RWF 2000","textChars":8,"textLines":1,"bbox":[68,552,95,32]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":5,"bbox":[173,543,105,44]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":5,"text":"1 991","textPreview":"1 991","textChars":5,"textLines":1,"bbox":[183,552,85,32]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":5,"bbox":[278,543,110,44]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":5,"text":"991","textPreview":"991","textChars":3,"textLines":1,"bbox":[288,552,90,32]}
+{"kind":"shape","id":"sh/xczed8v6","slide":5,"bbox":[388,543,135,44]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":5,"text":"1 000","textPreview":"1 000","textChars":5,"textLines":1,"bbox":[398,552,115,32]}
+{"kind":"shape","id":"sh/je9cvixc","slide":5,"bbox":[523,543,125,44]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":5,"text":"CCTV réel","textPreview":"CCTV réel","textChars":9,"textLines":1,"bbox":[533,552,105,32]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":5,"bbox":[58,587,115,44]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":5,"text":"TOTAL","textPreview":"TOTAL","textChars":5,"textLines":1,"bbox":[68,596,95,32]}
+{"kind":"shape","id":"sh/83itgfml","slide":5,"bbox":[173,587,105,44]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":5,"text":"3 991","textPreview":"3 991","textChars":5,"textLines":1,"bbox":[183,596,85,32]}
+{"kind":"shape","id":"sh/m94fu18j","slide":5,"bbox":[278,587,110,44]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":5,"text":"1 991","textPreview":"1 991","textChars":5,"textLines":1,"bbox":[288,596,90,32]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":5,"bbox":[388,587,135,44]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":5,"text":"2 000","textPreview":"2 000","textChars":5,"textLines":1,"bbox":[398,596,115,32]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":5,"bbox":[523,587,125,44]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":5,"text":"Équilibré","textPreview":"Équilibré","textChars":9,"textLines":1,"bbox":[533,596,105,32]}
+{"kind":"shape","id":"sh/54zidony","slide":5,"bbox":[715,475,475,96]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":5,"text":"Entraîné sur une seule source : 54 % sur l’autre.\nLa combinaison des deux datasets était une nécessité.","textPreview":"Entraîné sur une seule source : 54 % sur l’autre. | La combinaison des deux datasets était une nécessité.","textChars":103,"textLines":2,"bbox":[740,492,425,58]}
+{"kind":"chart","id":"ch/mp0bi9s3","slide":5,"name":"","chartType":"bar","title":"Split final 70/15/15","bbox":[680,128,545,290]}
+{"kind":"image","id":"im/sji5snel","slide":5,"name":"","geometry":"roundRect","alt":"Distribution par dataset","bbox":[58,128,545,290]}
+{"kind":"notes","id":"nt/9ue2e3","slide":5,"text":""}
+{"kind":"slide","id":"sl/7zvkii","slide":6,"title":"SIRCH dépasse la référence","textShapes":21}
+{"kind":"textbox","id":"sh/q1orytsv","slide":6,"text":"SIRCH dépasse la référence","textPreview":"SIRCH dépasse la référence","textChars":26,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/xs72x4na","slide":6,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":6,"text":"Résultats","textPreview":"Résultats","textChars":9,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":6,"text":"6 / 10","textPreview":"6 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":6,"bbox":[58,160,170,65]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":6,"text":"Métrique","textPreview":"Métrique","textChars":8,"textLines":1,"bbox":[68,169,150,53]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":6,"bbox":[228,160,190,65]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":6,"text":"Abdullah 2023","textPreview":"Abdullah 2023","textChars":13,"textLines":1,"bbox":[238,169,170,53]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":6,"bbox":[418,160,190,65]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":6,"text":"SIRCH base","textPreview":"SIRCH base","textChars":10,"textLines":1,"bbox":[428,169,170,53]}
+{"kind":"shape","id":"sh/p4r65wju","slide":6,"bbox":[608,160,190,65]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":6,"text":"SIRCH augmenté","textPreview":"SIRCH augmenté","textChars":14,"textLines":1,"bbox":[618,169,170,53]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":6,"bbox":[58,225,170,65]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":6,"text":"Exactitude","textPreview":"Exactitude","textChars":10,"textLines":1,"bbox":[68,234,150,53]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":6,"bbox":[228,225,190,65]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":6,"text":"86,38 %","textPreview":"86,38 %","textChars":7,"textLines":1,"bbox":[238,234,170,53]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":6,"bbox":[418,225,190,65]}
+{"kind":"textbox","id":"sh/0z61032l","slide":6,"text":"86,81 %","textPreview":"86,81 %","textChars":7,"textLines":1,"bbox":[428,234,170,53]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":6,"bbox":[608,225,190,65]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":6,"text":"91,99 %","textPreview":"91,99 %","textChars":7,"textLines":1,"bbox":[618,234,170,53]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":6,"bbox":[58,290,170,65]}
+{"kind":"textbox","id":"sh/vixczed8","slide":6,"text":"F1 score","textPreview":"F1 score","textChars":8,"textLines":1,"bbox":[68,299,150,53]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":6,"bbox":[228,290,190,65]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":6,"text":"86,39 %","textPreview":"86,39 %","textChars":7,"textLines":1,"bbox":[238,299,170,53]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":6,"bbox":[418,290,190,65]}
+{"kind":"textbox","id":"sh/val87ed8","slide":6,"text":"87,56 %","textPreview":"87,56 %","textChars":7,"textLines":1,"bbox":[428,299,170,53]}
+{"kind":"shape","id":"sh/6psfil0r","slide":6,"bbox":[608,290,190,65]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":6,"text":"92,31 %","textPreview":"92,31 %","textChars":7,"textLines":1,"bbox":[618,299,170,53]}
+{"kind":"shape","id":"sh/knih4byh","slide":6,"bbox":[58,355,170,65]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":6,"text":"ROC AUC","textPreview":"ROC AUC","textChars":7,"textLines":1,"bbox":[68,364,150,53]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":6,"bbox":[228,355,190,65]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":6,"bbox":[238,364,170,53]}
+{"kind":"shape","id":"sh/58z25kb6","slide":6,"bbox":[418,355,190,65]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":6,"text":"0,9446","textPreview":"0,9446","textChars":6,"textLines":1,"bbox":[428,364,170,53]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":6,"bbox":[608,355,190,65]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":6,"text":"0,9767","textPreview":"0,9767","textChars":6,"textLines":1,"bbox":[618,364,170,53]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":6,"text":"+1,17 point de F1","textPreview":"+1,17 point de F1","textChars":17,"textLines":1,"bbox":[102,450,520,56]}
+{"kind":"textbox","id":"sh/u54zidon","slide":6,"text":"sur la référence directe","textPreview":"sur la référence directe","textChars":24,"textLines":1,"bbox":[112,510,430,30]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":6,"text":"Validation statistique : McNemar p = 0,0001","textPreview":"Validation statistique : McNemar p = 0,0001","textChars":43,"textLines":1,"bbox":[112,550,590,32]}
+{"kind":"image","id":"im/83itgfml","slide":6,"name":"","geometry":"roundRect","alt":"Courbes ROC original et augmenté","bbox":[838,190,390,285]}
+{"kind":"notes","id":"nt/7zvkii","slide":6,"text":""}
+{"kind":"slide","id":"sl/70c27a","slide":7,"title":"Ce que SIRCH ne maîtrise pas encore","textShapes":11}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":7,"text":"Ce que SIRCH ne maîtrise pas encore","textPreview":"Ce que SIRCH ne maîtrise pas encore","textChars":35,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":7,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":7,"text":"Limites","textPreview":"Limites","textChars":7,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":7,"text":"7 / 10","textPreview":"7 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"shape","id":"sh/g7adsji5","slide":7,"bbox":[72,166,650,78]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":7,"text":"⚠","textPreview":"⚠","textChars":1,"textLines":1,"bbox":[100,183,48,42]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":7,"text":"Faux positifs sport et danse : 46,67 %.","textPreview":"Faux positifs sport et danse : 46,67 %.","textChars":39,"textLines":1,"bbox":[165,186,510,34]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":7,"bbox":[72,276,650,78]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":7,"text":"⚠","textPreview":"⚠","textChars":1,"textLines":1,"bbox":[100,293,48,42]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":7,"text":"Entraînement sur CPU : GPU non exploitable.","textPreview":"Entraînement sur CPU : GPU non exploitable.","textChars":43,"textLines":1,"bbox":[165,296,510,34]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":7,"bbox":[72,386,650,78]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":7,"text":"⚠","textPreview":"⚠","textChars":1,"textLines":1,"bbox":[100,403,48,42]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":7,"text":"Capture une image, pas encore un clip vidéo.","textPreview":"Capture une image, pas encore un clip vidéo.","textChars":44,"textLines":1,"bbox":[165,406,510,34]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":7,"text":"Source : Wikimedia Commons, Rick Doble, CC BY-SA 4.0","textPreview":"Source : Wikimedia Commons, Rick Doble, CC BY-SA 4.0","textChars":52,"textLines":1,"bbox":[790,450,360,22]}
+{"kind":"textbox","id":"sh/83itgfml","slide":7,"text":"SIRCH est conçu pour un couloir ou un hall.\nPas pour un terrain de sport.","textPreview":"SIRCH est conçu pour un couloir ou un hall. | Pas pour un terrain de sport.","textChars":73,"textLines":2,"bbox":[240,540,800,56]}
+{"kind":"image","id":"im/hk3q5o7q","slide":7,"name":"","geometry":"roundRect","alt":"Danse en mouvement","bbox":[790,174,360,270]}
+{"kind":"notes","id":"nt/70c27a","slide":7,"text":""}
+{"kind":"slide","id":"sl/n6hmnu","slide":8,"title":"Nos quatre contributions","textShapes":11}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":8,"text":"Nos quatre contributions","textPreview":"Nos quatre contributions","textChars":24,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/bat47y1k","slide":8,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":8,"text":"Contributions","textPreview":"Contributions","textChars":13,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":8,"text":"8 / 10","textPreview":"8 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"shape","id":"sh/47y1kre1","slide":8,"bbox":[110,178,500,132]}
+{"kind":"shape","id":"sh/bm58z25k","slide":8,"bbox":[134,208,58,58]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[134,219,58,34]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":8,"text":"Étude d’ablation par réentraînement réel","textPreview":"Étude d’ablation par réentraînement réel","textChars":40,"textLines":1,"bbox":[215,206,360,76]}
+{"kind":"shape","id":"sh/4byhgn29","slide":8,"bbox":[670,178,500,132]}
+{"kind":"shape","id":"sh/m58z25kb","slide":8,"bbox":[694,208,58,58]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[694,219,58,34]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":8,"text":"Test systématique sur sport et danse","textPreview":"Test systématique sur sport et danse","textChars":36,"textLines":1,"bbox":[775,206,360,76]}
+{"kind":"shape","id":"sh/twra5gbq","slide":8,"bbox":[110,378,500,132]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":8,"bbox":[134,408,58,58]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[134,419,58,34]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":8,"text":"Validation croisée entre jeux de données","textPreview":"Validation croisée entre jeux de données","textChars":40,"textLines":1,"bbox":[215,406,360,76]}
+{"kind":"shape","id":"sh/t83itgfm","slide":8,"bbox":[670,378,500,132]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":8,"bbox":[694,408,58,58]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":8,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[694,419,58,34]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":8,"text":"Système complet, déployable sans GPU ni cloud","textPreview":"Système complet, déployable sans GPU ni cloud","textChars":45,"textLines":1,"bbox":[775,406,360,76]}
+{"kind":"notes","id":"nt/n6hmnu","slide":8,"text":""}
+{"kind":"slide","id":"sl/msvl0a","slide":9,"title":"En résumé","textShapes":11}
+{"kind":"textbox","id":"sh/lwval87e","slide":9,"text":"En résumé","textPreview":"En résumé","textChars":9,"textLines":1,"bbox":[58,38,900,80]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":9,"bbox":[58,98,108,4]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":9,"text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[58,652,420,24]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":9,"text":"9 / 10","textPreview":"9 / 10","textChars":6,"textLines":1,"bbox":[1135,652,80,24]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":9,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[155,172,50,42]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":9,"text":"Détection de violence en temps réel, sur matériel ordinaire.","textPreview":"Détection de violence en temps réel, sur matériel ordinaire.","textChars":60,"textLines":1,"bbox":[220,176,560,40]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":9,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[155,264,50,42]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":9,"text":"F1 de 87,56 % à 92,31 %, supérieur à la référence.","textPreview":"F1 de 87,56 % à 92,31 %, supérieur à la référence.","textChars":50,"textLines":1,"bbox":[220,268,560,40]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":9,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[155,356,50,42]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":9,"text":"Résultat statistiquement fiable : p = 0,0001.","textPreview":"Résultat statistiquement fiable : p = 0,0001.","textChars":45,"textLines":1,"bbox":[220,360,560,40]}
+{"kind":"textbox","id":"sh/z61032ls","slide":9,"text":"Interface SIRCH : seuil, incidents et captures","textPreview":"Interface SIRCH : seuil, incidents et captures","textChars":46,"textLines":1,"bbox":[810,405,400,24]}
+{"kind":"shape","id":"sh/al87ed8b","slide":9,"bbox":[142,508,996,84]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":9,"text":"SIRCH ne remplace pas l’agent de sécurité.\nIl lui offre des yeux qui ne se ferment jamais.","textPreview":"SIRCH ne remplace pas l’agent de sécurité. | Il lui offre des yeux qui ne se ferment jamais.","textChars":90,"textLines":2,"bbox":[182,526,916,46]}
+{"kind":"image","id":"im/rytsvu9k","slide":9,"name":"","geometry":"roundRect","alt":"Interface dashboard SIRCH","bbox":[810,152,400,245]}
+{"kind":"notes","id":"nt/msvl0a","slide":9,"text":""}
+{"kind":"slide","id":"sl/ogj8v9","slide":10,"title":"Merci pour votre attention.","textShapes":5}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":10,"text":"Merci pour votre attention.","textPreview":"Merci pour votre attention.","textChars":27,"textLines":1,"bbox":[180,214,920,72]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":10,"text":"Je me tiens à votre disposition pour vos questions.","textPreview":"Je me tiens à votre disposition pour vos questions.","textChars":51,"textLines":1,"bbox":[210,318,860,42]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":10,"bbox":[480,390,320,4]}
+{"kind":"textbox","id":"sh/obm58z25","slide":10,"text":"Tracy Alipade Benzanza. UNH. 2025 à 2026","textPreview":"Tracy Alipade Benzanza. UNH. 2025 à 2026","textChars":40,"textLines":1,"bbox":[270,606,740,28]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":10,"text":"Questions","textPreview":"Questions","textChars":9,"textLines":1,"bbox":[58,662,240,22]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":10,"text":"10 / 10","textPreview":"10 / 10","textChars":7,"textLines":1,"bbox":[1135,662,80,22]}
+{"kind":"notes","id":"nt/ogj8v9","slide":10,"text":""}

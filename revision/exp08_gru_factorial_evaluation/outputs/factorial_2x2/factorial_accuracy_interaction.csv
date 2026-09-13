@@ -1,0 +1,5 @@
+cell,architecture,enrichment,accuracy,ci95_lower,ci95_upper,bootstrap_iterations,seed
+lstm_original,LSTM,original,0.8800675676,0.8530405405,0.9054054054,10000,42
+lstm_augmented,LSTM,augmented,0.9087837838,0.8851351351,0.9307432432,10000,42
+gru_original,GRU,original,0.8766891892,0.8496621622,0.9020270270,10000,42
+gru_augmented,GRU,augmented,0.8817567568,0.8564189189,0.9070945946,10000,42

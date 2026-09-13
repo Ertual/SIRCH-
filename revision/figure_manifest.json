@@ -1,0 +1,138 @@
+{
+  "status": "complete",
+  "generator": "revision/generate_revision_figures.py",
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 42,
+  "files": [
+    {
+      "path": "revision/exp02_validation_threshold_k/outputs/threshold_selection_curve.png",
+      "sha256": "91c7619df47879c05399751b91ea437182e2041960a640d9886715a52ccfa99b",
+      "bytes": 72145
+    },
+    {
+      "path": "revision/exp05_augmented_evaluation/outputs/threshold_selection_curve.png",
+      "sha256": "33741cf5b8bee7a04ff16d8f4177790b782ae92e5af5e03890cbb01d03e1f9b1",
+      "bytes": 73500
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/gru_original/threshold_selection_curve.png",
+      "sha256": "1a88751b6ab7ae6a9293e3051cfeb2d10aafa14781f879e87ca2d247cfc7385c",
+      "bytes": 76562
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/gru_augmented/threshold_selection_curve.png",
+      "sha256": "04bf514c05f3cda39b804a1b7015e84395a8035464b1d872f5b415e183b78ffd",
+      "bytes": 71871
+    },
+    {
+      "path": "revision/exp04_augmented_clean/outputs/training_curves.png",
+      "sha256": "87f906c31f704e0c2f32d724f8a58a10a1cd66c060bfcd315caa0e368c29aa35",
+      "bytes": 261060
+    },
+    {
+      "path": "revision/exp04_augmented_clean/outputs/training_result.json",
+      "sha256": "71229b14b60a16568b97246b048853a720588326bdf481e15ed54483ce30c6b7",
+      "bytes": 624
+    },
+    {
+      "path": "revision/exp04_augmented_clean/outputs/training_summary.md",
+      "sha256": "9eb092e64741500bbcded8938b585f07c32131786aef79648fbc6a3c1eb51378",
+      "bytes": 403
+    },
+    {
+      "path": "revision/exp07_gru_augmented_clean/outputs/training_curves.png",
+      "sha256": "d4031ca64d10ff57841ac5e9f499f2986aaede2b1a75e4f140fca0ccd4a8c22c",
+      "bytes": 248114
+    },
+    {
+      "path": "revision/exp07_gru_augmented_clean/outputs/training_result.json",
+      "sha256": "b66b5078752acec1a5a487882370b933b56be504d159bf5bbd96153d9fca4857",
+      "bytes": 628
+    },
+    {
+      "path": "revision/exp07_gru_augmented_clean/outputs/training_summary.md",
+      "sha256": "91358d4931bcea7454c6337417aaf17b25c4033dabcee207f212c22d1fce4419",
+      "bytes": 402
+    },
+    {
+      "path": "revision/exp02_validation_threshold_k/outputs/final_test_locked/roc_curve.png",
+      "sha256": "85bf86e72cc6ca5a8e359ca2c10884a945eb8845734c938c5b090e9962f3f956",
+      "bytes": 70325
+    },
+    {
+      "path": "revision/exp02_validation_threshold_k/outputs/final_test_locked/roc_curve.csv",
+      "sha256": "68d6f684f7b04eb0fe91ea889ca051110c713816ff4b6247d5b8ec8c18563913",
+      "bytes": 3628
+    },
+    {
+      "path": "revision/exp05_augmented_evaluation/outputs/final_test_locked/roc_curve.png",
+      "sha256": "999838594cd65d8c3685193a2166d086894f230c2ef3edc673600f443c036b37",
+      "bytes": 69762
+    },
+    {
+      "path": "revision/exp05_augmented_evaluation/outputs/final_test_locked/roc_curve.csv",
+      "sha256": "ef53e658e9d48e9b66e4cad3c0f6a9e53f7e6f8d7cbd374c621b7a147240c855",
+      "bytes": 3550
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_original/roc_curve.png",
+      "sha256": "f74c3e7c5161161009c4817cd58b0080014958ece990c662fb4e2f1c2f92c851",
+      "bytes": 70541
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_original/roc_curve.csv",
+      "sha256": "3b5cbddca6439bac738a3ad099b00ff2edfa428ca90909e5432bc7bd54824ff7",
+      "bytes": 3940
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_augmented/roc_curve.png",
+      "sha256": "efafa552bbeea7cb739d080cbde923ab83840e4a6b41a26535f92b446e465108",
+      "bytes": 69715
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_augmented/roc_curve.csv",
+      "sha256": "687120ac82a813244ddf08acfc14e9c03422953a43b61c5c4e081dd09c7ee8c3",
+      "bytes": 3472
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/factorial_2x2/roc_curves_2x2.png",
+      "sha256": "c4fdc279d21bfbdf3bb1061c0711e6e5befdc624a1fe201dd18c2352cadf1a4d",
+      "bytes": 109573
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/factorial_2x2/factorial_accuracy_interaction.png",
+      "sha256": "4f8d82934c12a96d815371b0ff3c20a3c45cbe1c7f30a9ad97cdbffcafb860c2",
+      "bytes": 75478
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/factorial_2x2/factorial_accuracy_interaction.csv",
+      "sha256": "92be1174c31ec95102d937b12bbc91cc299d858b4fae0802299e8460d1503d5d",
+      "bytes": 390
+    },
+    {
+      "path": "revision/exp02_validation_threshold_k/outputs/figure_manifest.json",
+      "sha256": "2b28cf6520b08340be3a6e4c1dfbffbd44c0e3f7fda0d284edbe344bf1462e25",
+      "bytes": 757
+    },
+    {
+      "path": "revision/exp05_augmented_evaluation/outputs/figure_manifest.json",
+      "sha256": "94158ecb9bd60f18132808dee78ac18814d0e9b16dba66c96b25bff91a5313a5",
+      "bytes": 751
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/figure_manifest.json",
+      "sha256": "9de7e7c49812a11a566d5103fb84ce696f2f1e079b3d9f905f61c47b752b27ac",
+      "bytes": 2195
+    },
+    {
+      "path": "revision/exp04_augmented_clean/outputs/figure_manifest.json",
+      "sha256": "32a6640dcc49a4f71b2b1cfd3c382c3e903e3415cd2c57a4427ad43deb2152ce",
+      "bytes": 701
+    },
+    {
+      "path": "revision/exp07_gru_augmented_clean/outputs/figure_manifest.json",
+      "sha256": "6719a2acce50a7fbfdcf2eb2a96ee0f80e2b57caee5dbe2e5428f792e21c1b36",
+      "bytes": 713
+    }
+  ]
+}

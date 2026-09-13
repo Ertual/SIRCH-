@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "status": "preregistered_before_final_test",
+  "created_utc": "2026-09-11T19:35:52.822679+00:00",
+  "objective": "One final evaluation of the validation-locked augmented LSTM configuration on the cleaned test split.",
+  "allowed_final_evaluations": 1,
+  "model": {
+    "architecture": "EfficientNetB0 + LSTM(256) + Dense(128)",
+    "weights_path": "C:\\SIRCH_ENV\\models\\revision\\exp04_augmented_clean\\best_lstm_augmented_clean.weights.h5",
+    "weights_sha256": "4ccfe5bb3838cd829fa5e4eaba0332128d14e52380509eee2d4083c321aeaa13",
+    "source_best_epoch": 6,
+    "epoch_12_checkpoint_used": false
+  },
+  "selected_configuration": {
+    "path": "revision/exp05_augmented_evaluation/outputs/selected_config.json",
+    "sha256": "9d682a9fdb4af0ea044bc2b09be6fa3c3e8574705ce35d460e6a8b9fae61842b",
+    "selected_on": "validation_only",
+    "theta": 0.6,
+    "k": 7,
+    "n_frames": 20,
+    "stride_frames": 5
+  },
+  "test": {
+    "manifest_path": "revision/exp01_manifests_sha256/outputs/test_manifest.csv",
+    "manifest_sha256": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f",
+    "videos": 592,
+    "violence": 297,
+    "non_violence": 295,
+    "cross_split_sha256_duplicate_groups": 0,
+    "read_before_lock": false
+  },
+  "decision_rule": "A video is positive when at least one complete rolling mean of K consecutive sequence scores is greater than or equal to theta.",
+  "score_generation": "Same implementation as validation selection: 20-frame windows, stride 5, EfficientNetB0 features and the epoch-6 augmented LSTM head.",
+  "short_clip_policy": "Repeat the last frame exactly as in validation selection so all candidate K values remain comparable.",
+  "no_post_test_adjustment": true
+}

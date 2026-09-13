@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "logical_run_started_utc": "2026-09-12T21:57:04.642124+00:00",
+  "attempts": 1,
+  "test_manifest_sha256": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f",
+  "protocol_sha256": "1aea8e22fe201956d0c3320f3af360acfa80e4b11bbf64e4d899eba3570b4045",
+  "last_attempt_started_utc": "2026-09-12T21:57:04.644124+00:00",
+  "completed_utc": "2026-09-12T23:20:43.185116+00:00",
+  "joint_result_sha256": "62bf7c18c8aa14263bdfbaa5a361f01d13e1ef55840d7dba7ebf283c1daa53c4"
+}

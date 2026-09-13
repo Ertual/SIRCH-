@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "generator": "revision/generate_revision_figures.py",
+  "files": [
+    {
+      "path": "revision/exp07_gru_augmented_clean/outputs/training_curves.png",
+      "sha256": "d4031ca64d10ff57841ac5e9f499f2986aaede2b1a75e4f140fca0ccd4a8c22c",
+      "bytes": 248114
+    },
+    {
+      "path": "revision/exp07_gru_augmented_clean/outputs/training_result.json",
+      "sha256": "b66b5078752acec1a5a487882370b933b56be504d159bf5bbd96153d9fca4857",
+      "bytes": 628
+    },
+    {
+      "path": "revision/exp07_gru_augmented_clean/outputs/training_summary.md",
+      "sha256": "91358d4931bcea7454c6337417aaf17b25c4033dabcee207f212c22d1fce4419",
+      "bytes": 402
+    }
+  ]
+}

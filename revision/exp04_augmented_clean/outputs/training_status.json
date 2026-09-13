@@ -1,0 +1,20 @@
+{
+  "experiment": "lstm_augmented_clean",
+  "pid": 14080,
+  "cpu_only": true,
+  "seed": 42,
+  "train_videos": 2818,
+  "validation_videos": 594,
+  "n_frames": 20,
+  "batch_size": 8,
+  "epochs_max": 30,
+  "initial_epoch": 1,
+  "model_path": "C:\\SIRCH_ENV\\models\\revision\\exp04_augmented_clean\\sirch_model_lstm_augmented_clean.h5",
+  "best_weights_path": "C:\\SIRCH_ENV\\models\\revision\\exp04_augmented_clean\\best_lstm_augmented_clean.weights.h5",
+  "training_log": "C:\\SIRCH_ENV\\models\\revision\\exp04_augmented_clean\\training_log_lstm_augmented_clean.csv",
+  "checkpoint_dir": "C:\\SIRCH_ENV\\models\\revision\\exp04_augmented_clean\\checkpoints",
+  "augmented_train_manifest_sha256": "f28b0ee1cb6862dcb8bf51923a4c39734abc9d55a8001818269a61b9f28a5cd9",
+  "validation_manifest_sha256": "933a26378a88236beafeb51fc91b53c7abab5185aba9d97daa0b68dd2310e397",
+  "status": "complete",
+  "completed_utc": "2026-09-11T03:44:01.676886+00:00"
+}

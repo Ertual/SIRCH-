@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "generator": "revision/generate_revision_figures.py",
+  "files": [
+    {
+      "path": "revision/exp05_augmented_evaluation/outputs/threshold_selection_curve.png",
+      "sha256": "33741cf5b8bee7a04ff16d8f4177790b782ae92e5af5e03890cbb01d03e1f9b1",
+      "bytes": 73500
+    },
+    {
+      "path": "revision/exp05_augmented_evaluation/outputs/final_test_locked/roc_curve.png",
+      "sha256": "999838594cd65d8c3685193a2166d086894f230c2ef3edc673600f443c036b37",
+      "bytes": 69762
+    },
+    {
+      "path": "revision/exp05_augmented_evaluation/outputs/final_test_locked/roc_curve.csv",
+      "sha256": "ef53e658e9d48e9b66e4cad3c0f6a9e53f7e6f8d7cbd374c621b7a147240c855",
+      "bytes": 3550
+    }
+  ]
+}

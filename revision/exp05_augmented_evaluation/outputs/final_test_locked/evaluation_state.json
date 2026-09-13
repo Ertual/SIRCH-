@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "logical_run_started_utc": "2026-09-11T19:48:11.902400+00:00",
+  "attempts": 1,
+  "theta": 0.6,
+  "k": 7,
+  "n_frames": 20,
+  "stride_frames": 5,
+  "weights_sha256": "4ccfe5bb3838cd829fa5e4eaba0332128d14e52380509eee2d4083c321aeaa13",
+  "test_manifest_sha256": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f",
+  "last_attempt_started_utc": "2026-09-11T19:48:11.902400+00:00",
+  "completed_utc": "2026-09-11T21:04:01.666783+00:00",
+  "final_result_sha256": "644d2599ba0caacb5f2743911b736c4611929f77137ce4bac57b399025947c41"
+}

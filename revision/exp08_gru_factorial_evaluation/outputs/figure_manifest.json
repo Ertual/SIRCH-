@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "generator": "revision/generate_revision_figures.py",
+  "files": [
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/gru_original/threshold_selection_curve.png",
+      "sha256": "1a88751b6ab7ae6a9293e3051cfeb2d10aafa14781f879e87ca2d247cfc7385c",
+      "bytes": 76562
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/gru_augmented/threshold_selection_curve.png",
+      "sha256": "04bf514c05f3cda39b804a1b7015e84395a8035464b1d872f5b415e183b78ffd",
+      "bytes": 71871
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_original/roc_curve.png",
+      "sha256": "f74c3e7c5161161009c4817cd58b0080014958ece990c662fb4e2f1c2f92c851",
+      "bytes": 70541
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_original/roc_curve.csv",
+      "sha256": "3b5cbddca6439bac738a3ad099b00ff2edfa428ca90909e5432bc7bd54824ff7",
+      "bytes": 3940
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_augmented/roc_curve.png",
+      "sha256": "efafa552bbeea7cb739d080cbde923ab83840e4a6b41a26535f92b446e465108",
+      "bytes": 69715
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/gru_augmented/roc_curve.csv",
+      "sha256": "687120ac82a813244ddf08acfc14e9c03422953a43b61c5c4e081dd09c7ee8c3",
+      "bytes": 3472
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/factorial_2x2/roc_curves_2x2.png",
+      "sha256": "c4fdc279d21bfbdf3bb1061c0711e6e5befdc624a1fe201dd18c2352cadf1a4d",
+      "bytes": 109573
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/factorial_2x2/factorial_accuracy_interaction.png",
+      "sha256": "4f8d82934c12a96d815371b0ff3c20a3c45cbe1c7f30a9ad97cdbffcafb860c2",
+      "bytes": 75478
+    },
+    {
+      "path": "revision/exp08_gru_factorial_evaluation/outputs/factorial_2x2/factorial_accuracy_interaction.csv",
+      "sha256": "92be1174c31ec95102d937b12bbc91cc299d858b4fae0802299e8460d1503d5d",
+      "bytes": 390
+    }
+  ]
+}

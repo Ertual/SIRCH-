@@ -1,0 +1,62 @@
+{
+  "status": "selected_on_validation_only",
+  "experiment": "lstm_augmented_clean",
+  "weights_path": "C:\\SIRCH_ENV\\models\\revision\\exp04_augmented_clean\\best_lstm_augmented_clean.weights.h5",
+  "weights_sha256": "4ccfe5bb3838cd829fa5e4eaba0332128d14e52380509eee2d4083c321aeaa13",
+  "source_best_epoch": 6,
+  "epoch_12_checkpoint_used": false,
+  "validation_manifest_sha256": "933a26378a88236beafeb51fc91b53c7abab5185aba9d97daa0b68dd2310e397",
+  "manifest_status": "sealed_clean",
+  "cross_split_sha256_duplicate_groups": 0,
+  "test_manifest_read": false,
+  "n_frames": 20,
+  "stride_frames": 5,
+  "candidate_k": [
+    1,
+    3,
+    5,
+    7,
+    10
+  ],
+  "candidate_thresholds": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "selection_rule": [
+    "max_f1",
+    "max_balanced_accuracy",
+    "max_recall",
+    "min_false_positive_rate",
+    "min_k",
+    "threshold_closest_to_0.50"
+  ],
+  "selected": {
+    "k": 7,
+    "threshold": 0.6,
+    "n_validation": 594,
+    "tn": 258,
+    "fp": 40,
+    "fn": 24,
+    "tp": 272,
+    "accuracy": 0.8922558922558923,
+    "balanced_accuracy": 0.892345365499728,
+    "precision": 0.8717948717948718,
+    "recall": 0.918918918918919,
+    "f1": 0.8947368421052632,
+    "false_positive_rate": 0.1342281879194631,
+    "false_negative_rate": 0.08108108108108109,
+    "selected": 1
+  },
+  "videos_with_padding": 13
+}

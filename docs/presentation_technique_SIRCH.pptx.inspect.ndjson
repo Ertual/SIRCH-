@@ -1,0 +1,342 @@
+{"kind":"deck","id":"pr/x62d95","name":"Deck"}
+{"kind":"layout","layoutId":"c784359e-6757-4071-a97e-8b3ddb51c3bb","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"24c13659-14f5-41e3-b542-b65764cd4d3a","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/6zg80p","slide":1,"title":"SIRCH","textShapes":5}
+{"kind":"shape","id":"sh/bat47y1k","slide":1,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":1,"text":"SIRCH","textPreview":"SIRCH","textChars":5,"textLines":1,"bbox":[54,70,480,92]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":1,"text":"Presentation technique du code","textPreview":"Presentation technique du code","textChars":30,"textLines":1,"bbox":[54,190,510,120]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":1,"text":"Systeme intelligent de reconnaissance de comportements humains applique a la detection de violence en temps reel.","textPreview":"Systeme intelligent de reconnaissance de comportements humains applique a la detection de violence en temps reel.","textChars":113,"textLines":1,"bbox":[54,330,500,130]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":1,"text":"Code Python | TensorFlow | OpenCV | Flask | SQLite","textPreview":"Code Python | TensorFlow | OpenCV | Flask | SQLite","textChars":50,"textLines":1,"bbox":[54,582,550,40]}
+{"kind":"shape","id":"sh/47y1kre1","slide":1,"bbox":[620,48,610,610]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1180,670,58,22]}
+{"kind":"image","id":"im/8z25kb6x","slide":1,"name":"","alt":"dashboard_sirch.png","bbox":[648,92,554,520]}
+{"kind":"notes","id":"nt/6zg80p","slide":1,"text":""}
+{"kind":"slide","id":"sl/hf2xnl","slide":2,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":14}
+{"kind":"textbox","id":"sh/sji5snel","slide":2,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":2,"text":"Ce que fait SIRCH","textPreview":"Ce que fait SIRCH","textChars":17,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":2,"text":"Le systeme transforme un flux video en une decision exploitable, puis conserve une preuve et avertit l'utilisateur.","textPreview":"Le systeme transforme un flux video en une decision exploitable, puis conserve une preuve et avertit l'utilisateur.","textChars":115,"textLines":1,"bbox":[42,145,1120,74]}
+{"kind":"shape","id":"sh/s72x4nap","slide":2,"bbox":[42,260,360,250]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[62,278,54,52]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":2,"text":"Observer","textPreview":"Observer","textChars":8,"textLines":1,"bbox":[62,342,320,56]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":2,"text":"Webcam, fichier video ou flux IP/RTSP.","textPreview":"Webcam, fichier video ou flux IP/RTSP.","textChars":38,"textLines":1,"bbox":[62,405,320,86]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":2,"bbox":[460,260,360,250]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[480,278,54,52]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":2,"text":"Comprendre","textPreview":"Comprendre","textChars":10,"textLines":1,"bbox":[480,342,320,56]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":2,"text":"Analyse spatiale et temporelle de 20 frames.","textPreview":"Analyse spatiale et temporelle de 20 frames.","textChars":44,"textLines":1,"bbox":[480,405,320,86]}
+{"kind":"shape","id":"sh/xs72x4na","slide":2,"bbox":[878,260,360,250]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[898,278,54,52]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":2,"text":"Agir","textPreview":"Agir","textChars":4,"textLines":1,"bbox":[898,342,320,56]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":2,"text":"Alerte, capture, base SQLite et dashboard.","textPreview":"Alerte, capture, base SQLite et dashboard.","textChars":42,"textLines":1,"bbox":[898,405,320,86]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":2,"text":"Objectif: detecter rapidement une situation suspecte sans confondre systematiquement sport, danse et violence.","textPreview":"Objectif: detecter rapidement une situation suspecte sans confondre systematiquement sport, danse et violence.","textChars":110,"textLines":1,"bbox":[42,590,1190,58]}
+{"kind":"notes","id":"nt/hf2xnl","slide":2,"text":""}
+{"kind":"slide","id":"sl/7f4nn5","slide":3,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":25}
+{"kind":"textbox","id":"sh/cj6tovah","slide":3,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":3,"text":"Architecture en 7 modules","textPreview":"Architecture en 7 modules","textChars":25,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":3,"bbox":[70,304,1140,5]}
+{"kind":"shape","id":"sh/cvixczed","slide":3,"bbox":[42,190,150,255]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[58,207,50,48]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":3,"text":"Acquisition","textPreview":"Acquisition","textChars":11,"textLines":1,"bbox":[58,270,118,70]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":3,"text":"OpenCV","textPreview":"OpenCV","textChars":6,"textLines":1,"bbox":[58,360,118,55]}
+{"kind":"shape","id":"sh/c7u54zid","slide":3,"bbox":[213,190,150,255]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[229,207,50,48]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":3,"text":"Pretraitement","textPreview":"Pretraitement","textChars":13,"textLines":1,"bbox":[229,270,118,70]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":3,"text":"224 x 224","textPreview":"224 x 224","textChars":9,"textLines":1,"bbox":[229,360,118,55]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":3,"bbox":[384,190,150,255]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[400,207,50,48]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":3,"text":"Inference IA","textPreview":"Inference IA","textChars":12,"textLines":1,"bbox":[400,270,118,70]}
+{"kind":"textbox","id":"sh/obm58z25","slide":3,"text":"EffNet + LSTM","textPreview":"EffNet + LSTM","textChars":13,"textLines":1,"bbox":[400,360,118,55]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":3,"bbox":[555,190,150,255]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":3,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[571,207,50,48]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":3,"text":"Decision","textPreview":"Decision","textChars":8,"textLines":1,"bbox":[571,270,118,70]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":3,"text":"seuil + K","textPreview":"seuil + K","textChars":9,"textLines":1,"bbox":[571,360,118,55]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":3,"bbox":[726,190,150,255]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":3,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[742,207,50,48]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":3,"text":"Alertes","textPreview":"Alertes","textChars":7,"textLines":1,"bbox":[742,270,118,70]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":3,"text":"son, email, Telegram","textPreview":"son, email, Telegram","textChars":20,"textLines":1,"bbox":[742,360,118,55]}
+{"kind":"shape","id":"sh/idonyd0z","slide":3,"bbox":[897,190,150,255]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":3,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[913,207,50,48]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":3,"text":"Base","textPreview":"Base","textChars":4,"textLines":1,"bbox":[913,270,118,70]}
+{"kind":"textbox","id":"sh/bulwval8","slide":3,"text":"SQLite + capture","textPreview":"SQLite + capture","textChars":16,"textLines":1,"bbox":[913,360,118,55]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":3,"bbox":[1068,190,150,255]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":3,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1084,207,50,48]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":3,"text":"Dashboard","textPreview":"Dashboard","textChars":9,"textLines":1,"bbox":[1084,270,118,70]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":3,"text":"Flask","textPreview":"Flask","textChars":5,"textLines":1,"bbox":[1084,360,118,55]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":3,"text":"Chaque module a un fichier dedie. Cette separation facilite les tests, la maintenance et la demonstration en direct.","textPreview":"Chaque module a un fichier dedie. Cette separation facilite les tests, la maintenance et la demonstration en direct.","textChars":116,"textLines":1,"bbox":[42,520,1160,76]}
+{"kind":"notes","id":"nt/7f4nn5","slide":3,"text":""}
+{"kind":"slide","id":"sl/1q2cbt","slide":4,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":16}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":4,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":4,"text":"Le coeur IA: de la frame au score","textPreview":"Le coeur IA: de la frame au score","textChars":33,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":4,"bbox":[95,320,1090,5]}
+{"kind":"shape","id":"sh/fyxobm58","slide":4,"bbox":[42,225,210,210]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":4,"text":"20 frames","textPreview":"20 frames","textChars":9,"textLines":1,"bbox":[60,255,174,58]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":4,"text":"Fenetre temporelle","textPreview":"Fenetre temporelle","textChars":18,"textLines":1,"bbox":[60,342,174,64]}
+{"kind":"shape","id":"sh/q1orytsv","slide":4,"bbox":[287,225,210,210]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":4,"text":"224 x 224","textPreview":"224 x 224","textChars":9,"textLines":1,"bbox":[305,255,174,58]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":4,"text":"Redimensionnement","textPreview":"Redimensionnement","textChars":17,"textLines":1,"bbox":[305,342,174,64]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":4,"bbox":[532,225,210,210]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":4,"text":"EfficientNetB0","textPreview":"EfficientNetB0","textChars":14,"textLines":1,"bbox":[550,255,174,58]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":4,"text":"Caracteristiques visuelles","textPreview":"Caracteristiques visuelles","textChars":26,"textLines":1,"bbox":[550,342,174,64]}
+{"kind":"shape","id":"sh/j2t83itg","slide":4,"bbox":[777,225,210,210]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":4,"text":"LSTM 256","textPreview":"LSTM 256","textChars":8,"textLines":1,"bbox":[795,255,174,58]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":4,"text":"Evolution dans le temps","textPreview":"Evolution dans le temps","textChars":23,"textLines":1,"bbox":[795,342,174,64]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":4,"bbox":[1022,225,210,210]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":4,"text":"Sigmoid","textPreview":"Sigmoid","textChars":7,"textLines":1,"bbox":[1040,255,174,58]}
+{"kind":"textbox","id":"sh/ulwval87","slide":4,"text":"Score p entre 0 et 1","textPreview":"Score p entre 0 et 1","textChars":20,"textLines":1,"bbox":[1040,342,174,64]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":4,"text":"Modele deploye: EfficientNetB0 gelee + LSTM + couches Dense/Dropout","textPreview":"Modele deploye: EfficientNetB0 gelee + LSTM + couches Dense/Dropout","textChars":67,"textLines":1,"bbox":[42,500,760,44]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":4,"text":"Sortie: probabilite de violence","textPreview":"Sortie: probabilite de violence","textChars":31,"textLines":1,"bbox":[42,557,500,40]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":4,"text":"Fichier principal: core/inference.py","textPreview":"Fichier principal: core/inference.py","textChars":36,"textLines":1,"bbox":[800,520,410,52]}
+{"kind":"notes","id":"nt/1q2cbt","slide":4,"text":""}
+{"kind":"slide","id":"sl/rqwo44","slide":5,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":19}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":5,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":5,"text":"Organisation du code","textPreview":"Organisation du code","textChars":20,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":5,"bbox":[42,150,1196,52]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":5,"text":"Fichier","textPreview":"Fichier","textChars":7,"textLines":1,"bbox":[62,162,330,30]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":5,"text":"Responsabilite","textPreview":"Responsabilite","textChars":14,"textLines":1,"bbox":[400,162,800,30]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":5,"bbox":[42,202,1196,60]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":5,"text":"main.py","textPreview":"main.py","textChars":7,"textLines":1,"bbox":[62,217,320,34]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":5,"text":"Orchestre la boucle temps reel et l'affichage camera.","textPreview":"Orchestre la boucle temps reel et l'affichage camera.","textChars":53,"textLines":1,"bbox":[400,217,800,34]}
+{"kind":"shape","id":"sh/72x4nap4","slide":5,"bbox":[42,264,1196,60]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":5,"text":"core/acquisition.py","textPreview":"core/acquisition.py","textChars":19,"textLines":1,"bbox":[62,279,320,34]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":5,"text":"Ouvre webcam, video ou flux reseau.","textPreview":"Ouvre webcam, video ou flux reseau.","textChars":35,"textLines":1,"bbox":[400,279,800,34]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":5,"bbox":[42,326,1196,60]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":5,"text":"core/preprocessing.py","textPreview":"core/preprocessing.py","textChars":21,"textLines":1,"bbox":[62,341,320,34]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":5,"text":"Construit les sequences de 20 frames.","textPreview":"Construit les sequences de 20 frames.","textChars":37,"textLines":1,"bbox":[400,341,800,34]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":5,"bbox":[42,388,1196,60]}
+{"kind":"textbox","id":"sh/0z61032l","slide":5,"text":"core/inference.py","textPreview":"core/inference.py","textChars":17,"textLines":1,"bbox":[62,403,320,34]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":5,"text":"Charge le modele et calcule le score.","textPreview":"Charge le modele et calcule le score.","textChars":37,"textLines":1,"bbox":[400,403,800,34]}
+{"kind":"shape","id":"sh/i5sneloj","slide":5,"bbox":[42,450,1196,60]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":5,"text":"core/decision.py","textPreview":"core/decision.py","textChars":16,"textLines":1,"bbox":[62,465,320,34]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":5,"text":"Applique la moyenne K et le seuil.","textPreview":"Applique la moyenne K et le seuil.","textChars":34,"textLines":1,"bbox":[400,465,800,34]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":5,"bbox":[42,512,1196,60]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":5,"text":"alerts/alertmanager.py","textPreview":"alerts/alertmanager.py","textChars":22,"textLines":1,"bbox":[62,527,320,34]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":5,"text":"Declenche son, Gmail et Telegram.","textPreview":"Declenche son, Gmail et Telegram.","textChars":33,"textLines":1,"bbox":[400,527,800,34]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":5,"bbox":[42,574,1196,60]}
+{"kind":"textbox","id":"sh/83itgfml","slide":5,"text":"database/db.py + dashboard/app.py","textPreview":"database/db.py + dashboard/app.py","textChars":33,"textLines":1,"bbox":[62,589,320,34]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":5,"text":"Archive puis affiche les incidents.","textPreview":"Archive puis affiche les incidents.","textChars":35,"textLines":1,"bbox":[400,589,800,34]}
+{"kind":"notes","id":"nt/rqwo44","slide":5,"text":""}
+{"kind":"slide","id":"sl/xzbfay","slide":6,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":7}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":6,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/lwval87e","slide":6,"text":"Code: acquisition et pretraitement","textPreview":"Code: acquisition et pretraitement","textChars":34,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":6,"bbox":[42,150,560,500]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":6,"bbox":[42,150,560,42]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":6,"text":"core/acquisition.py","textPreview":"core/acquisition.py","textChars":19,"textLines":1,"bbox":[60,160,524,26]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":6,"text":"def open(self) -> None:\n    if isinstance(self.source, int):\n        self.capture = cv2.VideoCapture(\n            self.source, cv2.CAP_DSHOW\n        )\n        self.capture.set(\n            cv2.CAP_PROP_BUFFERSIZE,\n            self.buffer_size,\n        )\n        self.capture.set(\n            cv2.CAP_PROP_FRAME_WIDTH,\n            self.width,\n        )","textPreview":"def open(self) -> None: |     if isinstance(self.source, int): |         self.capture = cv2.VideoCapture( |             self.source, cv2....","textChars":351,"textLines":13,"bbox":[60,208,524,428]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":6,"bbox":[636,150,602,500]}
+{"kind":"shape","id":"sh/at47y1kr","slide":6,"bbox":[636,150,602,42]}
+{"kind":"textbox","id":"sh/knih4byh","slide":6,"text":"core/preprocessing.py","textPreview":"core/preprocessing.py","textChars":21,"textLines":1,"bbox":[654,160,566,26]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":6,"text":"def preprocess_frame(frame, img_size=IMG_SIZE):\n    rgb = cv2.cvtColor(\n        frame, cv2.COLOR_BGR2RGB\n    )\n    resized = cv2.resize(\n        rgb, (img_size, img_size)\n    )\n    return preprocess_input(\n        resized.astype(np.float32)\n    )\n\ndef add_frame(self, frame):\n    self.frames.append(\n        preprocess_frame(frame)\n    )\n    if len(self.frames) < self.n_frames:\n        return None\n    return np.expand_dims(\n        np.stack(list(self.frames)), axis=0\n    )","textPreview":"def preprocess_frame(frame, img_size=IMG_SIZE): |     rgb = cv2.cvtColor( |         frame, cv2.COLOR_BGR2RGB |     ) |     resized = cv2....","textChars":475,"textLines":20,"bbox":[654,208,566,428]}
+{"kind":"notes","id":"nt/xzbfay","slide":6,"text":""}
+{"kind":"slide","id":"sl/bucena","slide":7,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":10}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":7,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":7,"text":"Code: construction et chargement du modele","textPreview":"Code: construction et chargement du modele","textChars":42,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":7,"text":"Ce que montrent ces lignes","textPreview":"Ce que montrent ces lignes","textChars":26,"textLines":1,"bbox":[42,160,350,44]}
+{"kind":"shape","id":"sh/i5sneloj","slide":7,"bbox":[42,236,12,12]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":7,"text":"EfficientNetB0 extrait les caracteristiques de chaque frame.","textPreview":"EfficientNetB0 extrait les caracteristiques de chaque frame.","textChars":60,"textLines":1,"bbox":[70,228,322,78]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":7,"bbox":[42,318,12,12]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":7,"text":"TimeDistributed applique le meme reseau aux 20 images.","textPreview":"TimeDistributed applique le meme reseau aux 20 images.","textChars":54,"textLines":1,"bbox":[70,310,322,78]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":7,"bbox":[42,400,12,12]}
+{"kind":"textbox","id":"sh/cvixczed","slide":7,"text":"Le LSTM apprend l'evolution temporelle du mouvement.","textPreview":"Le LSTM apprend l'evolution temporelle du mouvement.","textChars":52,"textLines":1,"bbox":[70,392,322,78]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":7,"bbox":[42,482,12,12]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":7,"text":"La couche sigmoid produit un score entre 0 et 1.","textPreview":"La couche sigmoid produit un score entre 0 et 1.","textChars":48,"textLines":1,"bbox":[70,474,322,78]}
+{"kind":"shape","id":"sh/nap4r65w","slide":7,"bbox":[430,150,808,500]}
+{"kind":"shape","id":"sh/cj6tovah","slide":7,"bbox":[430,150,808,42]}
+{"kind":"textbox","id":"sh/54zidony","slide":7,"text":"core/inference.py","textPreview":"core/inference.py","textChars":17,"textLines":1,"bbox":[448,160,772,26]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":7,"text":"def build_model() -> Model:\n    base_model = EfficientNetB0(\n        weights=\"imagenet\",\n        include_top=False,\n        pooling=\"avg\",\n        input_shape=(IMG_SIZE, IMG_SIZE, 3),\n    )\n    base_model.trainable = False\n\n    sequence_input = layers.Input(\n        shape=(N_FRAMES, IMG_SIZE, IMG_SIZE, 3)\n    )\n    features = layers.TimeDistributed(\n        base_model\n    )(sequence_input)\n    x = layers.LSTM(LSTM_UNITS)(features)\n    x = layers.Dropout(0.5)(x)\n    x = layers.Dense(128, activation=\"relu\")(x)\n    output = layers.Dense(\n        1, activation=\"sigmoid\"\n    )(x)\n    return Model(sequence_input, output)","textPreview":"def build_model() -> Model: |     base_model = EfficientNetB0( |         weights=\"imagenet\", |         include_top=False, |         pooli...","textChars":622,"textLines":22,"bbox":[448,208,772,428]}
+{"kind":"notes","id":"nt/bucena","slide":7,"text":""}
+{"kind":"slide","id":"sl/shed1b","slide":8,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":10}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":8,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":8,"text":"Code: decision temporelle","textPreview":"Code: decision temporelle","textChars":25,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":8,"bbox":[42,150,680,500]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":8,"bbox":[42,150,680,42]}
+{"kind":"textbox","id":"sh/ulwval87","slide":8,"text":"core/decision.py","textPreview":"core/decision.py","textChars":16,"textLines":1,"bbox":[60,160,644,26]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":8,"text":"class DecisionEngine:\n    def update(self, score):\n        self.scores.append(float(score))\n        mean_score = (\n            sum(self.scores) / len(self.scores)\n        )\n\n        if len(self.scores) < self.k_window:\n            return False, mean_score\n\n        return (\n            mean_score >= self.threshold,\n            mean_score,\n        )\n\n    def configure(self, threshold, k_window):\n        self.threshold = float(threshold)\n        if k_window != self.k_window:\n            self.k_window = int(k_window)\n            self.scores = collections.deque(\n                maxlen=self.k_window\n            )","textPreview":"class DecisionEngine: |     def update(self, score): |         self.scores.append(float(score)) |         mean_score = ( |             su...","textChars":614,"textLines":22,"bbox":[60,208,644,428]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":8,"text":"Pourquoi cette logique","textPreview":"Pourquoi cette logique","textChars":22,"textLines":1,"bbox":[770,170,430,44]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":8,"bbox":[770,246,12,12]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":8,"text":"Un seul score eleve ne suffit pas.","textPreview":"Un seul score eleve ne suffit pas.","textChars":34,"textLines":1,"bbox":[798,238,402,78]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":8,"bbox":[770,328,12,12]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":8,"text":"La moyenne de K=5 reduit les decisions instables.","textPreview":"La moyenne de K=5 reduit les decisions instables.","textChars":49,"textLines":1,"bbox":[798,320,402,78]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":8,"bbox":[770,410,12,12]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":8,"text":"Le seuil est modifiable depuis le dashboard.","textPreview":"Le seuil est modifiable depuis le dashboard.","textChars":44,"textLines":1,"bbox":[798,402,402,78]}
+{"kind":"shape","id":"sh/wval87ed","slide":8,"bbox":[770,492,12,12]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":8,"text":"La decision finale reste explicable et verifiable.","textPreview":"La decision finale reste explicable et verifiable.","textChars":50,"textLines":1,"bbox":[798,484,402,78]}
+{"kind":"notes","id":"nt/shed1b","slide":8,"text":""}
+{"kind":"slide","id":"sl/zldl0s","slide":9,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":7}
+{"kind":"textbox","id":"sh/vy90je9c","slide":9,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":9,"text":"Code: alertes et enregistrement","textPreview":"Code: alertes et enregistrement","textChars":31,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/61032lsz","slide":9,"bbox":[42,150,560,500]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":9,"bbox":[42,150,560,42]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":9,"text":"alerts/alertmanager.py","textPreview":"alerts/alertmanager.py","textChars":22,"textLines":1,"bbox":[60,160,524,26]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":9,"text":"def send_alerts(self, payload):\n    if not self.can_send():\n        return False\n\n    self.last_alert_time = time.time()\n    self.play_sound()\n    self.send_email(payload)\n    self.send_telegram(payload)\n    return True\n\ndef send_telegram(self, payload):\n    token = (TELEGRAM_TOKEN or \"\").strip()\n    chat_id = (TELEGRAM_CHAT_ID or \"\").strip()\n    if token == \"\" or chat_id == \"\":\n        return\n    if token == \"METS_TON_TOKEN_ICI\":\n        return","textPreview":"def send_alerts(self, payload): |     if not self.can_send(): |         return False |  |     self.last_alert_time = time.time() |     se...","textChars":449,"textLines":17,"bbox":[60,208,524,428]}
+{"kind":"shape","id":"sh/6tovahoz","slide":9,"bbox":[636,150,602,500]}
+{"kind":"shape","id":"sh/vahoza1g","slide":9,"bbox":[636,150,602,42]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":9,"text":"database/db.py","textPreview":"database/db.py","textChars":14,"textLines":1,"bbox":[654,160,566,26]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":9,"text":"def add_incident(\n    score, mean_score,\n    capture_path=None, source=None,\n):\n    init_db()\n    with get_connection() as connection:\n        connection.execute(\n            \"INSERT INTO incidents \"\n            \"(created_at, score, mean_score, \"\n            \"capture_path, source) \"\n            \"VALUES (?, ?, ?, ?, ?)\",\n            (\n                datetime.now().isoformat(\n                    timespec=\"seconds\"\n                ),\n                float(score), float(mean_score),\n                capture_path, source,\n            ),\n        )\n        connection.commit()","textPreview":"def add_incident( |     score, mean_score, |     capture_path=None, source=None, | ): |     init_db() |     with get_connection() as conn...","textChars":575,"textLines":20,"bbox":[654,208,566,428]}
+{"kind":"notes","id":"nt/zldl0s","slide":9,"text":""}
+{"kind":"slide","id":"sl/52t3ur","slide":10,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":10}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":10,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":10,"text":"Code: dashboard Flask","textPreview":"Code: dashboard Flask","textChars":21,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/z61032ls","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":10,"text":"Fonctions exposees","textPreview":"Fonctions exposees","textChars":18,"textLines":1,"bbox":[42,160,365,44]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":10,"bbox":[42,236,12,12]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":10,"text":"La page principale affiche les dix derniers incidents.","textPreview":"La page principale affiche les dix derniers incidents.","textChars":54,"textLines":1,"bbox":[70,228,337,78]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":10,"bbox":[42,318,12,12]}
+{"kind":"textbox","id":"sh/obm58z25","slide":10,"text":"Le formulaire sauvegarde le seuil et la fenetre K.","textPreview":"Le formulaire sauvegarde le seuil et la fenetre K.","textChars":50,"textLines":1,"bbox":[70,310,337,78]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":10,"bbox":[42,400,12,12]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":10,"text":"La route captures sert les images depuis le bon dossier.","textPreview":"La route captures sert les images depuis le bon dossier.","textChars":56,"textLines":1,"bbox":[70,392,337,78]}
+{"kind":"shape","id":"sh/4nap4r65","slide":10,"bbox":[42,482,12,12]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":10,"text":"L'export CSV rend les incidents exploitables.","textPreview":"L'export CSV rend les incidents exploitables.","textChars":45,"textLines":1,"bbox":[70,474,337,78]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":10,"bbox":[445,150,793,500]}
+{"kind":"shape","id":"sh/twra5gbq","slide":10,"bbox":[445,150,793,42]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":10,"text":"dashboard/app.py","textPreview":"dashboard/app.py","textChars":16,"textLines":1,"bbox":[463,160,757,26]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":10,"text":"@app.route(\"/\")\ndef index():\n    incidents = list_incidents(limit=10)\n    settings = get_settings()\n    return render_template(\n        \"index.html\",\n        incidents=incidents,\n        threshold=settings[\"threshold\"],\n        k_window=settings[\"k_window\"],\n    )\n\n@app.route(\"/captures/<path:filename>\")\ndef capture(filename):\n    return send_from_directory(\n        CAPTURES_DIR, Path(filename).name\n    )","textPreview":"@app.route(\"/\") | def index(): |     incidents = list_incidents(limit=10) |     settings = get_settings() |     return render_template( |...","textChars":408,"textLines":16,"bbox":[463,208,757,428]}
+{"kind":"notes","id":"nt/52t3ur","slide":10,"text":""}
+{"kind":"slide","id":"sl/ekpfk6","slide":11,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":11}
+{"kind":"textbox","id":"sh/nap4r65w","slide":11,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/cvixczed","slide":11,"text":"Code: orchestration temps reel","textPreview":"Code: orchestration temps reel","textChars":30,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/udg7adsj","slide":11,"bbox":[42,150,720,500]}
+{"kind":"shape","id":"sh/nyd0z610","slide":11,"bbox":[42,150,720,42]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":11,"text":"main.py","textPreview":"main.py","textChars":7,"textLines":1,"bbox":[60,160,684,26]}
+{"kind":"textbox","id":"sh/54zidony","slide":11,"text":"with VideoSource(source) as video:\n    while True:\n        frame = video.read()\n        if frame is None:\n            break\n\n        sequence = buffer.add_frame(frame)\n        if sequence is None:\n            continue\n\n        score = inference.predict(sequence)\n        is_violence, mean_score = decision.update(score)\n\n        if is_violence:\n            capture_path = save_capture(frame)\n            add_incident(\n                score, mean_score, capture_path, source\n            )\n            alerts.send_alerts(\n                AlertPayload(mean_score, capture_path)\n            )","textPreview":"with VideoSource(source) as video: |     while True: |         frame = video.read() |         if frame is None: |             break |  | ...","textChars":588,"textLines":21,"bbox":[60,208,684,428]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":11,"text":"La boucle relie les 7 modules","textPreview":"La boucle relie les 7 modules","textChars":29,"textLines":1,"bbox":[810,165,390,44]}
+{"kind":"shape","id":"sh/judg7ads","slide":11,"bbox":[810,241,12,12]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":11,"text":"Lit une frame.","textPreview":"Lit une frame.","textChars":14,"textLines":1,"bbox":[838,233,362,78]}
+{"kind":"shape","id":"sh/udg7adsj","slide":11,"bbox":[810,323,12,12]}
+{"kind":"textbox","id":"sh/54zidony","slide":11,"text":"Construit une sequence.","textPreview":"Construit une sequence.","textChars":23,"textLines":1,"bbox":[838,315,362,78]}
+{"kind":"shape","id":"sh/cj6tovah","slide":11,"bbox":[810,405,12,12]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":11,"text":"Lance l'inference.","textPreview":"Lance l'inference.","textChars":18,"textLines":1,"bbox":[838,397,362,78]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":11,"bbox":[810,487,12,12]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":11,"text":"Prend une decision.","textPreview":"Prend une decision.","textChars":19,"textLines":1,"bbox":[838,479,362,78]}
+{"kind":"shape","id":"sh/cvixczed","slide":11,"bbox":[810,569,12,12]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":11,"text":"Capture, archive et alerte.","textPreview":"Capture, archive et alerte.","textChars":27,"textLines":1,"bbox":[838,561,362,78]}
+{"kind":"notes","id":"nt/ekpfk6","slide":11,"text":""}
+{"kind":"slide","id":"sl/c1b253","slide":12,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":8}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":12,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":12,"text":"Fonctionnement en direct","textPreview":"Fonctionnement en direct","textChars":24,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":12,"text":"Deux interfaces travaillent ensemble","textPreview":"Deux interfaces travaillent ensemble","textChars":36,"textLines":1,"bbox":[42,142,460,46]}
+{"kind":"shape","id":"sh/yd0z6103","slide":12,"bbox":[42,228,12,12]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":12,"text":"Fenetre camera: image, score, moyenne K, seuil et statut.","textPreview":"Fenetre camera: image, score, moyenne K, seuil et statut.","textChars":57,"textLines":1,"bbox":[70,220,472,72]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":12,"bbox":[42,304,12,12]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":12,"text":"Dashboard web: reglages, historique, captures et export CSV.","textPreview":"Dashboard web: reglages, historique, captures et export CSV.","textChars":60,"textLines":1,"bbox":[70,296,472,72]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":12,"bbox":[42,380,12,12]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":12,"text":"Mode faible latence: webcam 640 x 480, 15 FPS, prediction espacee.","textPreview":"Mode faible latence: webcam 640 x 480, 15 FPS, prediction espacee.","textChars":66,"textLines":1,"bbox":[70,372,472,72]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":12,"bbox":[42,456,12,12]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":12,"text":"Le seuil et K peuvent etre modifies sans arreter le systeme.","textPreview":"Le seuil et K peuvent etre modifies sans arreter le systeme.","textChars":60,"textLines":1,"bbox":[70,448,472,72]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":12,"bbox":[582,142,656,500]}
+{"kind":"image","id":"im/zed8v6ps","slide":12,"name":"","alt":"dashboard_sirch.png","bbox":[604,172,612,440]}
+{"kind":"notes","id":"nt/c1b253","slide":12,"text":""}
+{"kind":"slide","id":"sl/4ulhnv","slide":13,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":18}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":13,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":13,"text":"Decision, alertes et tracabilite","textPreview":"Decision, alertes et tracabilite","textChars":32,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/al87ed8b","slide":13,"bbox":[78,280,1120,4]}
+{"kind":"shape","id":"sh/z61032ls","slide":13,"bbox":[42,200,210,178]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":13,"text":"Score","textPreview":"Score","textChars":5,"textLines":1,"bbox":[60,225,174,40]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":13,"text":"Le modele produit p.","textPreview":"Le modele produit p.","textChars":20,"textLines":1,"bbox":[60,292,174,62]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":13,"bbox":[287,200,210,178]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":13,"text":"Moyenne K=5","textPreview":"Moyenne K=5","textChars":11,"textLines":1,"bbox":[305,225,174,40]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":13,"text":"Les scores sont lisses.","textPreview":"Les scores sont lisses.","textChars":23,"textLines":1,"bbox":[305,292,174,62]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":13,"bbox":[532,200,210,178]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":13,"text":"Seuil","textPreview":"Seuil","textChars":5,"textLines":1,"bbox":[550,225,174,40]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":13,"text":"Violence si moyenne >= theta.","textPreview":"Violence si moyenne >= theta.","textChars":29,"textLines":1,"bbox":[550,292,174,62]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":13,"bbox":[777,200,210,178]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":13,"text":"Capture","textPreview":"Capture","textChars":7,"textLines":1,"bbox":[795,225,174,40]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":13,"text":"Une image est sauvegardee.","textPreview":"Une image est sauvegardee.","textChars":26,"textLines":1,"bbox":[795,292,174,62]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":13,"bbox":[1022,200,210,178]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":13,"text":"Incident","textPreview":"Incident","textChars":8,"textLines":1,"bbox":[1040,225,174,40]}
+{"kind":"textbox","id":"sh/u54zidon","slide":13,"text":"SQLite garde date et scores.","textPreview":"SQLite garde date et scores.","textChars":28,"textLines":1,"bbox":[1040,292,174,62]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":13,"text":"Canaux d'alerte","textPreview":"Canaux d'alerte","textChars":15,"textLines":1,"bbox":[42,450,300,42]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":13,"text":"Signal sonore","textPreview":"Signal sonore","textChars":13,"textLines":1,"bbox":[42,520,250,40]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":13,"text":"Email Gmail + capture","textPreview":"Email Gmail + capture","textChars":21,"textLines":1,"bbox":[350,520,300,40]}
+{"kind":"textbox","id":"sh/d0z61032","slide":13,"text":"Telegram si configure","textPreview":"Telegram si configure","textChars":21,"textLines":1,"bbox":[720,520,300,40]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":13,"text":"Cooldown: 30 secondes","textPreview":"Cooldown: 30 secondes","textChars":21,"textLines":1,"bbox":[1000,520,230,40]}
+{"kind":"notes","id":"nt/4ulhnv","slide":13,"text":""}
+{"kind":"slide","id":"sl/fvso2f","slide":14,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":12}
+{"kind":"textbox","id":"sh/83itgfml","slide":14,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":14,"text":"Resultats valides sur 599 videos","textPreview":"Resultats valides sur 599 videos","textChars":32,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":14,"text":"Modele original deploye, seuil theta = 0,50","textPreview":"Modele original deploye, seuil theta = 0,50","textChars":43,"textLines":1,"bbox":[42,132,530,36]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":14,"bbox":[42,190,250,170]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":14,"bbox":[42,190,8,170]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":14,"text":"86,81 %","textPreview":"86,81 %","textChars":7,"textLines":1,"bbox":[70,215,200,64]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":14,"text":"Accuracy","textPreview":"Accuracy","textChars":8,"textLines":1,"bbox":[70,296,200,42]}
+{"kind":"shape","id":"sh/4r65wjud","slide":14,"bbox":[310,190,250,170]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":14,"bbox":[310,190,8,170]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":14,"text":"82,74 %","textPreview":"82,74 %","textChars":7,"textLines":1,"bbox":[338,215,200,64]}
+{"kind":"textbox","id":"sh/svu9knih","slide":14,"text":"Precision","textPreview":"Precision","textChars":9,"textLines":1,"bbox":[338,296,200,42]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":14,"bbox":[42,380,250,170]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":14,"bbox":[42,380,8,170]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":14,"text":"92,98 %","textPreview":"92,98 %","textChars":7,"textLines":1,"bbox":[70,405,200,64]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":14,"text":"Rappel","textPreview":"Rappel","textChars":6,"textLines":1,"bbox":[70,486,200,42]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":14,"bbox":[310,380,250,170]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":14,"bbox":[310,380,8,170]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":14,"text":"87,56 %","textPreview":"87,56 %","textChars":7,"textLines":1,"bbox":[338,405,200,64]}
+{"kind":"textbox","id":"sh/vixczed8","slide":14,"text":"F1-score","textPreview":"F1-score","textChars":8,"textLines":1,"bbox":[338,486,200,42]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":14,"bbox":[600,145,638,500]}
+{"kind":"image","id":"im/2hwfyxob","slide":14,"name":"","alt":"confusion_matrix_global.png","bbox":[612,162,614,466]}
+{"kind":"notes","id":"nt/fvso2f","slide":14,"text":""}
+{"kind":"slide","id":"sl/yclqdl","slide":15,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":8}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":15,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":15,"text":"Ce que les experiences ont montre","textPreview":"Ce que les experiences ont montre","textChars":33,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":15,"bbox":[42,132,820,520]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":15,"text":"Lecture simple","textPreview":"Lecture simple","textChars":14,"textLines":1,"bbox":[900,150,300,42]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":15,"bbox":[900,238,12,12]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":15,"text":"EfficientNet seul perd l'information temporelle.","textPreview":"EfficientNet seul perd l'information temporelle.","textChars":48,"textLines":1,"bbox":[928,230,292,78]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":15,"bbox":[900,320,12,12]}
+{"kind":"textbox","id":"sh/bulwval8","slide":15,"text":"Le LSTM augmente fortement le rappel.","textPreview":"Le LSTM augmente fortement le rappel.","textChars":37,"textLines":1,"bbox":[928,312,292,78]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":15,"bbox":[900,402,12,12]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":15,"text":"Le GRU experimental obtient le meilleur compromis global.","textPreview":"Le GRU experimental obtient le meilleur compromis global.","textChars":57,"textLines":1,"bbox":[928,394,292,78]}
+{"kind":"shape","id":"sh/0fepkzup","slide":15,"bbox":[900,484,12,12]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":15,"text":"Le modele live reste le modele original valide et configure.","textPreview":"Le modele live reste le modele original valide et configure.","textChars":60,"textLines":1,"bbox":[928,476,292,78]}
+{"kind":"image","id":"im/2t83itgf","slide":15,"name":"","alt":"ablation_complete.png","bbox":[58,150,788,480]}
+{"kind":"notes","id":"nt/yclqdl","slide":15,"text":""}
+{"kind":"slide","id":"sl/slewi4","slide":16,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":9}
+{"kind":"textbox","id":"sh/8bat47y1","slide":16,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":16,"text":"Demonstration live devant l'encadreur","textPreview":"Demonstration live devant l'encadreur","textChars":37,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":16,"text":"Terminal 1 - dashboard","textPreview":"Terminal 1 - dashboard","textChars":22,"textLines":1,"bbox":[42,150,360,34]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":16,"bbox":[42,195,1196,82]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":16,"text":"C:\\SIRCH_ENV\\Scripts\\python.exe -m dashboard.app","textPreview":"C:\\SIRCH_ENV\\Scripts\\python.exe -m dashboard.app","textChars":48,"textLines":1,"bbox":[64,220,1140,36]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":16,"text":"Terminal 2 - detection webcam","textPreview":"Terminal 2 - detection webcam","textChars":29,"textLines":1,"bbox":[42,315,420,34]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":16,"bbox":[42,360,1196,82]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":16,"text":"C:\\SIRCH_ENV\\Scripts\\python.exe main.py --source 0","textPreview":"C:\\SIRCH_ENV\\Scripts\\python.exe main.py --source 0","textChars":50,"textLines":1,"bbox":[64,385,1140,36]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":16,"text":"Puis ouvrir http://127.0.0.1:5000","textPreview":"Puis ouvrir http://127.0.0.1:5000","textChars":33,"textLines":1,"bbox":[42,490,650,42]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":16,"text":"Test conseille: mouvements simules, sans contact physique dangereux. Montrer la fenetre camera, le score, l'alerte, la capture et l'incident dans le dashboard.","textPreview":"Test conseille: mouvements simules, sans contact physique dangereux. Montrer la fenetre camera, le score, l'alerte, la capture et l'incid...","textChars":159,"textLines":1,"bbox":[42,555,1160,76]}
+{"kind":"notes","id":"nt/slewi4","slide":16,"text":""}
+{"kind":"slide","id":"sl/8b8mrn","slide":17,"title":"SIRCH | PRESENTATION TECHNIQUE","textShapes":16}
+{"kind":"textbox","id":"sh/p4r65wju","slide":17,"text":"SIRCH | PRESENTATION TECHNIQUE","textPreview":"SIRCH | PRESENTATION TECHNIQUE","textChars":30,"textLines":1,"bbox":[42,28,540,24]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":17,"text":"Projet reproductible et verifiable","textPreview":"Projet reproductible et verifiable","textChars":34,"textLines":1,"bbox":[42,58,1130,70]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1180,660,58,22]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":17,"bbox":[42,180,270,170]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":17,"bbox":[42,180,8,170]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":17,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[70,205,220,64]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":17,"text":"modules integres","textPreview":"modules integres","textChars":16,"textLines":1,"bbox":[70,286,220,42]}
+{"kind":"shape","id":"sh/0z61032l","slide":17,"bbox":[335,180,270,170]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":17,"bbox":[335,180,8,170]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":17,"text":"599","textPreview":"599","textChars":3,"textLines":1,"bbox":[363,205,220,64]}
+{"kind":"textbox","id":"sh/cbulwval","slide":17,"text":"videos de test","textPreview":"videos de test","textChars":14,"textLines":1,"bbox":[363,286,220,42]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":17,"bbox":[628,180,270,170]}
+{"kind":"shape","id":"sh/u54zidon","slide":17,"bbox":[628,180,8,170]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":17,"text":"21,85 MB","textPreview":"21,85 MB","textChars":8,"textLines":1,"bbox":[656,205,220,64]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":17,"text":"modele original","textPreview":"modele original","textChars":15,"textLines":1,"bbox":[656,286,220,42]}
+{"kind":"shape","id":"sh/neloj2t8","slide":17,"bbox":[921,180,270,170]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":17,"bbox":[921,180,8,170]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":17,"text":"30 s","textPreview":"30 s","textChars":4,"textLines":1,"bbox":[949,205,220,64]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":17,"text":"cooldown alertes","textPreview":"cooldown alertes","textChars":16,"textLines":1,"bbox":[949,286,220,42]}
+{"kind":"textbox","id":"sh/cvixczed","slide":17,"text":"Le README explique l'installation, la configuration, les commandes de lancement, la structure du code, les tests et la demonstration live.","textPreview":"Le README explique l'installation, la configuration, les commandes de lancement, la structure du code, les tests et la demonstration live.","textChars":138,"textLines":1,"bbox":[42,405,820,100]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":17,"text":"GitHub","textPreview":"GitHub","textChars":6,"textLines":1,"bbox":[42,545,160,34]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":17,"text":"github.com/Ertual/SIRCH-","textPreview":"github.com/Ertual/SIRCH-","textChars":24,"textLines":1,"bbox":[42,585,650,44]}
+{"kind":"shape","id":"sh/nap4r65w","slide":17,"bbox":[930,430,260,200]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":17,"text":"SIRCH","textPreview":"SIRCH","textChars":5,"textLines":1,"bbox":[965,470,190,58]}
+{"kind":"textbox","id":"sh/54zidony","slide":17,"text":"Code + preuve + live","textPreview":"Code + preuve + live","textChars":20,"textLines":1,"bbox":[955,550,210,42]}
+{"kind":"notes","id":"nt/8b8mrn","slide":17,"text":""}

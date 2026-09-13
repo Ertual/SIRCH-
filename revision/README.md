@@ -12,6 +12,24 @@ un sous-dossier dedie.
    uniquement, sans lecture du test principal.
 3. `exp03_cpu_benchmark` : benchmark CPU reproductible de l'inference pure et du
    pipeline de bout en bout, avec moyenne, ecart-type, P50, P95 et P99.
+4. `exp04_augmented_clean` : construction du corpus augmente propre et
+   reentrainement LSTM avec restauration des meilleurs poids de l'epoch 6.
+5. `exp05_augmented_evaluation` : selection validation puis evaluation finale
+   verrouillee du LSTM enrichi.
+6. `exp06_original_vs_augmented_stats` : McNemar exact et bootstrap apparie entre
+   les deux LSTM sur le test propre.
+7. `exp07_gru_augmented_clean` : entrainement de la cellule GRU enrichie avec
+   restauration des meilleurs poids de l'epoch 5.
+8. `exp08_gru_factorial_evaluation` : selection et evaluation verrouillees des GRU,
+   puis analyse du factoriel LSTM/GRU x original/enrichi.
+
+## Figures de revision
+
+`generate_revision_figures.py` regenere les courbes de selection de theta, les
+courbes d'entrainement, les courbes ROC et la figure d'interaction factorielle.
+Chaque fichier est ecrit dans le dossier `outputs/` de l'experience correspondante
+et son SHA-256 est enregistre dans le `figure_manifest.json` local. L'index agrege
+de toutes les figures reste disponible dans `revision/figure_manifest.json`.
 
 ## Regles de lecture
 
