@@ -1,0 +1,6 @@
+review_id,dataset,relative_path,sha256,previous_split,original_label,corrected_label,visual_evidence
+V096,RWF-2000,train/Fight/rwf_train_fight_0249.avi,1af2f0cef6f92377a64d8ef2a17e270dbeca98661dcb2b7ad2a342f613766f5f,train,1,0,"Hall d'hotel: passants et bagages; aucun coup, contact agressif, poursuite ou menace visible sur 24 instants."
+V102,RWF-2000,train/Fight/rwf_train_fight_0509.avi,7a4b510be52f0d62aa8d1336dcc9c073c2b0b4ec22f0447232acefe698de6574,test,1,0,Voiture garee seule pendant tout le clip; aucun individu ni action violente visible sur 24 instants.
+V109,RWF-2000,train/Fight/rwf_train_fight_0322.avi,66acc3ce705c6fc3c71918444eba1765c54c81ab939db6a7943bf78fa24e0ef8,train,1,0,Fin de scene: les personnes se dispersent et marchent; aucun contact agressif visible dans ce segment sur 24 instants.
+V113,RWF-2000,val/Fight/rwf_val_fight_0042.avi,45d12fe47fc75cd30e471df89dfa3ccd84e2ccfff2c10047217067ab4fb69392,train,1,0,Parking lointain: des pietons marchent; aucun contact ni geste agressif visible sur 24 instants.
+V116,RWF-2000,train/Fight/rwf_train_fight_0369.avi,5365369272df4fe6075a8101cf9703ca2e9b8ce1e37e8a84ba23126f8ce72f44,test,1,0,"Homme seul pres d'une cloture; aucun adversaire, coup ou action violente visible sur 24 instants."

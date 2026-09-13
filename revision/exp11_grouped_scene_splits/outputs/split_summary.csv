@@ -1,0 +1,4 @@
+split,target_total,actual_total,proportion,label_0,label_1,target_label_1,rwf_2000,rlvs,moved_in,moved_out
+train,2785,2785,0.69992460,1399,1386,1386,1374,1411,122,130
+validation,597,597,0.15003770,300,297,297,307,290,76,73
+test,597,597,0.15003770,300,297,297,305,292,81,76

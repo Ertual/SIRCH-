@@ -1,0 +1,27 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "new grouped manifests; labels include completed visual corrections",
+  "order_salt": "sirch-exp11-grouped-scene-splits-v1",
+  "files": [
+    {
+      "file": "train_manifest_grouped.csv",
+      "rows": 2785,
+      "sha256": "55c83d2b2546c09700bfc208f5b08cc915755359dea98d58aa746c00ea9453f8"
+    },
+    {
+      "file": "validation_manifest_grouped.csv",
+      "rows": 597,
+      "sha256": "d4b3f4a41c4d118a99abd70e88943f7886970695353369259ec3ea506e3964e5"
+    },
+    {
+      "file": "test_manifest_grouped.csv",
+      "rows": 597,
+      "sha256": "a37aa9cba85d28ac315c1ea813c902330a3e99525042c13012023914e0a9887a"
+    },
+    {
+      "file": "augmented_train_manifest_grouped.csv",
+      "rows": 2810,
+      "sha256": "287a299b9c47808a9dda2ce51877e1f8f1b14dc00c919a3f8fdf3c446abd3b2f"
+    }
+  ]
+}

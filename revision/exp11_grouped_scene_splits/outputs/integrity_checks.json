@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "principal_video_count": 3979,
+  "augmented_train_video_count": 2810,
+  "perceptual_groups_used_as_base": 191,
+  "final_scene_group_count": 3503,
+  "non_singleton_scene_group_count": 204,
+  "scene_group_split_violations": [],
+  "exact_sha256_split_violations": [],
+  "label_correction_count": 5,
+  "historical_enrichment_audit": {
+    "video_count": 25,
+    "exact_sha256_overlap_with_principal": 0,
+    "perceptual_cluster_rows": 0
+  },
+  "videos_changed_split": 279,
+  "target_sizes": {
+    "train": 2785,
+    "validation": 597,
+    "test": 597
+  },
+  "target_label_1": {
+    "train": 1386,
+    "validation": 297,
+    "test": 297
+  },
+  "solver": {
+    "method": "scipy.optimize.milp (HiGHS)",
+    "objective": "minimize moved videos under exact size and class constraints",
+    "success": true,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "objective_value": 279.00172660755635
+  },
+  "split_summary": [
+    {
+      "split": "train",
+      "target_total": 2785,
+      "actual_total": 2785,
+      "proportion": "0.69992460",
+      "label_0": 1399,
+      "label_1": 1386,
+      "target_label_1": 1386,
+      "rwf_2000": 1374,
+      "rlvs": 1411,
+      "moved_in": 122,
+      "moved_out": 130
+    },
+    {
+      "split": "validation",
+      "target_total": 597,
+      "actual_total": 597,
+      "proportion": "0.15003770",
+      "label_0": 300,
+      "label_1": 297,
+      "target_label_1": 297,
+      "rwf_2000": 307,
+      "rlvs": 290,
+      "moved_in": 76,
+      "moved_out": 73
+    },
+    {
+      "split": "test",
+      "target_total": 597,
+      "actual_total": 597,
+      "proportion": "0.15003770",
+      "label_0": 300,
+      "label_1": 297,
+      "target_label_1": 297,
+      "rwf_2000": 305,
+      "rlvs": 292,
+      "moved_in": 81,
+      "moved_out": 76
+    }
+  ]
+}

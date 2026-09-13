@@ -1,0 +1,82 @@
+{
+  "status": "completed_waiting_for_user_validation",
+  "training_started": false,
+  "visual_review": {
+    "opposing_label_pairs": 90,
+    "unique_videos": 129,
+    "label_corrections": 5,
+    "pairs_resolved_by_correction": 6,
+    "legitimate_temporal_transitions": 84
+  },
+  "splits": [
+    {
+      "split": "train",
+      "target_total": 2785,
+      "actual_total": 2785,
+      "proportion": "0.69992460",
+      "label_0": 1399,
+      "label_1": 1386,
+      "target_label_1": 1386,
+      "rwf_2000": 1374,
+      "rlvs": 1411,
+      "moved_in": 122,
+      "moved_out": 130
+    },
+    {
+      "split": "validation",
+      "target_total": 597,
+      "actual_total": 597,
+      "proportion": "0.15003770",
+      "label_0": 300,
+      "label_1": 297,
+      "target_label_1": 297,
+      "rwf_2000": 307,
+      "rlvs": 290,
+      "moved_in": 76,
+      "moved_out": 73
+    },
+    {
+      "split": "test",
+      "target_total": 597,
+      "actual_total": 597,
+      "proportion": "0.15003770",
+      "label_0": 300,
+      "label_1": 297,
+      "target_label_1": 297,
+      "rwf_2000": 305,
+      "rlvs": 292,
+      "moved_in": 81,
+      "moved_out": 76
+    }
+  ],
+  "videos_changed_split": 279,
+  "integrity_status": "PASS",
+  "manifest_seal": {
+    "algorithm": "SHA-256",
+    "scope": "new grouped manifests; labels include completed visual corrections",
+    "order_salt": "sirch-exp11-grouped-scene-splits-v1",
+    "files": [
+      {
+        "file": "train_manifest_grouped.csv",
+        "rows": 2785,
+        "sha256": "55c83d2b2546c09700bfc208f5b08cc915755359dea98d58aa746c00ea9453f8"
+      },
+      {
+        "file": "validation_manifest_grouped.csv",
+        "rows": 597,
+        "sha256": "d4b3f4a41c4d118a99abd70e88943f7886970695353369259ec3ea506e3964e5"
+      },
+      {
+        "file": "test_manifest_grouped.csv",
+        "rows": 597,
+        "sha256": "a37aa9cba85d28ac315c1ea813c902330a3e99525042c13012023914e0a9887a"
+      },
+      {
+        "file": "augmented_train_manifest_grouped.csv",
+        "rows": 2810,
+        "sha256": "287a299b9c47808a9dda2ce51877e1f8f1b14dc00c919a3f8fdf3c446abd3b2f"
+      }
+    ]
+  },
+  "next_action": "wait_for_explicit_user_validation_before_any_training"
+}

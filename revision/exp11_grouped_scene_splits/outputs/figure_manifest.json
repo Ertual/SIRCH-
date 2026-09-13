@@ -1,0 +1,114 @@
+{
+  "figures": [
+    {
+      "file": "label_conflict_review/conflict_review_page_01.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "d76d98f5b348810b3a6032fc7a5a0b2af8b6c2900e378e7d3a10fa497046dffa"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_02.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "25bd54c6e7a9bc2c69c0f28bb9250331cee8fbbc857ef54238a40ef6e444e0ec"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_03.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "ab9a1ee71790b00270251274459d5eae99f7f5691cf940d68d4b9fc04a0bd2b0"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_04.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "b38b5c2e75a7b0ec36e9b5cc624c799d6e4d3917148c14f9cd8b530e92b17c27"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_05.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "aada9ddb88f1b55710d2463f2f5fda4557186d0b498de11c95e064ef005c1c64"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_06.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "41be6ffbb779da01539ec7576f29d8de984f996569fff434fc902b53e20b4c87"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_07.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "24fa924524781e7b94668d9c7bba2a037069810bf32c60353a77b58197dcb3eb"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_08.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "615daba3bb6893317b579e7fbbbdeaef4f2ff96c89c5618e7bc4ffb7f5de1b86"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_09.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "840080042d39d4953385de714afd0254bd1d5303bbf203dea942236802ea4cb8"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_10.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "c69dae482cdef544471b3fa5938103e132755db9b09440eaf590f87b057e9eea"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_11.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "06fc4cec901dcb184672eb3638e5b9522dc02768a9dc45c85aba114dc9392d89"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_12.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "4ca703c010da1212c26d5f34c2e8693901ddddfa6fbc94ab23bad4453b057000"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_13.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "c386a0d5762c92696893bd7a8efffb8f93767d0a701c170f2f47511ce25cbae2"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_14.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "f6bc401e9b5e88d7c192fc7c93ac07271a393661ea0cd1aa7f31b826df86816e"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_15.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "54a6e7d447ae23c0a2a0afe359618662e1e8d489c90b00f4298ce7fee8dcfc0e"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_16.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "9b41b37c67b8023aa079ba942346cb77b01dca44f8374175cb49be7fe351d8ea"
+    },
+    {
+      "file": "label_conflict_review/conflict_review_page_17.jpg",
+      "purpose": "Nine-frame visual review of opposing-label near-duplicate clips",
+      "sha256": "0185144bb0339509a4ec88f22a62125a7b445dd8c731fece0c3ab20db337abd4"
+    },
+    {
+      "file": "label_correction_zoom/V096_zoom.jpg",
+      "purpose": "Twenty-four-frame second-pass evidence for a corrected label",
+      "sha256": "21f153b7b26952e850d94e09bd5fc587ebdda870d68a8ac78db9f55402b2d90a"
+    },
+    {
+      "file": "label_correction_zoom/V102_zoom.jpg",
+      "purpose": "Twenty-four-frame second-pass evidence for a corrected label",
+      "sha256": "fca98159adb0ee1922995401bce0da8ef0e9d9c3d33a7f94e4eeccd81a60210c"
+    },
+    {
+      "file": "label_correction_zoom/V109_zoom.jpg",
+      "purpose": "Twenty-four-frame second-pass evidence for a corrected label",
+      "sha256": "4a276ea496e396d759860bd0f117c12377a2e725af4d6ef5b65090290f801749"
+    },
+    {
+      "file": "label_correction_zoom/V113_zoom.jpg",
+      "purpose": "Twenty-four-frame second-pass evidence for a corrected label",
+      "sha256": "55929768facff6ad23757bfee87c7230e81b3eed67089957d2dd4ebcd5e0ae45"
+    },
+    {
+      "file": "label_correction_zoom/V116_zoom.jpg",
+      "purpose": "Twenty-four-frame second-pass evidence for a corrected label",
+      "sha256": "7dcd055d71639308191a8566be4af7b6d24604e28f209a9a3a6609ffc1cd1cdb"
+    }
+  ]
+}
