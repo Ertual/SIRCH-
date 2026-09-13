@@ -39,3 +39,4 @@ output/
 *.log
 docs/pptx_qa_tmp/
 docs/_pptx_tmp/
+revision/**/smoke_outputs/

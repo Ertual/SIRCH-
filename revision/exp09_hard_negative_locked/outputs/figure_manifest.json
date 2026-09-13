@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-13T18:51:49.758650+00:00",
+  "figures": {
+    "hard_negative_false_positive_rates.png": {
+      "sha256": "dd0324a4302093e84ddd658b6757a4c644700fdaa91c36f999384abbeb736134",
+      "size_bytes": 51771
+    }
+  }
+}

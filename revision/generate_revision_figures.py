@@ -553,6 +553,38 @@ def main() -> None:
         )
         generated.append(experiment_manifest)
 
+    externally_generated = [
+        REVISION_ROOT
+        / "exp09_hard_negative_locked"
+        / "outputs"
+        / "hard_negative_false_positive_rates.png",
+        REVISION_ROOT / "exp09_hard_negative_locked" / "outputs" / "figure_manifest.json",
+        REVISION_ROOT
+        / "exp10_perceptual_leakage_audit"
+        / "outputs"
+        / "perceptual_candidate_distances.png",
+        REVISION_ROOT
+        / "exp10_perceptual_leakage_audit"
+        / "outputs"
+        / "review_contact_sheet_borderline.png",
+        REVISION_ROOT
+        / "exp10_perceptual_leakage_audit"
+        / "outputs"
+        / "review_contact_sheet_possible.png",
+        REVISION_ROOT
+        / "exp10_perceptual_leakage_audit"
+        / "outputs"
+        / "review_contact_sheet_probable.png",
+        REVISION_ROOT
+        / "exp10_perceptual_leakage_audit"
+        / "outputs"
+        / "figure_manifest.json",
+    ]
+    for path in externally_generated:
+        if not path.exists():
+            raise FileNotFoundError(path)
+    generated.extend(externally_generated)
+
     manifest_rows = [
         {
             "path": str(path.relative_to(PROJECT_ROOT)).replace("\\", "/"),

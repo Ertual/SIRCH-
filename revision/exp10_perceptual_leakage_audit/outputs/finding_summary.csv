@@ -1,0 +1,13 @@
+classification,split_pair,dataset_pair,n_pairs,label_conflict_pairs,unique_videos_a,unique_videos_b
+possible_near_duplicate,train--test,RLVS--RLVS,45,0,40,32
+possible_near_duplicate,train--test,RWF-2000--RWF-2000,66,14,58,43
+possible_near_duplicate,train--validation,RLVS--RLVS,31,0,29,22
+possible_near_duplicate,train--validation,RWF-2000--RWF-2000,57,9,48,39
+possible_near_duplicate,validation--test,RLVS--RLVS,3,0,3,2
+possible_near_duplicate,validation--test,RWF-2000--RWF-2000,14,3,14,14
+probable_near_duplicate,train--test,RLVS--RLVS,28,0,23,20
+probable_near_duplicate,train--test,RWF-2000--RWF-2000,123,26,91,77
+probable_near_duplicate,train--validation,RLVS--RLVS,22,0,20,15
+probable_near_duplicate,train--validation,RWF-2000--RWF-2000,193,61,131,83
+probable_near_duplicate,validation--test,RLVS--RLVS,6,0,4,4
+probable_near_duplicate,validation--test,RWF-2000--RWF-2000,38,3,29,28

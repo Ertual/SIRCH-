@@ -1,0 +1,228 @@
+{
+  "status": "completed_locked_hard_negative_evaluation",
+  "created_utc": "2026-09-13T18:51:49.756643+00:00",
+  "hard_negative_manifest_sha256": "4b9c6c135ec3869e7b109f1aa5a695b3a544368b07ada753919ca226e9c76dba",
+  "n_videos": 30,
+  "categories": {
+    "sport": 15,
+    "danse": 10,
+    "calme": 5
+  },
+  "n_frames": 20,
+  "stride_frames": 5,
+  "shared_efficientnet_backbone_verified_bit_identical": true,
+  "locked_configs": {
+    "lstm_original": {
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "threshold": 0.7,
+      "k": 7,
+      "model_path": "C:\\SIRCH_ENV\\models\\sirch_model.h5",
+      "model_sha256": "9d63a86c78f042dea0d12fe1c880f07f57d13eed95abdd4773aef672982615ec"
+    },
+    "lstm_augmented": {
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "model_path": "C:\\SIRCH_ENV\\models\\revision\\exp04_augmented_clean\\best_lstm_augmented_clean.weights.h5",
+      "model_sha256": "4ccfe5bb3838cd829fa5e4eaba0332128d14e52380509eee2d4083c321aeaa13",
+      "source_best_epoch": 6
+    },
+    "gru_original": {
+      "architecture": "GRU",
+      "enrichment": "original",
+      "threshold": 0.6,
+      "k": 10,
+      "model_path": "C:\\SIRCH_ENV\\models\\phase3\\sirch_model_gru.h5",
+      "model_sha256": "fc060649cc4935c59c23596ab926d19af0e189c76983ac666c9038a8d0d98eaf"
+    },
+    "gru_augmented": {
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "model_path": "C:\\SIRCH_ENV\\models\\revision\\exp07_gru_augmented_clean\\best_gru_augmented_clean.weights.h5",
+      "model_sha256": "f7d3a87697d6b6b1ca36d46cdf7c1af6a499557b3e60dccc06078ff26a15956e",
+      "source_best_epoch": 5
+    }
+  },
+  "results": [
+    {
+      "model": "lstm_original",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "threshold": 0.7,
+      "k": 7,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 8,
+      "false_positive_rate": 0.5333333333333333
+    },
+    {
+      "model": "lstm_original",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "threshold": 0.7,
+      "k": 7,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 7,
+      "false_positive_rate": 0.7
+    },
+    {
+      "model": "lstm_original",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "threshold": 0.7,
+      "k": 7,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 4,
+      "false_positive_rate": 0.8
+    },
+    {
+      "model": "lstm_original",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "threshold": 0.7,
+      "k": 7,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 19,
+      "false_positive_rate": 0.6333333333333333
+    },
+    {
+      "model": "lstm_augmented",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 6,
+      "false_positive_rate": 0.4
+    },
+    {
+      "model": "lstm_augmented",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 5,
+      "false_positive_rate": 0.5
+    },
+    {
+      "model": "lstm_augmented",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 3,
+      "false_positive_rate": 0.6
+    },
+    {
+      "model": "lstm_augmented",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 14,
+      "false_positive_rate": 0.4666666666666667
+    },
+    {
+      "model": "gru_original",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "threshold": 0.6,
+      "k": 10,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 6,
+      "false_positive_rate": 0.4
+    },
+    {
+      "model": "gru_original",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "threshold": 0.6,
+      "k": 10,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 9,
+      "false_positive_rate": 0.9
+    },
+    {
+      "model": "gru_original",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "threshold": 0.6,
+      "k": 10,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 4,
+      "false_positive_rate": 0.8
+    },
+    {
+      "model": "gru_original",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "threshold": 0.6,
+      "k": 10,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 19,
+      "false_positive_rate": 0.6333333333333333
+    },
+    {
+      "model": "gru_augmented",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 8,
+      "false_positive_rate": 0.5333333333333333
+    },
+    {
+      "model": "gru_augmented",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 9,
+      "false_positive_rate": 0.9
+    },
+    {
+      "model": "gru_augmented",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 4,
+      "false_positive_rate": 0.8
+    },
+    {
+      "model": "gru_augmented",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "threshold": 0.6,
+      "k": 7,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 21,
+      "false_positive_rate": 0.7
+    }
+  ]
+}

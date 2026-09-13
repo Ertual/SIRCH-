@@ -1,0 +1,110 @@
+{
+  "status": "complete_with_limitations",
+  "created_utc": "2026-09-13T18:53:21.378344+00:00",
+  "scope": "augmented train versus validation versus test",
+  "split_counts": {
+    "train": 2818,
+    "validation": 594,
+    "test": 592
+  },
+  "cross_split_video_pair_space": 3693796,
+  "exact_sha256_overlap_count": 0,
+  "exact_sha256_duplicate_stats": {
+    "cross_split_groups": 0,
+    "within_split_groups": {
+      "train": 12,
+      "validation": 0,
+      "test": 1
+    },
+    "within_split_groups_total": 13
+  },
+  "manifest_sha256": {
+    "augmented_train": "f28b0ee1cb6862dcb8bf51923a4c39734abc9d55a8001818269a61b9f28a5cd9",
+    "validation": "933a26378a88236beafeb51fc91b53c7abab5185aba9d97daa0b68dd2310e397",
+    "test": "13bfda2224edb723a75be0deb4bd067d37fb7c481830a00cd11284485994cb1f"
+  },
+  "method": {
+    "sample_fractions": [
+      0.05,
+      0.16249999999999998,
+      0.27499999999999997,
+      0.38749999999999996,
+      0.49999999999999994,
+      0.6125,
+      0.725,
+      0.8374999999999999,
+      0.95
+    ],
+    "frames_per_video": 9,
+    "phash_bits": 64,
+    "crop_fractions": [
+      0.0,
+      0.1,
+      0.2
+    ],
+    "frame_candidate_hamming_threshold": 8,
+    "temporal_confirmation": "longest ordered matching frame subsequence",
+    "metadata_checks": [
+      "source_id",
+      "exact basename",
+      "duration",
+      "resolution"
+    ]
+  },
+  "candidate_pairs": 1356,
+  "classification_counts": {
+    "probable_near_duplicate": 410,
+    "possible_near_duplicate": 216,
+    "isolated_frame_similarity": 730
+  },
+  "near_duplicate_findings": 626,
+  "finding_statistics": {
+    "unique_flagged_videos_by_split": {
+      "train": 356,
+      "validation": 144,
+      "test": 154
+    },
+    "unique_probable_videos_by_split": {
+      "train": 235,
+      "validation": 105,
+      "test": 106
+    },
+    "probable_label_conflict_pairs": 90,
+    "probable_train_test_pairs": 151,
+    "test_videos_with_probable_train_match": 97,
+    "probable_train_validation_pairs": 215,
+    "validation_videos_with_probable_train_match": 98,
+    "flagged_connected_components": 191,
+    "largest_component_videos": 16
+  },
+  "incomplete_video_decodes": 1,
+  "limitations": [
+    "Nine sampled frames can miss a very short shared segment between otherwise different videos.",
+    "pHash is robust to re-encoding and modest image changes, but not to every severe crop or overlay.",
+    "Source identifiers are available for the historical enrichment, not for every source dataset clip."
+  ],
+  "manual_visual_review": {
+    "status": "completed",
+    "reviewed_pairs": 24,
+    "sampling": {
+      "probable_strongest": 8,
+      "possible_strongest": 8,
+      "possible_borderline_lowest_ranked": 8
+    },
+    "judgements": {
+      "visually_consistent_with_same_source_or_scene_continuity": 23,
+      "inconclusive_from_middle_frame": 1,
+      "contradicted": 0
+    },
+    "inconclusive_pair": {
+      "left": "NonViolence/NV_638.mp4",
+      "right": "NonViolence/NV_637.mp4"
+    },
+    "evidence_figures": [
+      "review_contact_sheet_probable.png",
+      "review_contact_sheet_possible.png",
+      "review_contact_sheet_borderline.png"
+    ],
+    "interpretation": "The deliberately reviewed strong and borderline samples support the pHash classification. This is a targeted review, not a random estimate of precision over every flagged pair."
+  }
+}

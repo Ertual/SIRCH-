@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "reviewed_pairs": 24,
+  "sampling": {
+    "probable_strongest": 8,
+    "possible_strongest": 8,
+    "possible_borderline_lowest_ranked": 8
+  },
+  "judgements": {
+    "visually_consistent_with_same_source_or_scene_continuity": 23,
+    "inconclusive_from_middle_frame": 1,
+    "contradicted": 0
+  },
+  "inconclusive_pair": {
+    "left": "NonViolence/NV_638.mp4",
+    "right": "NonViolence/NV_637.mp4"
+  },
+  "evidence_figures": [
+    "review_contact_sheet_probable.png",
+    "review_contact_sheet_possible.png",
+    "review_contact_sheet_borderline.png"
+  ],
+  "interpretation": "The deliberately reviewed strong and borderline samples support the pHash classification. This is a targeted review, not a random estimate of precision over every flagged pair."
+}

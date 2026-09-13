@@ -133,6 +133,41 @@
       "path": "revision/exp07_gru_augmented_clean/outputs/figure_manifest.json",
       "sha256": "6719a2acce50a7fbfdcf2eb2a96ee0f80e2b57caee5dbe2e5428f792e21c1b36",
       "bytes": 713
+    },
+    {
+      "path": "revision/exp09_hard_negative_locked/outputs/hard_negative_false_positive_rates.png",
+      "sha256": "dd0324a4302093e84ddd658b6757a4c644700fdaa91c36f999384abbeb736134",
+      "bytes": 51771
+    },
+    {
+      "path": "revision/exp09_hard_negative_locked/outputs/figure_manifest.json",
+      "sha256": "f47f9a6494e64761c77b573dd4cad46f2b723ecb1e5c7c00786701af35898d5d",
+      "bytes": 274
+    },
+    {
+      "path": "revision/exp10_perceptual_leakage_audit/outputs/perceptual_candidate_distances.png",
+      "sha256": "90119a28391b0f723e2b54bf1ef885c8438a0caa46eafd44c64b6c9094ac5320",
+      "bytes": 34791
+    },
+    {
+      "path": "revision/exp10_perceptual_leakage_audit/outputs/review_contact_sheet_borderline.png",
+      "sha256": "8e5a6e2640b040c35c50c038d80eba03b5c15443cac01e27ab33199f0c202f6f",
+      "bytes": 2761533
+    },
+    {
+      "path": "revision/exp10_perceptual_leakage_audit/outputs/review_contact_sheet_possible.png",
+      "sha256": "3662601be9f68d7c0baacc034d0bef362f27d149e52187697f2fc3fbf6bbd431",
+      "bytes": 2636710
+    },
+    {
+      "path": "revision/exp10_perceptual_leakage_audit/outputs/review_contact_sheet_probable.png",
+      "sha256": "c5caa6024b558101093528538c42fe40359b2147f892bce87dc0ebb11f25a446",
+      "bytes": 2584235
+    },
+    {
+      "path": "revision/exp10_perceptual_leakage_audit/outputs/figure_manifest.json",
+      "sha256": "14282c6c5c389dc51bbfe15effd2bd119f9498f2f1c1582240e643f48fe76273",
+      "bytes": 770
     }
   ]
 }

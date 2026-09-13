@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-13T18:53:21.382976+00:00",
+  "figures": {
+    "perceptual_candidate_distances.png": {
+      "sha256": "90119a28391b0f723e2b54bf1ef885c8438a0caa46eafd44c64b6c9094ac5320",
+      "size_bytes": 34791
+    },
+    "review_contact_sheet_borderline.png": {
+      "sha256": "8e5a6e2640b040c35c50c038d80eba03b5c15443cac01e27ab33199f0c202f6f",
+      "size_bytes": 2761533
+    },
+    "review_contact_sheet_possible.png": {
+      "sha256": "3662601be9f68d7c0baacc034d0bef362f27d149e52187697f2fc3fbf6bbd431",
+      "size_bytes": 2636710
+    },
+    "review_contact_sheet_probable.png": {
+      "sha256": "c5caa6024b558101093528538c42fe40359b2147f892bce87dc0ebb11f25a446",
+      "size_bytes": 2584235
+    }
+  }
+}

@@ -1,0 +1,17 @@
+model,architecture,enrichment,threshold,k,category,n_videos,false_positives,false_positive_rate
+lstm_original,LSTM,original,0.7,7,sport,15,8,0.5333333333333333
+lstm_original,LSTM,original,0.7,7,danse,10,7,0.7
+lstm_original,LSTM,original,0.7,7,calme,5,4,0.8
+lstm_original,LSTM,original,0.7,7,overall,30,19,0.6333333333333333
+lstm_augmented,LSTM,enriched,0.6,7,sport,15,6,0.4
+lstm_augmented,LSTM,enriched,0.6,7,danse,10,5,0.5
+lstm_augmented,LSTM,enriched,0.6,7,calme,5,3,0.6
+lstm_augmented,LSTM,enriched,0.6,7,overall,30,14,0.4666666666666667
+gru_original,GRU,original,0.6,10,sport,15,6,0.4
+gru_original,GRU,original,0.6,10,danse,10,9,0.9
+gru_original,GRU,original,0.6,10,calme,5,4,0.8
+gru_original,GRU,original,0.6,10,overall,30,19,0.6333333333333333
+gru_augmented,GRU,enriched,0.6,7,sport,15,8,0.5333333333333333
+gru_augmented,GRU,enriched,0.6,7,danse,10,9,0.9
+gru_augmented,GRU,enriched,0.6,7,calme,5,4,0.8
+gru_augmented,GRU,enriched,0.6,7,overall,30,21,0.7

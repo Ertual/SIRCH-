@@ -22,6 +22,10 @@ un sous-dossier dedie.
    restauration des meilleurs poids de l'epoch 5.
 8. `exp08_gru_factorial_evaluation` : selection et evaluation verrouillees des GRU,
    puis analyse du factoriel LSTM/GRU x original/enrichi.
+9. `exp09_hard_negative_locked` : analyse categorielle des faux positifs des quatre
+   modeles verrouilles sur les 30 videos hard-negative v2.
+10. `exp10_perceptual_leakage_audit` : audit pHash multi-frame et controle visuel
+    des quasi-doublons entre train augmente, validation et test propre.
 
 ## Figures de revision
 
