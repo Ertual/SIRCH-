@@ -20,5 +20,9 @@ Run after exp13 reports `status: complete`:
 C:\SIRCH_ENV\Scripts\python.exe revision\exp14_grouped_factorial_evaluation\run_grouped_evaluation.py
 ```
 
+`queue_after_training.ps1` can be started while exp13 is active. It waits without
+touching the training process and invokes the evaluator only after exp13 records a
+normal completion.
+
 The scoring cache supports interruption recovery. A completed final-test result
 is never recomputed.
