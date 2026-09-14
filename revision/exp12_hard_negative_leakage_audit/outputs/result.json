@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-14T05:49:03.258411+00:00",
+  "scope": "30 sealed hard-negative v2 videos versus 2785 grouped principal train videos",
+  "method": {
+    "sample_positions": 9,
+    "crop_fractions": [
+      0.0,
+      0.1,
+      0.2
+    ],
+    "phash_bits": 64,
+    "frame_candidate_hamming_threshold": 8,
+    "classification_rules": "identical to revision/exp10_perceptual_leakage_audit"
+  },
+  "manifest_sha256": {
+    "train": "55c83d2b2546c09700bfc208f5b08cc915755359dea98d58aa746c00ea9453f8",
+    "hard_negative": "4b9c6c135ec3869e7b109f1aa5a695b3a544368b07ada753919ca226e9c76dba"
+  },
+  "exact_sha256_overlap_count": 0,
+  "candidate_pair_count": 1,
+  "probable_near_duplicate_count": 0,
+  "possible_near_duplicate_count": 0,
+  "affected_hard_negative_video_count": 0,
+  "affected_hard_negative_videos": [],
+  "manual_visual_review": {
+    "status": "completed",
+    "reviewed_candidate_pairs": 1,
+    "pair": {
+      "train_video": "NonViolence/NV_760.mp4",
+      "hard_negative_video": "test_sport_v2/boxe_v2_04_WeyqNKZfHLM.mp4",
+      "automatic_classification": "isolated_frame_similarity",
+      "min_phash_hamming": 8,
+      "ordered_matches_h6": 0,
+      "ordered_matches_h8": 1,
+      "visual_verdict": "unrelated_scenes_not_near_duplicates",
+      "evidence": "The train clip shows a man speaking to a camera in a room; the hard-negative clip shows boxing practice. No source, scene, subject, or temporal continuity is shared."
+    },
+    "evidence_figure": "candidate_pair_visual_review.jpg"
+  }
+}

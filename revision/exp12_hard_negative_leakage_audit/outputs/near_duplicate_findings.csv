@@ -1,0 +1,1 @@
+split_a,split_b,dataset_a,dataset_b,label_a,label_b,relative_path_a,relative_path_b,sha256_a,sha256_b,source_id_a,source_id_b,source_id_match,basename_match,duration_seconds_a,duration_seconds_b,duration_delta_seconds,duration_ratio,resolution_a,resolution_b,min_phash_hamming,ordered_matches_h6,ordered_matches_h8,classification,hard_negative_category

@@ -1,0 +1,54 @@
+{
+  "artifacts": [
+    {
+      "file": "outputs/candidate_pair_visual_review.jpg",
+      "size_bytes": 242038,
+      "sha256": "2ab51afc53749b30204928d26ef9f02f0b39d943bfed316a40280e9c5a9292d3"
+    },
+    {
+      "file": "outputs/candidate_pairs.csv",
+      "size_bytes": 720,
+      "sha256": "485282ccade3a43552db3933f52a25c613bf893c2a3faa73f4fa2076512eb0b8"
+    },
+    {
+      "file": "outputs/candidate_phash_distances.png",
+      "size_bytes": 31814,
+      "sha256": "99e21c6cc1c3edba97a4dcb1bca3eb2601f1cc829aa43f400751595f0f89832f"
+    },
+    {
+      "file": "outputs/figure_manifest.json",
+      "size_bytes": 487,
+      "sha256": "3ea09151c30de6a25bacd93bb7abd0297f70f27516eeb658ddf9882950f09425"
+    },
+    {
+      "file": "outputs/hard_negative_perceptual_signatures.csv",
+      "size_bytes": 23554,
+      "sha256": "ac5ed9f618c788179e3560144694d0087aa38880bb561aec143d4dbd053db080"
+    },
+    {
+      "file": "outputs/manual_visual_review.json",
+      "size_bytes": 644,
+      "sha256": "e6e1646b6b94a579fe84a317b6aa1a7766891ffb980b6a73030cc2614400a551"
+    },
+    {
+      "file": "outputs/near_duplicate_findings.csv",
+      "size_bytes": 353,
+      "sha256": "488f87655b13432ef57b03abc0ac8ad0d9e5e089b939de58c98b120ff6704c34"
+    },
+    {
+      "file": "outputs/result.json",
+      "size_bytes": 1543,
+      "sha256": "f8b09b1e9a3ab3519b48e2ff030e6ba1e504defacf5cd742552033f9d6209c74"
+    },
+    {
+      "file": "outputs/summary.md",
+      "size_bytes": 540,
+      "sha256": "dd899cc87ce5312adc8e6067a59bb502dcceaddb9d1dc4447420bd74754d537b"
+    },
+    {
+      "file": "outputs/video_perceptual_signatures.csv",
+      "size_bytes": 2005329,
+      "sha256": "70fc578f3fe1935e078b9a08d3390b199bb77195a20ce372e76c9dfa553c65b1"
+    }
+  ]
+}

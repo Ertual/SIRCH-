@@ -1,0 +1,14 @@
+{
+  "figures": [
+    {
+      "file": "outputs/candidate_phash_distances.png",
+      "purpose": "Distribution des distances pHash minimales des paires candidates",
+      "sha256": "99e21c6cc1c3edba97a4dcb1bca3eb2601f1cc829aa43f400751595f0f89832f"
+    },
+    {
+      "file": "outputs/candidate_pair_visual_review.jpg",
+      "purpose": "Controle visuel de l'unique similarite de frame isolee",
+      "sha256": "2ab51afc53749b30204928d26ef9f02f0b39d943bfed316a40280e9c5a9292d3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "reviewed_candidate_pairs": 1,
+  "pair": {
+    "train_video": "NonViolence/NV_760.mp4",
+    "hard_negative_video": "test_sport_v2/boxe_v2_04_WeyqNKZfHLM.mp4",
+    "automatic_classification": "isolated_frame_similarity",
+    "min_phash_hamming": 8,
+    "ordered_matches_h6": 0,
+    "ordered_matches_h8": 1,
+    "visual_verdict": "unrelated_scenes_not_near_duplicates",
+    "evidence": "The train clip shows a man speaking to a camera in a room; the hard-negative clip shows boxing practice. No source, scene, subject, or temporal continuity is shared."
+  },
+  "evidence_figure": "candidate_pair_visual_review.jpg"
+}
