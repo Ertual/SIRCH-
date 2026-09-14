@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import collections
 import csv
 import json
 import math
@@ -758,7 +757,12 @@ def factorial_analysis(
                 "enrichment": MODEL_METADATA[key]["enrichment"],
                 "theta": locked["theta"],
                 "k": locked["k"],
-                **{metric: f"{float(point[key][metric]):.10f}" for metric in ("n", "tn", "fp", "fn", "tp", *METRIC_NAMES)},
+                "n": int(point[key]["n"]),
+                "tn": int(point[key]["tn"]),
+                "fp": int(point[key]["fp"]),
+                "fn": int(point[key]["fn"]),
+                "tp": int(point[key]["tp"]),
+                **{metric: f"{float(point[key][metric]):.10f}" for metric in METRIC_NAMES},
             }
         )
     write_csv(output_dir / "factorial_table.csv", table_rows)
@@ -981,20 +985,6 @@ def evaluate_hard_negative(
 
 
 def make_artifact_manifests() -> None:
-    for root in (EXP13_REPO_OUTPUTS, OUTPUT_ROOT):
-        files = [path for path in root.rglob("*") if path.is_file() and path.name != "artifact_manifest.json"]
-        artifacts = [
-            {
-                "path": path.relative_to(root).as_posix(),
-                "size_bytes": path.stat().st_size,
-                "sha256": sha256_file(path),
-            }
-            for path in sorted(files)
-        ]
-        write_json(
-            root / "artifact_manifest.json",
-            {"status": "complete", "created_utc": utc_now(), "root": str(root), "artifacts": artifacts},
-        )
     figures = []
     for root in (EXP13_REPO_OUTPUTS, OUTPUT_ROOT):
         for path in root.rglob("*.png"):
@@ -1009,6 +999,20 @@ def make_artifact_manifests() -> None:
         OUTPUT_ROOT / "figure_manifest.json",
         {"status": "complete", "created_utc": utc_now(), "figures": sorted(figures, key=lambda row: row["path"])},
     )
+    for root in (EXP13_REPO_OUTPUTS, OUTPUT_ROOT):
+        files = [path for path in root.rglob("*") if path.is_file() and path.name != "artifact_manifest.json"]
+        artifacts = [
+            {
+                "path": path.relative_to(root).as_posix(),
+                "size_bytes": path.stat().st_size,
+                "sha256": sha256_file(path),
+            }
+            for path in sorted(files)
+        ]
+        write_json(
+            root / "artifact_manifest.json",
+            {"status": "complete", "created_utc": utc_now(), "root": str(root), "artifacts": artifacts},
+        )
 
 
 def main() -> None:
@@ -1057,9 +1061,9 @@ def main() -> None:
             "hard_negative_status": hard_negative["status"],
         }
         write_json(OUTPUT_ROOT / "result.json", result)
-        make_artifact_manifests()
         status.update({"status": "complete", "stage": "complete", "completed_utc": utc_now()})
         write_json(pipeline_status_path, status)
+        make_artifact_manifests()
         print(json.dumps(result, indent=2), flush=True)
     except BaseException as error:
         status.update(

@@ -143,6 +143,8 @@ def load_hard_negative_manifest() -> tuple[list[dict[str, str]], str]:
     rows = read_csv(path)
     if len(rows) != 30 or any(row["split"] != "hard_negative_v2" for row in rows):
         raise RuntimeError("The sealed hard-negative corpus must contain exactly 30 rows.")
+    if any(int(row["label"]) != 0 for row in rows):
+        raise RuntimeError("Every hard-negative row must be labelled non-violent.")
     categories = {name: sum(row["category"] == name for row in rows) for name in ("sport", "danse", "calme")}
     if categories != {"sport": 15, "danse": 10, "calme": 5}:
         raise RuntimeError(f"Unexpected hard-negative categories: {categories}")
