@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-09-16T14:23:19.581962+00:00",
+  "shape": [
+    3407,
+    20,
+    1280
+  ],
+  "dtype": "float32",
+  "feature_file": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\uniform_frame_features.npy",
+  "feature_file_sha256": "97ded86052bbd762d850b8fb16962ad4e67a33bde1557d6762507499d6520985",
+  "feature_index": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\uniform_frame_feature_index.csv",
+  "feature_index_sha256": "33b930028c6f11f441d636ff352930a2afe202e3ceb46a64ad0613e1e100abf6",
+  "manifest_sha256": {
+    "train_manifest_grouped.csv": "55c83d2b2546c09700bfc208f5b08cc915755359dea98d58aa746c00ea9453f8",
+    "validation_manifest_grouped.csv": "d4b3f4a41c4d118a99abd70e88943f7886970695353369259ec3ea506e3964e5",
+    "augmented_train_manifest_grouped.csv": "287a299b9c47808a9dda2ce51877e1f8f1b14dc00c919a3f8fdf3c446abd3b2f"
+  },
+  "backbone_weights_sha256": "b5838315a77f26682721e24f23f3634b99e273c41cb78bf61dc3ce725a5ae9a7",
+  "sampling": {
+    "n_frames": 20,
+    "method": "numpy.linspace over decoded frame count",
+    "image_size": [
+      224,
+      224
+    ],
+    "preprocess": "tensorflow.keras.applications.efficientnet.preprocess_input"
+  },
+  "equivalence_basis": "The EfficientNetB0 backbone is frozen in all four models; cached features are therefore the exact deterministic input of the recurrent head."
+}

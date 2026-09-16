@@ -14,9 +14,27 @@ New-Item -ItemType Directory -Path $EvaluationCacheRoot -Force | Out-Null
 
 function Write-QueueStatus {
     param([hashtable]$Payload)
-    $temporary = "$QueueStatus.tmp"
-    $Payload | ConvertTo-Json -Depth 8 | Set-Content -Path $temporary -Encoding utf8
-    Move-Item -Path $temporary -Destination $QueueStatus -Force
+    $temporary = Join-Path `
+        (Split-Path -Parent $QueueStatus) `
+        ".$([IO.Path]::GetFileName($QueueStatus)).$PID.$([guid]::NewGuid().ToString('N')).tmp"
+    $Payload | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $temporary -Encoding utf8
+    try {
+        for ($attempt = 0; $attempt -lt 12; $attempt++) {
+            try {
+                Move-Item -LiteralPath $temporary -Destination $QueueStatus -Force
+                return
+            }
+            catch {
+                if ($attempt -eq 11) {
+                    throw
+                }
+                Start-Sleep -Milliseconds ([Math]::Min(50 * [Math]::Pow(2, $attempt), 500))
+            }
+        }
+    }
+    finally {
+        Remove-Item -LiteralPath $temporary -Force -ErrorAction SilentlyContinue
+    }
 }
 
 Write-QueueStatus @{

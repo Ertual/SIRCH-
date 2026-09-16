@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-09-16T20:25:36.872804+00:00",
+  "validation_locked_before_test": true,
+  "test_evaluated_once": true,
+  "test_result": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp14_grouped_factorial_evaluation\\outputs\\final_test_locked\\joint_test_evaluation.json",
+  "lstm_mcnemar_p": 1.0,
+  "gru_mcnemar_p": 0.765991824244793,
+  "accuracy_interaction": {
+    "scale": "accuracy probability difference-in-differences",
+    "formula": "(GRU_enriched-GRU_original)-(LSTM_enriched-LSTM_original)",
+    "estimate": -0.006700167504187671,
+    "ci95_lower": -0.035175879396984966,
+    "ci95_upper": 0.021775544388609736,
+    "exact_sign_flip_two_sided_p_value": 0.7316856972737306,
+    "nonzero_per_video_interaction_contrasts": 61,
+    "bootstrap_ci_excludes_zero": false,
+    "significant_at_0_05": false
+  },
+  "hard_negative_result": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp14_grouped_factorial_evaluation\\outputs\\hard_negative_locked\\result.json",
+  "joint_test_status": "final_locked_test_complete",
+  "hard_negative_status": "locked_hard_negative_evaluation_complete"
+}

@@ -1,0 +1,116 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-16T20:25:37.155893+00:00",
+  "figures": [
+    {
+      "path": "revision/exp13_grouped_retraining/outputs/gru_augmented_grouped/training_curves.png",
+      "size_bytes": 92323,
+      "sha256": "79207b928692a12bbd1db9c43b62473780f4f1a9a401ad4cd95383f6edac8b34"
+    },
+    {
+      "path": "revision/exp13_grouped_retraining/outputs/gru_original_grouped/training_curves.png",
+      "size_bytes": 87980,
+      "sha256": "9535cbb052a8c432170652c644c78c6c57989af36347e62a3440803d21197e98"
+    },
+    {
+      "path": "revision/exp13_grouped_retraining/outputs/lstm_augmented_grouped/training_curves.png",
+      "size_bytes": 91280,
+      "sha256": "6cc256f4a60258da28c59371259f9b42a8ddaca8021998b6829a08edc8ef88ce"
+    },
+    {
+      "path": "revision/exp13_grouped_retraining/outputs/lstm_original_grouped/training_curves.png",
+      "size_bytes": 90176,
+      "sha256": "7f20b66eb53557c62fd2f3efee111b3d9ed3f68221cae5f71f973cfca36ffcdf"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/factorial_2x2/factorial_interaction.png",
+      "size_bytes": 40816,
+      "sha256": "606b5cd560983a8e0d923ee3dadf8a672676388dda730485ce92194afd1febac"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/factorial_2x2/interaction_ci95.png",
+      "size_bytes": 49884,
+      "sha256": "3a2cdad1c496d44ce33b0f6d8b9adcebd4e5b0f2cb4f47bb48ac4479888e7d07"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/combined_roc_curves.png",
+      "size_bytes": 77822,
+      "sha256": "18a555836d53fa828cba993b1783c57b168ec2a90d6166a677349a45de90e4ee"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/gru_augmented_grouped/confusion_matrix.png",
+      "size_bytes": 44022,
+      "sha256": "3b7995f132c708b22d577b5ad5ca026c7a941a89603063271fc24753e344a818"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/gru_augmented_grouped/roc_pr_curves.png",
+      "size_bytes": 73058,
+      "sha256": "cb79e3d12ed32554331db6913c05e7e50955cefcede461fd61e0e3fe3a831560"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/gru_original_grouped/confusion_matrix.png",
+      "size_bytes": 44012,
+      "sha256": "e51e5f1fa32547ef152d7de2e58ed6459aa0924fbae7b44757bb28e5aac035f7"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/gru_original_grouped/roc_pr_curves.png",
+      "size_bytes": 71702,
+      "sha256": "17e62f9956708f56a736999b1da78ac0d2758e5a67c10e6f5be3207da514fb84"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/lstm_augmented_grouped/confusion_matrix.png",
+      "size_bytes": 42664,
+      "sha256": "b4c5ab86944dc47a156b77ec00561ba533c64632e2d14474a1662d47f4512763"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/lstm_augmented_grouped/roc_pr_curves.png",
+      "size_bytes": 72418,
+      "sha256": "e285fda7a5ae35eb4a8cb9cc13f29277add1d7157a5cc2d1b29e7802a435b646"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/lstm_original_grouped/confusion_matrix.png",
+      "size_bytes": 42755,
+      "sha256": "8f78dd2c9024d17fc489228d40f1569268eee3d63f69121b057e14f8eba997ee"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/final_test_locked/lstm_original_grouped/roc_pr_curves.png",
+      "size_bytes": 72215,
+      "sha256": "b083c084260dcdb3de64231cd404e65f25104e64c20f40117e48ef1bfa1a3995"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/hard_negative_locked/hard_negative_false_positive_rates.png",
+      "size_bytes": 49552,
+      "sha256": "a7c7028a35ed357c8bc0206296ee08464ca90b7f925c28b802f544b392381cd5"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/paired_comparisons/gru/bootstrap_delta_ci95.png",
+      "size_bytes": 47790,
+      "sha256": "f7e83bcf78f4f6bcedb4433c26cb86fe58d559e7c88ff2fe5a09301807380a86"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/paired_comparisons/lstm/bootstrap_delta_ci95.png",
+      "size_bytes": 45810,
+      "sha256": "cbd00421f499393233e80c48998c60b02d9fd36faa76266f19fcec62ed11e6ef"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/validation_selection/gru_augmented_grouped/theta_selection_curve.png",
+      "size_bytes": 58976,
+      "sha256": "d8c5bbbd5c8a48e5d6da8293bca712a502b968a9866943e3359d68c04b611ef6"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/validation_selection/gru_original_grouped/theta_selection_curve.png",
+      "size_bytes": 56706,
+      "sha256": "c7a9ddbf6ed14f97f7868d41c6c4115f14303b5f6c10e14279a2ebb5bb0dc608"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/validation_selection/lstm_augmented_grouped/theta_selection_curve.png",
+      "size_bytes": 54678,
+      "sha256": "718ab848e50bb1214e11863c898da76cbc7607a9c01468cf550015ced94ce3a9"
+    },
+    {
+      "path": "revision/exp14_grouped_factorial_evaluation/outputs/validation_selection/lstm_original_grouped/theta_selection_curve.png",
+      "size_bytes": 51814,
+      "sha256": "2fe262416541fc2a249e3b7f63ec48437f4335671f10e8c351e22cea48c9a14c"
+    }
+  ]
+}

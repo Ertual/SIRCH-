@@ -1,0 +1,427 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-16T20:25:39.804454+00:00",
+  "root": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp13_grouped_retraining\\outputs",
+  "artifacts": [
+    {
+      "path": "feature_cache_manifest.json",
+      "size_bytes": 1424,
+      "sha256": "d9903ecec496af95519a67ba07d22144abb0fb6b290664aae4c64b0fd294039f"
+    },
+    {
+      "path": "feature_cache_status.json",
+      "size_bytes": 878,
+      "sha256": "0e0d971c7cbf13409e92c3d62a7fed21f3e6e9f41ec36bc4e85ea1d90a3b1d8e"
+    },
+    {
+      "path": "gru_augmented_grouped/best_gru_augmented_grouped.weights.h5",
+      "size_bytes": 21688056,
+      "sha256": "d3f0032abf877530002ab0fdfc7aca2ea5c40566d7369a9cf13f5478074610e7"
+    },
+    {
+      "path": "gru_augmented_grouped/best_gru_augmented_grouped_head.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "b961fe12297ab7c4aa047e90c464b2bb04eab33a11063af0369732218d0970e8"
+    },
+    {
+      "path": "gru_augmented_grouped/best_state.json",
+      "size_bytes": 114,
+      "sha256": "a9dc73748f297f3cc30faee9db87bc4858df55a0c61e42d4aa0bdc45b13a8be4"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_001.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "d01deda41936776fa255404ea05e5ae9b37a7066ce4224cb568c3031ced2d716"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_002.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "1c25518be32d0e8b8a76df736c914f99fda24f42794707873aeddff103896f10"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_003.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "7bd5d24117ead42d6a31c8b20399d81a31c85fec852bcb53b4770b981d1c1b15"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_004.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "b961fe12297ab7c4aa047e90c464b2bb04eab33a11063af0369732218d0970e8"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_005.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "eca5c7e3f4482ee84e3a74154081198ffebb588af68aeed15624a95eb757915f"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_006.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "77e4ceaa621ecf0ec3078726faf8026cfae1bdc320d36ddd20ba0d202d31e1c3"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_007.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "26a7a5fc14574135fea462282a1260ca63aae5420c03775ed4b6c56fefaa2824"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_008.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "69c8eb5f4d00672891e216bd85c3e36919a764b96beb2925f3076491a6f74c14"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_009.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "cc7f7d71f8ddd8048a21799b9677d79b4f73f14193777c56ca9ad66fad18d2ef"
+    },
+    {
+      "path": "gru_augmented_grouped/checkpoints/gru_augmented_grouped_epoch_010.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "88cc9dc21bed15c15d7b6f67eba0bade6878208326e042b9f13c8d69bbc1d2aa"
+    },
+    {
+      "path": "gru_augmented_grouped/feature_training_equivalence.json",
+      "size_bytes": 330,
+      "sha256": "fdae570eac6c2da3ae2ff284551e03445d0c5d9b5279cf66baf279bfe8a63a5e"
+    },
+    {
+      "path": "gru_augmented_grouped/sirch_model_gru_augmented_grouped.h5",
+      "size_bytes": 21454848,
+      "sha256": "4dfd27fcd9f4ef015d45931af777707feb5db233b5f73cfae4bccd3271805690"
+    },
+    {
+      "path": "gru_augmented_grouped/training_curves.png",
+      "size_bytes": 92323,
+      "sha256": "79207b928692a12bbd1db9c43b62473780f4f1a9a401ad4cd95383f6edac8b34"
+    },
+    {
+      "path": "gru_augmented_grouped/training_environment.json",
+      "size_bytes": 1849,
+      "sha256": "2e7036e27090aa41f9e95ac4d86883121e8bbe984056f5b419cdbadc60e37aa9"
+    },
+    {
+      "path": "gru_augmented_grouped/training_log_gru_augmented_grouped.csv",
+      "size_bytes": 1634,
+      "sha256": "08f569befbd554c0aae15cae7ed6dfcc6fa551ba09c56fb4cedc6e786376573c"
+    },
+    {
+      "path": "gru_augmented_grouped/training_result.json",
+      "size_bytes": 2168,
+      "sha256": "e8bcbd99d9d38fc95a30ae2be22da4de3d5e3e202c402703e690f7dd1a923ef1"
+    },
+    {
+      "path": "gru_augmented_grouped/training_status.json",
+      "size_bytes": 2168,
+      "sha256": "e8bcbd99d9d38fc95a30ae2be22da4de3d5e3e202c402703e690f7dd1a923ef1"
+    },
+    {
+      "path": "gru_original_grouped/best_gru_original_grouped.weights.h5",
+      "size_bytes": 21688056,
+      "sha256": "fa0114b5a1aeaaba1d127efaae79215372d9047000c54c041d5bf69ddcf1eb36"
+    },
+    {
+      "path": "gru_original_grouped/best_gru_original_grouped_head.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "e12c67ea937ee0c438b249c34a43dceec2ccc5b27b9c2465c1530c384e05f6c4"
+    },
+    {
+      "path": "gru_original_grouped/best_state.json",
+      "size_bytes": 115,
+      "sha256": "c85b1c89cb6b26d61af98ccc11f3c3f85f72f0c38a86ac1c6d2ae50893396ade"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_001.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "6197a8f0a75ecac0606f8dc61824d54a23c5ac9fb124a886b6312689f9f2b0d9"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_002.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "2161a763d7d3f4baa4f7976b9ed1b43cd0e6d3d199810741124f5f2a5ac2c39d"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_003.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "a53e926f1c04f4bf182fd673aa702e99319ee9340c5e6691a8d91651ea13776f"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_004.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "e12c67ea937ee0c438b249c34a43dceec2ccc5b27b9c2465c1530c384e05f6c4"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_005.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "e08f3980a8ca95dbfd404589c481980dd721a7468ccf1b0c1674504ed6c51f2c"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_006.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "8332d9ac068bba6f1d5d24d33eae691a521c17006f1b231ca6c2623970472557"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_007.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "d7b9ad948527f8d6ac10ef010d2a3da75a1fbdfb2b89bf77b9d6ab8ded4f253f"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_008.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "e07ab5113780dea6b849e6c55290db3ac8f4e8eaf7c8b8545880338c7e5e670b"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_009.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "5d70d83b337cf616eef34ce3c829d4c2b6077cdc7c0324ee8abc1236719e3928"
+    },
+    {
+      "path": "gru_original_grouped/checkpoints/gru_original_grouped_epoch_010.weights.h5",
+      "size_bytes": 14607456,
+      "sha256": "3df9f2ceeb86f38dd5edfc7e8509f13a50daacfb87e70b6fb7b26c87ab01b34e"
+    },
+    {
+      "path": "gru_original_grouped/feature_training_equivalence.json",
+      "size_bytes": 330,
+      "sha256": "fe8081220876f49796cd9a4bd41b0da688e9803a4649fcc43d48fef202c644df"
+    },
+    {
+      "path": "gru_original_grouped/sirch_model_gru_original_grouped.h5",
+      "size_bytes": 21454848,
+      "sha256": "572cfc594d5682e5fc47865ceadc12ebf65489cdfff44b19955f4d69be69d523"
+    },
+    {
+      "path": "gru_original_grouped/training_curves.png",
+      "size_bytes": 87980,
+      "sha256": "9535cbb052a8c432170652c644c78c6c57989af36347e62a3440803d21197e98"
+    },
+    {
+      "path": "gru_original_grouped/training_environment.json",
+      "size_bytes": 1830,
+      "sha256": "dfa20e58ea6f35bfba9495aa4c986fe31528f46a122eb83993a91269e5d62086"
+    },
+    {
+      "path": "gru_original_grouped/training_log_gru_original_grouped.csv",
+      "size_bytes": 1638,
+      "sha256": "714e8d189d659db54ad0a6e94453916049ee8e12939060bdcc03abe54e85a5ab"
+    },
+    {
+      "path": "gru_original_grouped/training_result.json",
+      "size_bytes": 2150,
+      "sha256": "3f17dbdd5bc833be862b0ac35ad25cc62145315f540043ccabba3a57a584fca3"
+    },
+    {
+      "path": "gru_original_grouped/training_status.json",
+      "size_bytes": 2150,
+      "sha256": "3f17dbdd5bc833be862b0ac35ad25cc62145315f540043ccabba3a57a584fca3"
+    },
+    {
+      "path": "lstm_augmented_grouped/best_lstm_augmented_grouped.weights.h5",
+      "size_bytes": 23258872,
+      "sha256": "bc3d4aa493259cd8723515bf7a8bd01588c4023672ccbe2b1c066a154fb991fb"
+    },
+    {
+      "path": "lstm_augmented_grouped/best_lstm_augmented_grouped_head.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "558346d061831d5182c369ed6da129ee6b98a099c3cb0a625eb45824aae9a0a9"
+    },
+    {
+      "path": "lstm_augmented_grouped/best_state.json",
+      "size_bytes": 115,
+      "sha256": "f7d8ccac85a2ac1491b67c76ade07b59e58c7e89e3bab47ef65c1607dab56756"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_001.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "cf1b133b27d238606fe9b66f819911b2113a3f83347d8a7bff5ce60b459c1e69"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_002.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "026c6741cdb5abad2a39c118af73f92ff4e65ecbe69143a55a41f45487d26f4f"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_003.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "558346d061831d5182c369ed6da129ee6b98a099c3cb0a625eb45824aae9a0a9"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_004.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "a7eb43872a08c29635a9f77b55be6861a2bbf4aa979f407c4d8bdb361e3cdae6"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_005.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "6c54e5b6ba80f09d902baaa5fa2ff3136f0e2f6f3b2309e6f1dadbecefa3d7c6"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_006.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "e3108dbc84744902c1e961e2604777226315c74a17fae55dd4f003bab3d67c27"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_007.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "2a087516457b73475d9093ffde4fdb744daa620c3dcc7916231d3e343454abb0"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_008.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "0087d71f071e885320833ae4e625798aa845b3c420e9b224d98b2e656ff1cc21"
+    },
+    {
+      "path": "lstm_augmented_grouped/checkpoints/lstm_augmented_grouped_epoch_009.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "311dbb65b0cdebfb2edd5c4b920a8e7fc08bdeb9444a895595f2eb9cd5247e9d"
+    },
+    {
+      "path": "lstm_augmented_grouped/feature_training_equivalence.json",
+      "size_bytes": 312,
+      "sha256": "8ae199b84b848e9441ef08e84727aa1e4961ad8a0f5922cf4b4a2411fc245395"
+    },
+    {
+      "path": "lstm_augmented_grouped/sirch_model_lstm_augmented_grouped.h5",
+      "size_bytes": 23025672,
+      "sha256": "53b8a88ff0cf80fee3f039d8e35e8c26917d3b257f3aed68556b9d137d45cb30"
+    },
+    {
+      "path": "lstm_augmented_grouped/training_curves.png",
+      "size_bytes": 91280,
+      "sha256": "6cc256f4a60258da28c59371259f9b42a8ddaca8021998b6829a08edc8ef88ce"
+    },
+    {
+      "path": "lstm_augmented_grouped/training_environment.json",
+      "size_bytes": 1858,
+      "sha256": "264021d85a4d5cf09e63d5d37320db6c529ac17fc15bda7f0b32003c7a09edb8"
+    },
+    {
+      "path": "lstm_augmented_grouped/training_log_lstm_augmented_grouped.csv",
+      "size_bytes": 1485,
+      "sha256": "dfa11b354aa27d79dce1d35fed378d1d4d50bddcb38de40e680659e0f65691aa"
+    },
+    {
+      "path": "lstm_augmented_grouped/training_result.json",
+      "size_bytes": 2160,
+      "sha256": "4bdef92b46bc2adbfb86f20da8c1a4165a34f0be3a64bca60d95d59a70f64208"
+    },
+    {
+      "path": "lstm_augmented_grouped/training_status.json",
+      "size_bytes": 2160,
+      "sha256": "4bdef92b46bc2adbfb86f20da8c1a4165a34f0be3a64bca60d95d59a70f64208"
+    },
+    {
+      "path": "lstm_original_grouped/best_lstm_original_grouped.weights.h5",
+      "size_bytes": 23258872,
+      "sha256": "1e2f078155bbd15d56ed07b4a2281105ce55ba103ccd1b8448868a7d87d28c2c"
+    },
+    {
+      "path": "lstm_original_grouped/best_lstm_original_grouped_head.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "276abc450f5525085f1fcc59ce0d416f73ee91f554125c11a1f758bfb47602f2"
+    },
+    {
+      "path": "lstm_original_grouped/best_state.json",
+      "size_bytes": 114,
+      "sha256": "5d9466e1f9d38bd33e9004539ef8a8e3be0ea0c489001ea1982404119a93c5a2"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_001.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "b5b37fda48e79ba5a7a96edcceaab44006cfd00d900182cc04263ee7551b440c"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_002.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "c9d00a225d6630a577846e8435288def932670a1ab167802ecf23d8921a7f89e"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_003.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "276abc450f5525085f1fcc59ce0d416f73ee91f554125c11a1f758bfb47602f2"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_004.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "5189353b25b203d199ce41747a6030b0e24253d6582fcdc81a499721b069cf8f"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_005.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "9f58cc31bed7b693bc656f6d4ff1417c4cf4d1915bead1ea80d5e5a116e2b6e7"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_006.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "e3bc6d5345a1334db91c944c5c612ece89c9a8d44488267b301b273226df5701"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_007.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "b19006de8e761a1698ec93d198bd874068412bbccb17e4d249c1ecbb57208fee"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_008.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "0d4da95af566dde8c1cd15d4b77ee93525353255a96059abeda33ff270029806"
+    },
+    {
+      "path": "lstm_original_grouped/checkpoints/lstm_original_grouped_epoch_009.weights.h5",
+      "size_bytes": 19319904,
+      "sha256": "6badacc0666cd1100532359ff13866db0176bc493cbb4cd2bc94bc2a94571450"
+    },
+    {
+      "path": "lstm_original_grouped/feature_training_equivalence.json",
+      "size_bytes": 310,
+      "sha256": "5cd51875b332ea34702d1470dbb7d734f77671150ec00247e662e9ddf8e0b12a"
+    },
+    {
+      "path": "lstm_original_grouped/sirch_model_lstm_original_grouped.h5",
+      "size_bytes": 23025672,
+      "sha256": "2bb6ce18f4e9b8f34ced40c7c993bc564065ceec9c5c12e41e0aefb9d03644e4"
+    },
+    {
+      "path": "lstm_original_grouped/training_curves.png",
+      "size_bytes": 90176,
+      "sha256": "7f20b66eb53557c62fd2f3efee111b3d9ed3f68221cae5f71f973cfca36ffcdf"
+    },
+    {
+      "path": "lstm_original_grouped/training_environment.json",
+      "size_bytes": 1839,
+      "sha256": "00c35766a96d8b07b803b4da809209d00536b276246c5aaf41777d34ea08fdf3"
+    },
+    {
+      "path": "lstm_original_grouped/training_log_lstm_original_grouped.csv",
+      "size_bytes": 1479,
+      "sha256": "fd7b58bb05750cd8a2dcbdd62478e87f5747aba47667e3c3683244770dbbed73"
+    },
+    {
+      "path": "lstm_original_grouped/training_result.json",
+      "size_bytes": 2138,
+      "sha256": "f07f0c82ecbba7773647734782307108f02f8d5019222642b0b3f177f3f66bea"
+    },
+    {
+      "path": "lstm_original_grouped/training_status.json",
+      "size_bytes": 2138,
+      "sha256": "f07f0c82ecbba7773647734782307108f02f8d5019222642b0b3f177f3f66bea"
+    },
+    {
+      "path": "pipeline_status.json",
+      "size_bytes": 1125,
+      "sha256": "dae6aa6884dd5f55206a21e6ea0ce17dbe2bba21afc26f29635c5f6cce16ef5b"
+    },
+    {
+      "path": "pipeline_stderr.log",
+      "size_bytes": 820,
+      "sha256": "0ba26d722356e8f47de22393c7a73aa5ce5a28be33722ec5fc963ab6ecbf3e99"
+    },
+    {
+      "path": "pipeline_stdout.log",
+      "size_bytes": 696684,
+      "sha256": "9f2de45db0a45a1e07e011531fadcb99d7febcefb99a1220eb60457b50a5a91b"
+    },
+    {
+      "path": "uniform_frame_feature_index.csv",
+      "size_bytes": 770666,
+      "sha256": "33b930028c6f11f441d636ff352930a2afe202e3ceb46a64ad0613e1e100abf6"
+    }
+  ]
+}

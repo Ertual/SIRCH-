@@ -1,0 +1,17 @@
+model,architecture,enrichment,theta,k,category,n_videos,false_positives,false_positive_rate
+lstm_original_grouped,LSTM,original,0.70,5,sport,15,6,0.4000000000
+lstm_original_grouped,LSTM,original,0.70,5,danse,10,9,0.9000000000
+lstm_original_grouped,LSTM,original,0.70,5,calme,5,3,0.6000000000
+lstm_original_grouped,LSTM,original,0.70,5,overall,30,18,0.6000000000
+lstm_augmented_grouped,LSTM,enriched,0.70,7,sport,15,5,0.3333333333
+lstm_augmented_grouped,LSTM,enriched,0.70,7,danse,10,5,0.5000000000
+lstm_augmented_grouped,LSTM,enriched,0.70,7,calme,5,2,0.4000000000
+lstm_augmented_grouped,LSTM,enriched,0.70,7,overall,30,12,0.4000000000
+gru_original_grouped,GRU,original,0.65,5,sport,15,7,0.4666666667
+gru_original_grouped,GRU,original,0.65,5,danse,10,8,0.8000000000
+gru_original_grouped,GRU,original,0.65,5,calme,5,2,0.4000000000
+gru_original_grouped,GRU,original,0.65,5,overall,30,17,0.5666666667
+gru_augmented_grouped,GRU,enriched,0.65,10,sport,15,5,0.3333333333
+gru_augmented_grouped,GRU,enriched,0.65,10,danse,10,9,0.9000000000
+gru_augmented_grouped,GRU,enriched,0.65,10,calme,5,2,0.4000000000
+gru_augmented_grouped,GRU,enriched,0.65,10,overall,30,16,0.5333333333

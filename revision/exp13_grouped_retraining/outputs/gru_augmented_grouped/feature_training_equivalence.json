@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "video": "train/Fight/rwf_train_fight_0133.avi",
+  "video_sha256": "1ca7d188040566cd51b6623ab4c764d791e0f33d8e9c16d97672547b034e6b68",
+  "head_score": 0.7701669335365295,
+  "full_model_score": 0.7701668739318848,
+  "absolute_difference": 5.960464477539063e-08,
+  "rtol": 1e-05,
+  "atol": 1e-06
+}

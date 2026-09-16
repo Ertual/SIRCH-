@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-14T06:12:15.898781+00:00",
+  "pid": 38724,
+  "shape": [
+    3407,
+    20,
+    1280
+  ],
+  "dtype": "float32",
+  "completed": 3407,
+  "manifest_sha256": {
+    "train_manifest_grouped.csv": "55c83d2b2546c09700bfc208f5b08cc915755359dea98d58aa746c00ea9453f8",
+    "validation_manifest_grouped.csv": "d4b3f4a41c4d118a99abd70e88943f7886970695353369259ec3ea506e3964e5",
+    "augmented_train_manifest_grouped.csv": "287a299b9c47808a9dda2ce51877e1f8f1b14dc00c919a3f8fdf3c446abd3b2f"
+  },
+  "backbone_weights_sha256": "b5838315a77f26682721e24f23f3634b99e273c41cb78bf61dc3ce725a5ae9a7",
+  "sampling": "20 uniformly spaced frames using the original training loader",
+  "current_video": "C:\\SIRCH_ENV\\datasets\\RWF-2000\\train\\Fight\\rwf_train_fight_0331.avi",
+  "updated_utc": "2026-09-16T14:23:19.615712+00:00"
+}

@@ -1,0 +1,187 @@
+{
+  "status": "locked_hard_negative_evaluation_complete",
+  "completed_utc": "2026-09-16T20:25:36.862454+00:00",
+  "hard_negative_manifest_sha256": "4b9c6c135ec3869e7b109f1aa5a695b3a544368b07ada753919ca226e9c76dba",
+  "hard_negative_train_leakage_audit": "PASS; zero affected videos",
+  "n_videos": 30,
+  "frame_batch_size": 8,
+  "no_retuning": true,
+  "results": [
+    {
+      "model": "lstm_original_grouped",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "theta": "0.70",
+      "k": 5,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 6,
+      "false_positive_rate": "0.4000000000"
+    },
+    {
+      "model": "lstm_original_grouped",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "theta": "0.70",
+      "k": 5,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 9,
+      "false_positive_rate": "0.9000000000"
+    },
+    {
+      "model": "lstm_original_grouped",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "theta": "0.70",
+      "k": 5,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 3,
+      "false_positive_rate": "0.6000000000"
+    },
+    {
+      "model": "lstm_original_grouped",
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "theta": "0.70",
+      "k": 5,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 18,
+      "false_positive_rate": "0.6000000000"
+    },
+    {
+      "model": "lstm_augmented_grouped",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "theta": "0.70",
+      "k": 7,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 5,
+      "false_positive_rate": "0.3333333333"
+    },
+    {
+      "model": "lstm_augmented_grouped",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "theta": "0.70",
+      "k": 7,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 5,
+      "false_positive_rate": "0.5000000000"
+    },
+    {
+      "model": "lstm_augmented_grouped",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "theta": "0.70",
+      "k": 7,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 2,
+      "false_positive_rate": "0.4000000000"
+    },
+    {
+      "model": "lstm_augmented_grouped",
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "theta": "0.70",
+      "k": 7,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 12,
+      "false_positive_rate": "0.4000000000"
+    },
+    {
+      "model": "gru_original_grouped",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "theta": "0.65",
+      "k": 5,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 7,
+      "false_positive_rate": "0.4666666667"
+    },
+    {
+      "model": "gru_original_grouped",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "theta": "0.65",
+      "k": 5,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 8,
+      "false_positive_rate": "0.8000000000"
+    },
+    {
+      "model": "gru_original_grouped",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "theta": "0.65",
+      "k": 5,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 2,
+      "false_positive_rate": "0.4000000000"
+    },
+    {
+      "model": "gru_original_grouped",
+      "architecture": "GRU",
+      "enrichment": "original",
+      "theta": "0.65",
+      "k": 5,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 17,
+      "false_positive_rate": "0.5666666667"
+    },
+    {
+      "model": "gru_augmented_grouped",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "theta": "0.65",
+      "k": 10,
+      "category": "sport",
+      "n_videos": 15,
+      "false_positives": 5,
+      "false_positive_rate": "0.3333333333"
+    },
+    {
+      "model": "gru_augmented_grouped",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "theta": "0.65",
+      "k": 10,
+      "category": "danse",
+      "n_videos": 10,
+      "false_positives": 9,
+      "false_positive_rate": "0.9000000000"
+    },
+    {
+      "model": "gru_augmented_grouped",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "theta": "0.65",
+      "k": 10,
+      "category": "calme",
+      "n_videos": 5,
+      "false_positives": 2,
+      "false_positive_rate": "0.4000000000"
+    },
+    {
+      "model": "gru_augmented_grouped",
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "theta": "0.65",
+      "k": 10,
+      "category": "overall",
+      "n_videos": 30,
+      "false_positives": 16,
+      "false_positive_rate": "0.5333333333"
+    }
+  ]
+}

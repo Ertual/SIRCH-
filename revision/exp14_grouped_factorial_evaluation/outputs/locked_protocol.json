@@ -1,0 +1,85 @@
+{
+  "status": "locked_before_test",
+  "locked_utc": "2026-09-16T17:29:24.685973+00:00",
+  "validation_manifest_sha256": "d4b3f4a41c4d118a99abd70e88943f7886970695353369259ec3ea506e3964e5",
+  "validation_count": 597,
+  "frame_batch_size": 8,
+  "test_manifest_not_read_before_lock": true,
+  "no_post_test_adjustment": true,
+  "models": {
+    "lstm_original_grouped": {
+      "architecture": "LSTM",
+      "enrichment": "original",
+      "best_epoch": 3,
+      "best_val_loss": 0.3285073935985565,
+      "weights_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\lstm_original_grouped\\best_lstm_original_grouped.weights.h5",
+      "weights_sha256": "1e2f078155bbd15d56ed07b4a2281105ce55ba103ccd1b8448868a7d87d28c2c",
+      "model_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\lstm_original_grouped\\sirch_model_lstm_original_grouped.h5",
+      "model_sha256": "2bb6ce18f4e9b8f34ced40c7c993bc564065ceec9c5c12e41e0aefb9d03644e4",
+      "training_result_sha256": "f07f0c82ecbba7773647734782307108f02f8d5019222642b0b3f177f3f66bea",
+      "feature_training_equivalence_sha256": "5cd51875b332ea34702d1470dbb7d734f77671150ec00247e662e9ddf8e0b12a"
+    },
+    "lstm_augmented_grouped": {
+      "architecture": "LSTM",
+      "enrichment": "enriched",
+      "best_epoch": 3,
+      "best_val_loss": 0.32187652587890625,
+      "weights_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\lstm_augmented_grouped\\best_lstm_augmented_grouped.weights.h5",
+      "weights_sha256": "bc3d4aa493259cd8723515bf7a8bd01588c4023672ccbe2b1c066a154fb991fb",
+      "model_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\lstm_augmented_grouped\\sirch_model_lstm_augmented_grouped.h5",
+      "model_sha256": "53b8a88ff0cf80fee3f039d8e35e8c26917d3b257f3aed68556b9d137d45cb30",
+      "training_result_sha256": "4bdef92b46bc2adbfb86f20da8c1a4165a34f0be3a64bca60d95d59a70f64208",
+      "feature_training_equivalence_sha256": "8ae199b84b848e9441ef08e84727aa1e4961ad8a0f5922cf4b4a2411fc245395"
+    },
+    "gru_original_grouped": {
+      "architecture": "GRU",
+      "enrichment": "original",
+      "best_epoch": 4,
+      "best_val_loss": 0.34124675393104553,
+      "weights_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\gru_original_grouped\\best_gru_original_grouped.weights.h5",
+      "weights_sha256": "fa0114b5a1aeaaba1d127efaae79215372d9047000c54c041d5bf69ddcf1eb36",
+      "model_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\gru_original_grouped\\sirch_model_gru_original_grouped.h5",
+      "model_sha256": "572cfc594d5682e5fc47865ceadc12ebf65489cdfff44b19955f4d69be69d523",
+      "training_result_sha256": "3f17dbdd5bc833be862b0ac35ad25cc62145315f540043ccabba3a57a584fca3",
+      "feature_training_equivalence_sha256": "fe8081220876f49796cd9a4bd41b0da688e9803a4649fcc43d48fef202c644df"
+    },
+    "gru_augmented_grouped": {
+      "architecture": "GRU",
+      "enrichment": "enriched",
+      "best_epoch": 4,
+      "best_val_loss": 0.3082069754600525,
+      "weights_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\gru_augmented_grouped\\best_gru_augmented_grouped.weights.h5",
+      "weights_sha256": "d3f0032abf877530002ab0fdfc7aca2ea5c40566d7369a9cf13f5478074610e7",
+      "model_path": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining\\gru_augmented_grouped\\sirch_model_gru_augmented_grouped.h5",
+      "model_sha256": "4dfd27fcd9f4ef015d45931af777707feb5db233b5f73cfae4bccd3271805690",
+      "training_result_sha256": "e8bcbd99d9d38fc95a30ae2be22da4de3d5e3e202c402703e690f7dd1a923ef1",
+      "feature_training_equivalence_sha256": "fdae570eac6c2da3ae2ff284551e03445d0c5d9b5279cf66baf279bfe8a63a5e"
+    }
+  },
+  "selected_configurations": {
+    "lstm_original_grouped": {
+      "theta": 0.7,
+      "k": 5,
+      "selected_config_path": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp14_grouped_factorial_evaluation\\outputs\\validation_selection\\lstm_original_grouped\\selected_config.json",
+      "selected_config_sha256": "d1d9ff7080ebed9f3b0f71499d083342b3bc3cb03e9f75d594c961e9b9e17807"
+    },
+    "lstm_augmented_grouped": {
+      "theta": 0.7,
+      "k": 7,
+      "selected_config_path": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp14_grouped_factorial_evaluation\\outputs\\validation_selection\\lstm_augmented_grouped\\selected_config.json",
+      "selected_config_sha256": "23cbada9f7703137616b4c392a8d1675952daa7a9d3eb4863ba05d5014ce9418"
+    },
+    "gru_original_grouped": {
+      "theta": 0.65,
+      "k": 5,
+      "selected_config_path": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp14_grouped_factorial_evaluation\\outputs\\validation_selection\\gru_original_grouped\\selected_config.json",
+      "selected_config_sha256": "f5978515a241f23ddb6a26862004ec7569a544dd4dd8e0d16815bdff285038f8"
+    },
+    "gru_augmented_grouped": {
+      "theta": 0.65,
+      "k": 10,
+      "selected_config_path": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH\\revision\\exp14_grouped_factorial_evaluation\\outputs\\validation_selection\\gru_augmented_grouped\\selected_config.json",
+      "selected_config_sha256": "eb192903ca1e1b03750c27c83fb2741228c802fbab558351cdf3ccd113034be5"
+    }
+  }
+}

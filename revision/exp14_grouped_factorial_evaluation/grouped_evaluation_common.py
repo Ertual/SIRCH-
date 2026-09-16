@@ -5,6 +5,8 @@ import hashlib
 import json
 import os
 import sys
+import time
+import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -42,7 +44,7 @@ STRIDE_FRAMES = 5
 K_VALUES = (1, 3, 5, 7, 10)
 THRESHOLDS = tuple(round(value / 100, 2) for value in range(30, 91, 5))
 IMG_SIZE = 224
-FRAME_BATCH_SIZE = 32
+FRAME_BATCH_SIZE = 8
 EXPECTED_VALIDATION_COUNT = 597
 EXPECTED_TEST_COUNT = 597
 EXPECTED_MANIFEST_HASHES = {
@@ -103,11 +105,26 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
 
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary = path.with_name(
+        f".{path.name}.{os.getpid()}.{uuid.uuid4().hex}.tmp"
+    )
     temporary.write_text(
         json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8"
     )
-    temporary.replace(path)
+    try:
+        for attempt in range(12):
+            try:
+                os.replace(temporary, path)
+                return
+            except PermissionError:
+                if attempt == 11:
+                    raise
+                time.sleep(min(0.05 * (2**attempt), 0.5))
+    finally:
+        try:
+            temporary.unlink(missing_ok=True)
+        except PermissionError:
+            pass
 
 
 def load_grouped_manifest(partition: str) -> tuple[list[dict[str, str]], str]:
@@ -272,6 +289,7 @@ def score_video(
             and cached.get("model_sha256") == model_hashes
             and cached.get("n_frames") == N_FRAMES
             and cached.get("stride_frames") == STRIDE_FRAMES
+            and cached.get("frame_batch_size") == FRAME_BATCH_SIZE
             and all(key in cached.get("scores", {}) for key in MODEL_KEYS)
         ):
             return cached
@@ -308,6 +326,7 @@ def score_video(
         "model_sha256": model_hashes,
         "n_frames": N_FRAMES,
         "stride_frames": STRIDE_FRAMES,
+        "frame_batch_size": FRAME_BATCH_SIZE,
         "original_frame_count": frame_count,
         "padded_frames": padded_frames,
         "scores": scores,

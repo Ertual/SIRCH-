@@ -8,6 +8,8 @@ import os
 import platform
 import random
 import re
+import time
+import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -104,11 +106,27 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
 
 
 def write_json(path: Path, payload: Any) -> None:
-    temporary = path.with_suffix(path.suffix + ".tmp")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_name(
+        f".{path.name}.{os.getpid()}.{uuid.uuid4().hex}.tmp"
+    )
     temporary.write_text(
         json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8"
     )
-    temporary.replace(path)
+    try:
+        for attempt in range(12):
+            try:
+                os.replace(temporary, path)
+                return
+            except PermissionError:
+                if attempt == 11:
+                    raise
+                time.sleep(min(0.05 * (2**attempt), 0.5))
+    finally:
+        try:
+            temporary.unlink(missing_ok=True)
+        except PermissionError:
+            pass
 
 
 def row_key(row: dict[str, str]) -> str:

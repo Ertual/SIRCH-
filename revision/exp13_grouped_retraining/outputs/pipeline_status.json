@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "pid": 22420,
+  "started_utc": "2026-09-16T14:52:31.015785+00:00",
+  "project_root": "C:\\Users\\djtra\\Documents\\Codex\\2026-05-19\\files-mentioned-by-the-user-sirch\\SIRCH",
+  "datasets_root": "C:\\SIRCH_ENV\\datasets",
+  "output_root": "C:\\SIRCH_ENV\\models\\revision\\exp13_grouped_retraining",
+  "protocol": "grouped scene splits; validation only; test never read",
+  "manifest_sha256": {
+    "train_manifest_grouped.csv": "55c83d2b2546c09700bfc208f5b08cc915755359dea98d58aa746c00ea9453f8",
+    "validation_manifest_grouped.csv": "d4b3f4a41c4d118a99abd70e88943f7886970695353369259ec3ea506e3964e5",
+    "augmented_train_manifest_grouped.csv": "287a299b9c47808a9dda2ce51877e1f8f1b14dc00c919a3f8fdf3c446abd3b2f"
+  },
+  "current_experiment": "gru_augmented_grouped",
+  "updated_utc": "2026-09-16T14:56:32.427067+00:00",
+  "completed_utc": "2026-09-16T15:01:11.256155+00:00",
+  "experiments": [
+    "lstm_original_grouped",
+    "lstm_augmented_grouped",
+    "gru_original_grouped",
+    "gru_augmented_grouped"
+  ],
+  "test_manifest_read": false
+}
