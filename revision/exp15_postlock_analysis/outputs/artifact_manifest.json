@@ -1,0 +1,102 @@
+{
+  "status": "complete",
+  "created_utc": "2026-09-17T20:01:01.613570+00:00",
+  "experiment": "exp15_postlock_analysis",
+  "artifacts": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 25,
+      "sha256": "2083571aad3747dbf5e9252c770a039c2bd12ab857be001aeb1ec651b08ab60d"
+    },
+    {
+      "path": "analyze_saved_scores.py",
+      "size_bytes": 8783,
+      "sha256": "8be3d88c98b3bcafa25700ad38d67dadb322b7e9215dedcbe18fd2168072a094"
+    },
+    {
+      "path": "annotate_errors.py",
+      "size_bytes": 4087,
+      "sha256": "ae4adae8e761a8f2a7bef209c62c30fe44ca3b50746f7dfc52ab3bef1f055b89"
+    },
+    {
+      "path": "benchmark_cpu_grouped.py",
+      "size_bytes": 12856,
+      "sha256": "748bc5c0bbf3361530a25bcf06605532e859fb8eb6930f9559696e150e866e7f"
+    },
+    {
+      "path": "make_inspection_sheets.py",
+      "size_bytes": 2739,
+      "sha256": "8196c93e51d47398fa9d8f3f9eaf7f149af9b895cd111b6e0a69097aa59e6c70"
+    },
+    {
+      "path": "outputs/alert_delay_by_video.csv",
+      "size_bytes": 187184,
+      "sha256": "663b99d95080b3060edde26fcb142ea9dc83b7bafc65e10876429a6d02e3ebb1"
+    },
+    {
+      "path": "outputs/alert_delay_summary.json",
+      "size_bytes": 1485,
+      "sha256": "37669438c4f8de366cf093e9495af2cfed4f3fcee5ad6a0eaf420df0015db4be"
+    },
+    {
+      "path": "outputs/all_locked_test_errors.csv",
+      "size_bytes": 55171,
+      "sha256": "3c405d2bdb527411e233e048a294df20e04a7e716460d7821b004054aedb23d3"
+    },
+    {
+      "path": "outputs/cpu_benchmark_environment.json",
+      "size_bytes": 2928,
+      "sha256": "4f3be0ff28981d135efe52d7bea188169ce38e73a7ee69cfe674235ecc3e78de"
+    },
+    {
+      "path": "outputs/cpu_benchmark_raw.csv",
+      "size_bytes": 13075,
+      "sha256": "bbc4eea2c5ee88f74f9cf430c18407aa27652a9d3fb6377ce6b6fb7f04cee777"
+    },
+    {
+      "path": "outputs/cpu_benchmark_summary.csv",
+      "size_bytes": 2390,
+      "sha256": "7ee8a9a794a962310afc49afaf882c639772dc34bdbdd8b4c40f1fe242d12397"
+    },
+    {
+      "path": "outputs/inspection/error_inspection_1.jpg",
+      "size_bytes": 234623,
+      "sha256": "d717d20d647fc4909fc733e703779115608f770aca8e8efb978a35a6cef95260"
+    },
+    {
+      "path": "outputs/inspection/error_inspection_2.jpg",
+      "size_bytes": 234823,
+      "sha256": "6f38c841af2797f1fbdd1771943e7d762746a18ecd5f40ee778e082ebbb555b4"
+    },
+    {
+      "path": "outputs/inspection/error_inspection_3.jpg",
+      "size_bytes": 169029,
+      "sha256": "e2c3604ae0ad5bd71eb349bf484cb2436ad645fe234871efd00a630f6de1033b"
+    },
+    {
+      "path": "outputs/pr_auc_locked_test.csv",
+      "size_bytes": 621,
+      "sha256": "1bb44cf0762a44bf2199450fff165b5301b2185ab603ef405724531944a2c7e2"
+    },
+    {
+      "path": "outputs/qualitative_error_examples.csv",
+      "size_bytes": 16829,
+      "sha256": "ad36a27fb495935565a6ea6fcbb7ad50e59eb43a8e969e4cc20da83df4af02b5"
+    },
+    {
+      "path": "outputs/summary.md",
+      "size_bytes": 10077,
+      "sha256": "896123e278768a53c161f22c19670646eeacc5f553b69eb5b1931eb95cef9a93"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1581,
+      "sha256": "8f63ffb53a0835e4bcd5fdd99b626c6026c410ba7c29146682a7031db228a16d"
+    },
+    {
+      "path": "seal_outputs.py",
+      "size_bytes": 1234,
+      "sha256": "40b0684a7c5f10509bc1548461e19387caea9cd25b3d58bdc0f5d23ec1ce34f3"
+    }
+  ]
+}

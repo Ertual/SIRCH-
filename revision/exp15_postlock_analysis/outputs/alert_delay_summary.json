@@ -1,0 +1,43 @@
+{
+  "method": "First full K-window rolling mean at or above locked theta; stream stride 5 frames; frame count from clip start; assumed 25 fps; detected clips only in delay average.",
+  "not_wall_clock_latency": true,
+  "violence_onset_not_annotated": true,
+  "models": {
+    "lstm_original_grouped": {
+      "violent_videos": 297,
+      "detected": 274,
+      "missed": 23,
+      "mean_seconds_detected_only": 1.8474452554744527,
+      "median_seconds_detected_only": 1.6,
+      "std_seconds_detected_only": 1.1010002281913884,
+      "p95_seconds_detected_only": 3.0
+    },
+    "lstm_augmented_grouped": {
+      "violent_videos": 297,
+      "detected": 274,
+      "missed": 23,
+      "mean_seconds_detected_only": 2.1963503649635037,
+      "median_seconds_detected_only": 2.0,
+      "std_seconds_detected_only": 0.7834891788038852,
+      "p95_seconds_detected_only": 3.0
+    },
+    "gru_original_grouped": {
+      "violent_videos": 297,
+      "detected": 269,
+      "missed": 28,
+      "mean_seconds_detected_only": 1.917472118959108,
+      "median_seconds_detected_only": 1.6,
+      "std_seconds_detected_only": 1.1713555853007287,
+      "p95_seconds_detected_only": 3.4
+    },
+    "gru_augmented_grouped": {
+      "violent_videos": 297,
+      "detected": 255,
+      "missed": 42,
+      "mean_seconds_detected_only": 2.875294117647059,
+      "median_seconds_detected_only": 2.6,
+      "std_seconds_detected_only": 1.771046387210587,
+      "p95_seconds_detected_only": 4.0
+    }
+  }
+}

@@ -69,6 +69,71 @@ L'ancien test propre comptait **592 videos** et provenait du manifeste initial ;
 
 L'avantage d'accuracy du LSTM enrichi sur le LSTM original passe de **+2,87 points** avant regroupement a **+0,17 point** apres regroupement. Pour le GRU, l'ecart enrichi moins original passe de **+0,51** a **-0,50 point**. Sur le nouveau test commun, ces deux ecarts d'accuracy ne sont pas significatifs selon les comparaisons appariees ci-dessus.
 
+## Complements post-verrouillage (17 septembre 2026)
+
+Les quatre points ci-dessous sont documentes en detail, avec mesures brutes,
+methodes et exemples visuels, dans
+`revision/exp15_postlock_analysis/outputs/summary.md`. Aucun modele n'a ete
+reentraine, aucun theta/K n'a ete modifie et aucune nouvelle inference sur le
+test n'a ete lancee.
+
+**PR-AUC (average precision) du test groupe verrouille, 597 entrees :**
+
+| Modele | LSTM original | LSTM enrichi | GRU original | GRU enrichi |
+|---|---:|---:|---:|---:|
+| PR-AUC | 0,952651 | 0,956246 | 0,951444 | 0,946416 |
+
+**Benchmark CPU des quatre modeles verrouilles :** Intel Core i5-12450H,
+8 coeurs physiques/12 logiques, TensorFlow/Keras 2.12.0, OpenCV 4.11.0,
+NumPy 1.23.5 ; batch de 1 clip de 20 frames, TensorFlow 8 threads intra-op
+et 2 inter-op. Dix videos de validation groupee (5 par classe), 5 warm-ups et
+20 mesures par modele. Les temps excluent le chargement du modele.
+
+| Modele | Inference pure moyenne (ms/clip) | Bout en bout moyen (ms/clip) | Debit bout en bout (clips/s) | CPU systeme moyen | RAM processus pic (Mio) |
+|---|---:|---:|---:|---:|---:|
+| LSTM original | 1 322 | 1 952 | 0,512 | 41,7 % | 793 |
+| LSTM enrichi | 1 290 | 1 921 | 0,520 | 37,1 % | 774 |
+| GRU original | 1 294 | 1 931 | 0,518 | 37,7 % | 812 |
+| GRU enrichi | 1 324 | 1 972 | 0,507 | 38,3 % | 839 |
+
+Le debit de 20 frames par clip normalise correspond a environ 10,1-10,4
+frames/s bout en bout, **pas a un debit de camera continue**. Pendant ces
+mesures, environ 12 threads du processus ont consomme du CPU par fenetre de
+0,5 s (pics de 22-25 ; non simultanes), tandis que 59-63 threads OS etaient
+presents en moyenne. Les usages CPU processus moyens etaient de 262-270 %
+au sens psutil, ou 100 % vaut un coeur logique. La vitesse a varie entre
+passages exploratoires ; les chiffres sont descriptifs de cette machine.
+
+**Delai d'alerte a 25 fps, depuis le debut du clip** sur les 297 videos
+violentes du test, avec theta/K verrouilles et les scores deja caches :
+
+| Modele | Detection | Delai moyen parmi detectees | Mediane | P95 |
+|---|---:|---:|---:|---:|
+| LSTM original | 274/297 | 1,847 s | 1,600 s | 3,000 s |
+| LSTM enrichi | 274/297 | 2,196 s | 2,000 s | 3,000 s |
+| GRU original | 269/297 | 1,917 s | 1,600 s | 3,400 s |
+| GRU enrichi | 255/297 | 2,875 s | 2,600 s | 4,000 s |
+
+Ce delai n'est pas la latence murale d'une alerte en production ; le debut
+reel de la violence n'est pas annote. L'ancien chiffre de 0,940 s porte sur
+un autre protocole et n'est pas directement comparable.
+
+**Erreurs qualitatives :** 12 videos et 39 lignes modele-erreur inspectees.
+Les faux positifs comprennent pole vault et foule sportive (mouvement et bras
+leves), gesticulations non violentes et scenes CCTV ambigues. Les faux
+negatifs comprennent plans larges ou nocturnes, comptoir occultant le contact,
+video verticale avec sujets petits et altercation en contexte sportif. Chaque
+cas, son `p(violence)`, la confiance de la classe predite, le dataset source,
+le type de scene et le mecanisme probable figurent dans
+`revision/exp15_postlock_analysis/outputs/qualitative_error_examples.csv` ;
+les 12 extraits visuels sont dans `outputs/inspection/`. Ces mecanismes restent
+des hypotheses issues de trois frames inspectees par video.
+
+Limite du test verrouille : 597 entrees correspondent a 596 contenus SHA-256
+uniques, car deux chemins RWF-2000 non violents referencent le meme contenu
+dans le meme split test. Ce n'est pas une fuite entre splits ; les metriques
+historiques n'ont pas ete modifiees.
+
 ## Sources et tracabilite
 
 - Ancien test et configurations : `revision/exp02_validation_threshold_k/outputs/final_test_locked/final_test_metrics.json`, `revision/exp05_augmented_evaluation/outputs/final_test_locked/final_test_metrics.json`, et les deux `final_test_metrics.json` sous `revision/exp08_gru_factorial_evaluation/outputs/final_test_locked/`.
@@ -76,4 +141,5 @@ L'avantage d'accuracy du LSTM enrichi sur le LSTM original passe de **+2,87 poin
 - Verrouillage, metriques par modele, predictions, matrices et ROC : `revision/exp14_grouped_factorial_evaluation/outputs/locked_protocol.json` et `final_test_locked/`.
 - McNemar/bootstrap : `revision/exp14_grouped_factorial_evaluation/outputs/paired_comparisons/` ; interaction : `factorial_2x2/` ; hard-negative : `hard_negative_locked/`.
 - Revue des labels et splits : `revision/exp11_grouped_scene_splits/outputs/summary.md` ; audit hard-negative/train : `revision/exp12_hard_negative_leakage_audit/outputs/summary.md`.
+- PR-AUC, benchmark CPU des quatre modeles, delais et revue qualitative : `revision/exp15_postlock_analysis/outputs/summary.md` et ses CSV/JSON/planches d'inspection.
 - Les fichiers `artifact_manifest.json` des experiences 13 et 14 portent les SHA-256 des artefacts sources. Ce rapport autonome est ajoute hors de leurs repertoires `outputs/` pour ne pas modifier retrospectivement ces manifestes scelles.
