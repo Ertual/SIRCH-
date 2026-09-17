@@ -84,8 +84,9 @@ test n'a ete lancee.
 | PR-AUC | 0,952651 | 0,956246 | 0,951444 | 0,946416 |
 
 **Benchmark CPU des quatre modeles verrouilles :** Intel Core i5-12450H,
-8 coeurs physiques/12 logiques, TensorFlow/Keras 2.12.0, OpenCV 4.11.0,
-NumPy 1.23.5 ; batch de 1 clip de 20 frames, TensorFlow 8 threads intra-op
+8 coeurs physiques/12 logiques, 7,73 Gio de RAM, Windows build 26200,
+Python 3.10.11, TensorFlow/Keras 2.12.0, OpenCV 4.11.0, NumPy 1.23.5 ;
+batch de 1 clip de 20 frames, TensorFlow 8 threads intra-op
 et 2 inter-op. Dix videos de validation groupee (5 par classe), 5 warm-ups et
 20 mesures par modele. Les temps excluent le chargement du modele.
 
@@ -103,6 +104,21 @@ mesures, environ 12 threads du processus ont consomme du CPU par fenetre de
 presents en moyenne. Les usages CPU processus moyens etaient de 262-270 %
 au sens psutil, ou 100 % vaut un coeur logique. La vitesse a varie entre
 passages exploratoires ; les chiffres sont descriptifs de cette machine.
+
+| Modele | CPU processus moyen / pic | RAM processus moyenne / pic (Mio) | Threads CPU actifs moyens / pic par 0,5 s | Threads OS presents moyens / pic |
+|---|---:|---:|---:|---:|
+| LSTM original | 261,9 / 329,3 % | 583 / 793 | 12,4 / 25 | 63,0 / 68 |
+| LSTM enrichi | 268,0 / 336,3 % | 646 / 774 | 12,2 / 24 | 59,7 / 66 |
+| GRU original | 270,2 / 319,2 % | 682 / 812 | 12,1 / 22 | 58,7 / 64 |
+| GRU enrichi | 262,2 / 326,3 % | 733 / 839 | 11,9 / 22 | 60,8 / 64 |
+
+Les threads actifs sont ceux ayant consomme du temps CPU dans une fenetre de
+0,5 s, pas autant de threads executes simultanement. La RAM correspond au
+processus Python complet et les quatre modeles ont ete charges successivement
+dans le meme processus. Mesures brutes :
+`revision/exp15_postlock_analysis/outputs/cpu_benchmark_raw.csv` et
+`cpu_benchmark_summary.csv` ; environnement et echantillon :
+`cpu_benchmark_environment.json`.
 
 **Delai d'alerte a 25 fps, depuis le debut du clip** sur les 297 videos
 violentes du test, avec theta/K verrouilles et les scores deja caches :
@@ -128,6 +144,27 @@ le type de scene et le mecanisme probable figurent dans
 `revision/exp15_postlock_analysis/outputs/qualitative_error_examples.csv` ;
 les 12 extraits visuels sont dans `outputs/inspection/`. Ces mecanismes restent
 des hypotheses issues de trois frames inspectees par video.
+
+Le tableau donne un modele errone representatif par video. `pV` est le score
+de violence ; `conf.` vaut `pV` pour un faux positif et `1-pV` pour un faux
+negatif. Ces scores ne sont pas calibres ; avec theta > 0,5, une prediction
+negative peut avoir une `conf.` inferieure a 0,5. Le CSV cite ci-dessus donne
+les valeurs exactes pour **tous** les modeles errones sur chaque cas.
+
+| Erreur | Video et dataset source | Modele | pV | conf. | Type de scene | Mecanisme probable |
+|---|---|---|---:|---:|---|---|
+| FP | `rwf_train_nonfight_0542.avi` (RWF-2000) | LSTM original | 0,976 | 0,976 | CCTV interieur | Proximite de personnes et contexte de surveillance surinterpretes |
+| FP | `rwf_val_nonfight_0034.avi` (RWF-2000) | LSTM enrichi | 0,973 | 0,973 | Commerce | Gestes amples ressemblant a une lutte |
+| FP | `rwf_train_nonfight_0057.avi` (RWF-2000) | GRU original | 0,887 | 0,887 | Escalier CCTV | Deplacement rapide et silhouettes masquees |
+| FP | `NV_40.mp4` (RLVS) | GRU enrichi | 0,755 | 0,755 | Saut a la perche | Mouvement explosif et chute sportive |
+| FP | `NV_14.mp4` (RLVS) | GRU original | 0,957 | 0,957 | Tribune sportive | Foule agitee et bras leves |
+| FP | `rwf_train_nonfight_0449.avi` (RWF-2000) | LSTM enrichi | 0,937 | 0,937 | Rue nocturne CCTV | Faible eclairage, interaction ambigue |
+| FN | `rwf_train_fight_0444.avi` (RWF-2000) | LSTM original | 0,297 | 0,703 | Rue nocturne noir/blanc | Plan large, sujets petits, faible contraste |
+| FN | `rwf_train_fight_0376.avi` (RWF-2000) | GRU original | 0,231 | 0,769 | Rue nocturne avec bandeau TV | Sujets petits et bandeau intrusif |
+| FN | `rwf_val_fight_0006.avi` (RWF-2000) | LSTM enrichi | 0,631 | 0,369 | Commerce vu d'en haut | Comptoir masquant le contact |
+| FN | `V_233.mp4` (RLVS) | LSTM original | 0,555 | 0,445 | Altercation en video verticale | Sujets petits dans l'image utile |
+| FN | `V_671.mp4` (RLVS) | LSTM enrichi | 0,603 | 0,397 | Altercation sur terrain de sport | Contexte sportif et groupe ambigus |
+| FN | `V_634.mp4` (RLVS) | GRU enrichi | 0,588 | 0,412 | Galerie commerciale | Plan large et mouvement rapide |
 
 Limite du test verrouille : 597 entrees correspondent a 596 contenus SHA-256
 uniques, car deux chemins RWF-2000 non violents referencent le meme contenu
